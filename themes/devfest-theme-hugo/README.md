@@ -288,7 +288,7 @@ The Home page is build with markdown and calling some shortcodes like `jumbo`, `
                 url="pictures"
                 icon="picture" >}}
 {{< button-link label="Organize QCrypt 2026"
-                url="2025"
+                url="2027"
                 icon="map-marker" >}}
 {{% /jumbo %}}
 ```

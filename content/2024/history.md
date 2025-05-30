@@ -1,5 +1,5 @@
 ---
-title: TQC History
+title: QIP History
 year: 2024
 draft: false
 type: text_page
@@ -7,7 +7,7 @@ type: text_page
 ---
 
 TODO: update!
-from https://tqc-conference.org/tqc-charter/
+from https://qipconference.org/qip-charter/
 
 ## PC Chairs & Local Organizers
 |Edition |PC chair| PC co-chair | Local organizer chair(s)

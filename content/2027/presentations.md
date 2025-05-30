@@ -1,17 +1,19 @@
 ---
 title: Presentations
-year: 2024
+year: 2027
 type: text_page
 draft: true
 menu:
-    2024:
+    2027:
         weight: 10
         parent: technical-program
 
 ---
  
 ## Presentation Instructions
- QIP 2024 is primarily an in-person meeting with presenters expected on-site. In certain exceptional circumstances and as agreed by the Program Committee, some speakers will be able to present remotely.
+ QIP 2027 is primarily an in-person meeting with presenters expected on-site. In certain exceptional circumstances and as agreed by the Program Committee, some speakers will be able to present remotely.
+
+<!-- 
 
 <h2>Talk Length</h2>
 
@@ -46,3 +48,4 @@ Poster sessions will be 90 minutes from 4:30 p.m. to 6 p.m. on Monday and Tuesda
 {{< button-link label="Tuesday's Schedule" url="/2024/sessions/poster2/" icon="" >}}
 <br>
 
+-->

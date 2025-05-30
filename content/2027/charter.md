@@ -1,6 +1,6 @@
 ---
 title: QIP Charter
-year: 2024
+year: 2027
 draft: false
 type: text_page
 # no menu entry necessary, as the charter, history and code of conduct are accessible from the links in the footer

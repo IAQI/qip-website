@@ -9,9 +9,9 @@ type: home
 layout: home
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="TQC 2024 background" logo="/images/2024/tqc2024-biglogo.jpeg" %}}
+{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="QIP 2024 background" logo="/images/2024/qip2024-biglogo.png" %}}
 
-## 9-13 September 2024
+## 13-19 January 2024
 
 {{< button-link label="Conference Program"
                 url="schedule"
@@ -31,16 +31,16 @@ layout: home
 
 
 {{% home-info what="Participants:>200,Days:5,Invited Talks:9,Tutorials:4" class="primary" %}}
-## What is TQC 2024?
+## What is QIP 2024?
 
-TQC 2024 is the 19th edition of the yearly international scientific conference on the Theory of Quantum Computation, Communication and Cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-tqc">here</a>.
+QIP 2024 is the 19th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qip">here</a>.
 {{% /home-info %}}
 
 {{% home-keydates %}}
 
-{{% home-keydate-table title="Key Dates TQC 2024" %}}
+{{% home-keydate-table title="Key Dates QIP 2024" %}}
 (all times 23:59 AoE)
-### TODO: update from https://tqc-conference.org/call-for-submissions/
+### TODO: update from https://qipconference.org/call-for-submissions/
 
 
 |Date |Event|
@@ -73,8 +73,8 @@ TQC 2024 is the 19th edition of the yearly international scientific conference o
 
 <!-- THE MAP -->
 {{% home-location
-    image="/images/2024/background-2024.jpg"
-    address="Okinawa Institute of Science and Technology, 1919-1 Tancha, Onna, Kunigami District, Okinawa 904-0412, Japan"
+    image="/images/2024/venue.jpeg"
+    address="Taipei International Convention Center (TICC), No. 1, Section 5, Xinyi Rd, Xinyi District, Taipei City, Taiwan 110"
     %}}
 
 ## The 2024 venue
@@ -91,7 +91,7 @@ TQC 2024 is the 19th edition of the yearly international scientific conference o
 {{% partners categories="gold,silver,bronze,exhibitors" year=2024 %}}
 ## Sponsors
 
-TQC 2024 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2024@tqc-conference.net" url="mailto:2024@tqc-conference.net?subject=Sponsorship Enquiry" icon="email" >}} 
+QIP 2024 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2024@qipconference.org" url="mailto:2024@qipconference.org?subject=Sponsorship Enquiry" icon="email" >}} 
 
 {{% /partners %}}
 

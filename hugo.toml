@@ -1,8 +1,8 @@
 # publishDir = "docs"
 
-baseURL = "https://tqc-website.netlify.app/"
+baseURL = "https://qip-website.netlify.app/"
 languageCode = "en"
-title = "TQC Conference Website"
+title = "QIP Conference Website"
 
 # Theme
 theme = "devfest-theme-hugo"
@@ -22,15 +22,15 @@ enableMissingTranslationPlaceholders = true
     id = "G-221GMGECQ6"
 
 [params]
-    title = "TQC Conference Website"
-    date = "2025-09-15"
-    currentYear = 2025
-    description = "International Conference on Theory of Quantum Computation, Communication and Cryptography (TQC)"
+    title = "QIP Conference Website"
+    date = "2027-01-10"
+    currentYear = 2027
+    description = "International Conference on Quantum Information Processing (QIP)"
     images = ["/images/social-share.jpg"]
-    email = "webmaster@tqc-conference.org"
-    keywords = "event, quantum computation, communication, cryptography, TQC"
+    email = "webmaster@qipconference.org"
+    keywords = "event, quantum computation, communication, cryptography, QIP"
     copyright = "We :heart: quantum"
-    copyright_link = "https://github.com/IAQI/tqc-website"
+    copyright_link = "https://github.com/IAQI/qip-website"
     # cfpUrl = "/2024/call"
     # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
@@ -40,22 +40,22 @@ enableMissingTranslationPlaceholders = true
     # safariPinnedTab = "/safari-pinned-tab.svg"
 
 [params.2024]
-  city = "Okinawa, Japan"
-  timeanddate_cityid = 775
+  city = "Taipei, Taiwan"
+  timeanddate_cityid = 241
   themeColor = "#d71d1f"
   [params.2024.logos]
-    jumbo = "/images/2024/background-2024.png"
-    header = "/images/2024/tqc2024-logo.jpg"
-    banner = "/images/2024/banner-2024.jpg"
+    jumbo = "/images/2024/qip2024-biglogo.png"
+    header = "/images/2024/qip2024-logo.png"
+    banner = "/images/2024/banner-2024.png"
 
-[params.2025]
-  city = "Bengaluru, India"
-  timeanddate_cityid = 775
+[params.2027]
+  city = "Singapore"
+  timeanddate_cityid = 236
   themeColor = "#d71d1f"
-  [params.2025.logos]
-    jumbo = "/images/2025/background-2025.png"
-    header = "/images/2025/tqc-logo-2025.png"
-    banner = "/images/2025/banner-2025.jpg"
+  [params.2027.logos]
+    jumbo = "/images/2027/background-2027.png"
+    header = "/images/2027/qip-logo-2027.png"
+    banner = "/images/2027/banner-2027.jpg"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
@@ -64,7 +64,7 @@ enableMissingTranslationPlaceholders = true
 [server]
   [[server.redirects]]
       from = "/"
-      to = "/2025/"
+      to = "/2027/"
       status = 302
       force = true 
 
@@ -92,29 +92,29 @@ enableMissingTranslationPlaceholders = true
     identifier = "committees"
     pageRef = "/2024/team"
 
-  [[menu.2025]]
+  [[menu.2027]]
     name = "Home"
     weight = 10
     identifier = "home"
-    pageRef = '/2025'
-  [[menu.2025]]
+    pageRef = '/2027'
+  [[menu.2027]]
     name = "Technical Program"
     weight = 20
     identifier = "technical-program"
-  [[menu.2025]]
+  [[menu.2027]]
     name = "Attend"
     weight = 30
     identifier = "attend"
-  [[menu.2025]]
+  [[menu.2027]]
     name = "Sponsors"
     weight = 40
     identifier = "sponsors"
-    pageRef = "/2025/partners"
-  [[menu.2025]]
+    pageRef = "/2027/partners"
+  [[menu.2027]]
     name = "Committees"
     weight = 50
     identifier = "committees"
-    pageRef = "/2025/team"
+    pageRef = "/2027/team"
 
 
 
