@@ -10,16 +10,6 @@ menu:
         parent: technical-program
 ---
 
-<!--
-## Poster
-Our poster is now available! Please <a href="/poster">download and print it yourself!</a>.
-
-<a href="/poster">
-  <img height=300 id="dark_bg" src="/images/poster/QCryptPoster.png"/>
-</a>
--->
-<!--| <strike> April 2024 </strike>| <strong><a href="https://easychair.org/conferences/?conf=qcrypt2024" target="_blank">TALK/POSTER SUBMISSION CLOSING SOON</a></strong>|-->
-
 ## Key Dates QCrypt 2024
 <strong>(all times 23:59 AoE)</strong>
 
