@@ -11,7 +11,7 @@ layout: home
 <!-- JUMBO -->
 {{% jumbo img="/images/2027/background-2027.jpg" imgLabel="QIP 2027 background" logo="/images/2027/logo-2027.jpeg" %}}
 
-## 15-19 September 2027
+## 15-19 February 2027
 
 {{< button-link label="Call For Papers"
                 url="call"
