@@ -12,20 +12,22 @@ layout: home
 {{% jumbo img="/images/2027/background-2027.jpg" imgLabel="QIP 2027 background" logo="/images/2027/logo-2027.jpeg" %}}
 
 ## 15-19 February 2027
-
+<!---
 {{< button-link label="Call For Papers"
                 url="call"
                 icon="cfp" >}}
+-->
 
 {{% /jumbo %}}
 
+{{% home-info class="primary" %}}
 
-{{% home-info what="Participants:>200,Days:5,Invited Talks:4" class="primary" %}}
 ## What is QIP 2027?
 
-QIP 2027 is the 20th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a style="color: yellow" href="/2027/charter/#history-of-qip">here</a>.
+QIP 2027 is the 29th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a style="color: yellow" href="https://qipconference.org/previousqips">here</a>.
 {{% /home-info %}}
 
+<!--
 {{% home-keydates %}}
 
 {{% home-keydate-table title="Key Dates QIP 2027" %}}
@@ -40,21 +42,23 @@ QIP 2027 is the 20th edition of the yearly international scientific conference o
 | Mon, 5 May 2027 | Poster-only acceptance notification |
 | Mon, 15 - Fri, 19 Sept 2027 | QIP 2027 |
 {{% /home-keydate-table %}}
+-->
 
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
-|1 Feb 2027 | New website created|
+|TBD | New website created|
 {{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
 
 
-<!-- THE MAP -->
+<!-- THE MAP 
 {{% home-location
     image="/images/2027/background-2027.jpg"
     address="IISc Bengaluru, CV Raman Rd, Bengaluru, Karnataka 560012, India"
     %}}
+-->
 
 ## The 2027 venue
 <strong>Organized by: Squids?</strong>
@@ -72,7 +76,7 @@ QIP 2027 is the 20th edition of the yearly international scientific conference o
 {{% partners categories="community" year=2027 %}}
 ## Sponsors
 
-QIP 2027 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2027@qipconference.org" url="mailto:2027@qipconference.org?subject=Sponsorship Enquiry" icon="email" >}} 
+QIP 2027 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2027@qipconference.org" url="mailto:2027@qipconference.org?subject=Sponsorship Enquiry" icon="email" >}}
 
 {{% /partners %}}
 

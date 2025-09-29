@@ -1,7 +1,7 @@
 ---
 title: Pictures
 year: 2027
-draft: false
+draft: true
 type: no_toc
 menu:
     2027:
