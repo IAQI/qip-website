@@ -8,13 +8,14 @@ draft: False
 
 <!-- We have to include the section titles here, rather than generating them in the teams shortcode, because otherwise the .TableOfContent is incorrect. -->
 
-## Local Organizer
+### Local Organizers
 {{< teams types="core" year=2027 >}}
 
 You can contact the Organizing Committee via email to {{< button-link label="2027@qipconference.org" url="mailto:2027@qipconference.org" icon="email" >}}
 
 {{< teams types="org" year=2027 >}}
 
+<!--
 ### Local Organizers
 * Baladitya Suri, IISc, Bengaluru
 * Navin Kashyap, IISc, Bengaluru
@@ -96,3 +97,4 @@ You can contact the PC chair via email to {{< button-link label="pcchairs2027@qi
 * Jiayu Zhang (Zhongguancun Laboratory, Beijing)
 * Ruizhe Zhang (Simons Institute, Berkeley)
 * Sisi Zhou (Perimeter Institute)
+-->
