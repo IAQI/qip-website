@@ -1,9 +1,9 @@
 ---
 year: 2027
 title: University of Amsterdam
-type: #partner
+type: partner
 draft: false
-category: #community
+category: community
 logo: /2027/partners/logos/uva.png
 website: https://www.uva.nl
 ---
