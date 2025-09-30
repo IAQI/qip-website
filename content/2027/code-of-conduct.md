@@ -7,7 +7,7 @@ menu:
         identifier: code-of-conduct
         parent: attend
 
-draft: false
+draft: true
 type: 
 ---
 
