@@ -1,7 +1,7 @@
 ---
 title: Call
 year: 2027
-draft: false
+draft: true
 type: text_page
 menu:
     2027:
@@ -10,7 +10,7 @@ menu:
         parent: technical-program
 ---
 
-
+<!---
 ## Key Dates QIP 2027
 <strong>(all times 23:59 AoE)</strong>
 
@@ -26,8 +26,10 @@ menu:
 
 **Note:** Talk submissions that are not retained will automatically be considered for the poster session.
 
+-->
+
 ## Topics
-The Quantum Information Processing (QIP) is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science. The scientific objective of QIP is to bring together the theoretical quantum information science community to present and discuss the latest advances in the field.
+Quantum Information Processing (QIP) is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science. The scientific objective of QIP is to bring together the theoretical quantum information science community to present and discuss the latest advances in the field.
 
 Areas of interest for QIP include, but are not restricted to:
 - quantum algorithms
@@ -42,7 +44,7 @@ Areas of interest for QIP include, but are not restricted to:
 - intersection of quantum information and condensed-matter theory
 - intersection of quantum information and machine learning
 
-
+<!---
 ## Submission Guidelines
 
 As the goal of QIP is to bring together researchers on all aspects of quantum information, submissions are solicited for two tracks.
@@ -105,3 +107,5 @@ On the first page of your submission, indicate if your work is currently under s
 The program committee list can be found <a href="/team/#program-committee">here</a>.
 
 Please direct any questions or comments to the PC chairs via email to {{< button-link label="pcchairs2027@qipconference.org" url="mailto:pcchairs2027@qipconference.org" icon="email" >}}.
+
+-->

@@ -1,9 +1,11 @@
 ---
 title: QIP History
 year: 2027
-draft: false
+draft: true
 type: text_page
 # no menu entry necessary, as the charter, history and code of conduct are accessible from the links in the footer
+
+# The below is about TQC history. It needs to be updated to QIP history.
 ---
 
 
