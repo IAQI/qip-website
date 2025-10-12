@@ -14,15 +14,15 @@ content:
   - title: footer_about
     links:
       - nameKey: footer_charter
-        name: QCrypt Charter
+        name: QIP Charter
         url: /charter/
         newTab: false
-      - nameKey: footer_history
-        name: QCrypt History
-        url: /history/
-        newTab: false
+      #- nameKey: footer_history
+      #  name: QIP History
+      #  url: /history/
+      #  newTab: false
       - nameKey: footer_coc
-        name: QCrypt Code of Conduct
+        name: QIP Code of Conduct
         url: /code-of-conduct/
         newTab: false
 

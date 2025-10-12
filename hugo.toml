@@ -55,7 +55,7 @@ enableMissingTranslationPlaceholders = true
   [params.2027.logos]
     jumbo = "/images/2027/blank-2027.png"
     header = "/images/2027/blank-2027.png"
-    banner = "/images/2027/blank-2027.png"
+    banner = "/images/2027/stand-in-banner.png"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
