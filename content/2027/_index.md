@@ -76,7 +76,7 @@ QIP 2027 is the 29th edition of the yearly international scientific conference o
 {{% partners categories="community" year=2027 %}}
 ## Sponsors
 
-QIP 2027 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2027@qipconference.org" url="mailto:2027@qipconference.org?subject=Sponsorship Enquiry" icon="email" >}}
+QIP 2027 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org?subject=Sponsorship Enquiry" icon="email" >}}
 
 {{% /partners %}}
 

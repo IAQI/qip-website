@@ -107,11 +107,11 @@ enableMissingTranslationPlaceholders = true
     name = "Attend"
     weight = 30
     identifier = "attend"
-  [[menu.2027]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2027/partners"
+#  [[menu.2027]]
+#    name = "Sponsors"
+#    weight = 40
+#    identifier = "sponsors"
+#    pageRef = "/2027/partners"
   [[menu.2027]]
     name = "Committees"
     weight = 50
