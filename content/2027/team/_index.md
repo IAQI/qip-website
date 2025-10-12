@@ -13,9 +13,13 @@ draft: False
 
 {{< teams types="local-organizer" year=2027 >}}
 
-You can contact the Organizing Committee via email to {{< button-link label="2027@qipconference.org" url="mailto:2027@qipconference.org" icon="email" >}}
+You can contact the Organizing Committee via email to {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org" icon="email" >}}
 
 {{< teams types="org" year=2027 >}}
+
+### Administrative Team
+- Shao-Tao Tan (Co-Chair)
+- Casandra Lim (Logistics)
 
 <!--
 ### Local Organizers
