@@ -53,9 +53,9 @@ enableMissingTranslationPlaceholders = true
   timeanddate_cityid = 236
   themeColor = "#d71d1f"
   [params.2027.logos]
-    jumbo = "/images/2027/background-2027.png"
-    header = "/images/2027/qip-logo-2027.png"
-    banner = "/images/2027/banner-2027.jpg"
+    jumbo = "/images/2027/blank-2027.png"
+    header = "/images/2027/blank-2027.png"
+    banner = "/images/2027/blank-2027.png"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
