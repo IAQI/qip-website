@@ -11,9 +11,9 @@ draft: false
 type: no_toc
 ---
 
-The open exchange of ideas and the freedom of thought and expression are central to the aims and goals of QIP; these require an environment that fosters dignity, understanding, and mutual respect, and that embraces diversity. The organizers of QIP 2026 are committed to an inclusive conference experience, respectful of all participants and free of discrimination, harassment, bullying, or retaliation. All attendees, speakers, sponsors, and volunteers at QIP 2026 are expected to read and agree with the following code of conduct. It applies to all event venues as well as event-related social activities. 
+The open exchange of ideas and the freedom of thought and expression are central to the aims and goals of QIP; these require an environment that fosters dignity, understanding, and mutual respect, and that embraces diversity. The organizers of QIP 2027 are committed to an inclusive conference experience, respectful of all participants and free of discrimination, harassment, bullying, or retaliation. All attendees, speakers, sponsors, and volunteers at QIP 2027 are expected to read and agree with the following code of conduct. It applies to all event venues as well as event-related social activities. 
 
-We expect all participants in QIP 2026 activities to:
+We expect all participants in QIP 2027 activities to:
 - Exercise respect in your speech and actions.
 - Refrain from demeaning, discriminatory, or harassing behavior and speech.
 - Abstain from making use of sexual & sexualized imagery in talks and posters.
