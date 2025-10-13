@@ -21,6 +21,20 @@ You can contact the Organizing Committee via email to {{< button-link label="inf
 - Shao-Tao Tan (Co-Chair)
 - Casandra Lim (Logistics)
 
+### Steering Committee
+- Sandy Irani (Chair) | University of California, Irvine 
+- Robin Kothari (Co-chair) | Google Quantum AI
+- Andris Ambainis | University of Latvia 
+- Salman Beigi | Institute for Research in Fundamental Sciences 
+- Giulio Chiribella | The University of Hong Kong 
+- Nilanjana Datta | University of Cambridge 
+- David Gosset | University of Waterloo, Perimeter Institute 
+- Aram Harrow | Massachusetts Institute of Technology 
+- Stacey Jeffery | CWI and University of Amsterdam 
+- Elham Kashefi | CNRS, University of Edinburgh 
+- Iman Marvian | Duke University 
+- Frank Verstraete | Ghent University 
+
 <!--
 ### Local Organizers
 * Baladitya Suri, IISc, Bengaluru
