@@ -27,7 +27,7 @@ enableMissingTranslationPlaceholders = true
     currentYear = 2027
     description = "International Conference on Quantum Information Processing (QIP)"
     images = ["/images/social-share.jpg"]
-    email = "webmaster@qipconference.org"
+    email = "info@qip2027.org"
     keywords = "event, quantum computation, communication, cryptography, QIP"
     copyright = "We :heart: quantum"
     copyright_link = "https://github.com/IAQI/qip-website"
@@ -53,9 +53,9 @@ enableMissingTranslationPlaceholders = true
   timeanddate_cityid = 236
   themeColor = "#d71d1f"
   [params.2027.logos]
-    jumbo = "/images/2027/background-2027.png"
-    header = "/images/2027/qip-logo-2027.png"
-    banner = "/images/2027/banner-2027.jpg"
+    jumbo = "/images/2027/blank-2027.png"
+    header = "/images/2027/blank-2027.png"
+    banner = "/images/2027/stand-in-banner.png"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
@@ -107,11 +107,11 @@ enableMissingTranslationPlaceholders = true
     name = "Attend"
     weight = 30
     identifier = "attend"
-  [[menu.2027]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2027/partners"
+#  [[menu.2027]]
+#    name = "Sponsors"
+#    weight = 40
+#    identifier = "sponsors"
+#    pageRef = "/2027/partners"
   [[menu.2027]]
     name = "Committees"
     weight = 50

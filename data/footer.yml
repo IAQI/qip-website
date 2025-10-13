@@ -1,28 +1,28 @@
-share:
-  - name: facebook
-    url: https://www.facebook.com/sharer.php?u=
-  - name: twitter
-    url: https://twitter.com/intent/tweet?text=
+#share:
+#  - name: facebook
+#    url: https://www.facebook.com/sharer.php?u=
+#  - name: twitter
+#    url: https://twitter.com/intent/tweet?text=
 
 follow:
   - name: twitter
-    url: https://twitter.com/Qcryptc
+    url: https://x.com/QIPConference
   - name: youtube
-    url: https://www.youtube.com/channel/UClpn9CxuZPHw3nzhdv0m3Hw
+    url: https://www.youtube.com/@QIP2025
 
 content:
   - title: footer_about
     links:
       - nameKey: footer_charter
-        name: QCrypt Charter
+        name: QIP Charter
         url: /charter/
         newTab: false
       - nameKey: footer_history
-        name: QCrypt History
+        name: QIP History
         url: /history/
         newTab: false
       - nameKey: footer_coc
-        name: QCrypt Code of Conduct
+        name: QIP Code of Conduct
         url: /code-of-conduct/
         newTab: false
 
