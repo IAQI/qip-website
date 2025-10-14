@@ -21,10 +21,10 @@ content:
         name: QIP History
         url: /history/
         newTab: false
-      - nameKey: footer_coc
-        name: QIP Code of Conduct
-        url: /code-of-conduct/
-        newTab: false
+      #- nameKey: footer_coc
+      #  name: QIP Code of Conduct
+      #  url: /code-of-conduct/
+      #  newTab: false
 
 
   # - title: footer_extra

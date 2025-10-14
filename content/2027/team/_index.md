@@ -8,19 +8,6 @@ draft: False
 
 <!-- We have to include the section titles here, rather than generating them in the teams shortcode, because otherwise the .TableOfContent is incorrect. -->
 
-### Local Organizers
-{{< teams types="general-chair" year=2027 >}}
-
-{{< teams types="local-organizer" year=2027 >}}
-
-You can contact the Organizing Committee via email to {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org" icon="email" >}}
-
-{{< teams types="org" year=2027 >}}
-
-### Administrative Team
-- Shao-Tao Tan (Co-Chair)
-- Casandra Lim (Logistics)
-
 ### Steering Committee
 - Sandy Irani (Chair) | University of California, Irvine 
 - Robin Kothari (Co-chair) | Google Quantum AI
@@ -34,6 +21,22 @@ You can contact the Organizing Committee via email to {{< button-link label="inf
 - Elham Kashefi | CNRS, University of Edinburgh 
 - Iman Marvian | Duke University 
 - Frank Verstraete | Ghent University 
+
+### Program Committee
+To be announced.
+
+### Local Organizers
+{{< teams types="general-chair" year=2027 >}}
+
+{{< teams types="local-organizer" year=2027 >}}
+
+You can contact the Organizing Committee via email to {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org" icon="email" >}}
+
+{{< teams types="org" year=2027 >}}
+
+### Administrative Team
+- Shao-Tao Tan (Co-Chair)
+- Casandra Lim (Logistics)
 
 <!--
 ### Local Organizers
