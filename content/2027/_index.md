@@ -24,7 +24,7 @@ layout: home
 
 ## What is QIP 2027?
 
-QIP 2027 is the 29th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a style="color: yellow" href="https://qipconference.org/previousqips">here</a>.
+QIP 2027 is the 30th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a style="color: yellow" href="https://qipconference.org/previousqips">here</a>.
 {{% /home-info %}}
 
 <!--
