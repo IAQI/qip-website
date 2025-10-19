@@ -12,9 +12,9 @@ body > main {
       margin: 1rem;
     }
 
-    &.primary {
-      background-color: var(--primary);
-      color: var(--primary-txt);
+    &.primary { //This is the "What is QIP?" box
+      background-color: #0ecb90;
+      color: #fdfdfd;
     }
 
     &.accent {

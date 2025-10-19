@@ -51,7 +51,7 @@ enableMissingTranslationPlaceholders = true
 [params.2027]
   city = "Singapore"
   timeanddate_cityid = 236
-  themeColor = "#1d7ad7ff"
+  themeColor = "#0bb3db"
   [params.2027.logos]
     jumbo = "/images/2027/qip2027-home-banner.jpg"
     header = "/images/2027/qip2027-logo.png"
