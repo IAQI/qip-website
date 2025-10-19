@@ -8,23 +8,25 @@ year: 2027
 type: home
 layout: home
 ---
-<!-- JUMBO -->
-{{% jumbo img="/images/2027/background-2027.jpg" imgLabel="QIP 2027 background" logo="/images/2027/blank-2027.png" %}}
 
-## 20-26 February 2027
-<!---
+<!-- JUMBO -->
+{{% jumbo img="/images/2027/qip2027-home-banner-hard-code.jpg" imgLabel="QIP 2027 background" logo="/images/2027/blank-2027.png" %}}
+
+
+<!--
+20-26 February 2027 
+
 {{< button-link label="Call For Papers"
                 url="call"
                 icon="cfp" >}}
 -->
-
 {{% /jumbo %}}
 
 {{% home-info class="primary" %}}
 
 ## What is QIP 2027?
 
-QIP 2027 is the 30th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a style="color: yellow" href="https://qipconference.org/previousqips">here</a>.
+QIP 2027 is the 30th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a href="https://qipconference.org/previousqips"><u>here</u></a>.
 {{% /home-info %}}
 
 <!--
@@ -35,14 +37,14 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 
 |Date |Event|
 |:----|:----|
-| 20 February 2027 | Opening of submission server |
-| Sat, 1 March 2027 |  Talk/Poster submission deadline |
-| Fri, 25 April 2027 | Talk acceptance notification |
-| Wed, 30 April 2027 | Poster-only submission deadline |
-| Mon, 5 May 2027 | Poster-only acceptance notification |
-| Mon, 15 - Fri, 19 Sept 2027 | QIP 2027 |
+| 10 July 2026 | Opening of submission server |
+| 10 September 2027 |  Talk/Poster submission deadline |
+| 1 November 2027 | Talk acceptance notification |
+| TBD 2027 | Poster-only submission deadline |
+| TBD May 2027 | Poster-only acceptance notification |
+| 20 - 26 Feb 2027 | QIP 2027 |
 {{% /home-keydate-table %}}
--->
+
 
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
@@ -52,19 +54,16 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 
 {{% /home-keydates %}}
 
-
-<!-- THE MAP 
 {{% home-location
-    image="/images/2027/background-2027.jpg"
-    address="IISc Bengaluru, CV Raman Rd, Bengaluru, Karnataka 560012, India"
+    image="/images/2027/map-stand-in.png"
+    address="Marina Bay Sands, Singapore"
     %}}
--->
+
 
 ## The 2027 venue
-<strong>Organized by: Squids?</strong>
+<strong>Organized by: People</strong>
 {{% /home-location %}}
 
-<!-- 
 {{% home-speakers year=2027 %}}
 ## Featured Speakers
 {{< button-link label="All Speakers"
@@ -76,7 +75,7 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 {{% partners categories="community" year=2027 %}}
 ## Sponsors
 
-QIP 2027 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org?subject=Sponsorship Enquiry" icon="email" >}}
+QIP 2027 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org?subject=Sponsorship Enquiry" icon="email">}}
 
 {{% /partners %}}
 
