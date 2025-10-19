@@ -37,3 +37,4 @@ You can contact the Organizing Committee via email to {{< button-link label="inf
 ### Administrative Team
 - Shao-Tao Tan (Co-Chair)
 - Casandra Lim (Logistics)
+- Nur Azizah Binte Azhar (Design)
