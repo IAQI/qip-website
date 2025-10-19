@@ -4,7 +4,7 @@ title: Marco Tomamichel
 surname: Tomamichel
 type: general-chair
 year: 2027
-subtitle: Centre for Quantum Technologies, Singapore
+subtitle: National University of Singapore
 job: General chair
 photoURL: /2027/team/images/marco-tomamichel.jpg
 socials:
