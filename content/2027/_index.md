@@ -9,7 +9,7 @@ type: home
 layout: home
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/2027/background-2027.jpg" imgLabel="QIP 2027 background" logo="/images/2027/blank-2027.png" %}}
+{{% jumbo img="/images/2027/qip2027-home-banner.jpg" imgLabel="QIP 2027 background" logo="/images/2027/qip2027-logo.png" %}}
 
 ## 20-26 February 2027
 <!---

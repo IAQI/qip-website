@@ -51,11 +51,11 @@ enableMissingTranslationPlaceholders = true
 [params.2027]
   city = "Singapore"
   timeanddate_cityid = 236
-  themeColor = "#d71d1f"
+  themeColor = "#1d7ad7ff"
   [params.2027.logos]
-    jumbo = "/images/2027/blank-2027.png"
-    header = "/images/2027/blank-2027.png"
-    banner = "/images/2027/stand-in-banner.png"
+    jumbo = "/images/2027/qip2027-home-banner.jpg"
+    header = "/images/2027/qip2027-logo.png"
+    banner = "/images/2027/qip2027-banner-inside-pages.jpg"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
