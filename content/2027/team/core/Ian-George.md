@@ -8,6 +8,6 @@ subtitle: National University of Singapore
 job: Website
 photoURL: /2027/team/images/ian_george.jpg
 socials:
-  - link: 'https://scholar.google.com/citations?user=kN3puW4AAAAJ&hl=en'
+  - link: 'https://scholar.google.com/citations?user=kN3puW4AAAAJ&hl'
     name: Site
 ---
