@@ -18,7 +18,6 @@ We expect all participants in QIP 2027 activities to:
 - Refrain from demeaning, discriminatory, or harassing behavior and speech.
 - Abstain from making use of sexual & sexualized imagery in talks and posters.
 - Be mindful of your surroundings and your fellow participants: for example, other people may hear inappropriate comments even if they are not your intended audience.
-- Alert community leaders and get involved (if safe and possible) when you notice a dangerous situation, someone in distress, or violations of this policy, even if they seem inconsequential. 
-Participants asked to stop any harassing behavior are expected to comply immediately. 
+- Alert community leaders and get involved (if safe and possible) when you notice violations of this policy, even if they seem inconsequential. Participants asked to stop any harassing behavior are expected to comply immediately. 
 
 If a participant engages in unacceptable behavior, the event organizers retain the right to take any actions to keep the conference a welcoming environment for all participants. This includes warning the offender or expulsion from the conference.
