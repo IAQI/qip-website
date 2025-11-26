@@ -15,11 +15,11 @@ content:
     links:
       - nameKey: footer_charter
         name: QIP Charter
-        url: /charter/
+        url: charter/
         newTab: false
       - nameKey: footer_history
         name: QIP History
-        url: /history/
+        url: history/
         newTab: false
       #- nameKey: footer_coc
       #  name: QIP Code of Conduct
