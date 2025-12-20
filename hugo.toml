@@ -48,6 +48,15 @@ enableMissingTranslationPlaceholders = true
     header = "/images/2024/qip2024-logo.png"
     banner = "/images/2024/banner-2024.png"
 
+[params.2026]
+  city = "Riga, Latvia"
+  timeanddate_cityid = 602
+  themeColor = "#004a87"
+  [params.2026.logos]
+    jumbo = "/images/2026/qip2026-banner.jpg"
+    header = "/images/2026/qip2026-logo.svg"
+    banner = "/images/2026/qip2026-banner.jpg"
+
 [params.2027]
   city = "Singapore"
   timeanddate_cityid = 236
@@ -91,6 +100,37 @@ enableMissingTranslationPlaceholders = true
     weight = 50
     identifier = "committees"
     pageRef = "/2024/team"
+
+  [[menu.2026]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    pageRef = '/2026'
+
+  [[menu.2026]]
+    name = "Technical Program"
+    weight = 20
+    identifier = "technical-program"
+  [[menu.2026]]
+    name = "Schedule"
+    parent = "technical-program"
+    weight = 23
+    pageRef = "/2026/schedule"
+
+  [[menu.2026]]
+    name = "Attend"
+    weight = 30
+    identifier = "attend"
+  [[menu.2026]]
+    name = "Sponsors"
+    weight = 40
+    identifier = "sponsors"
+    pageRef = "/2026/partners"
+  [[menu.2026]]
+    name = "Committees"
+    weight = 50
+    identifier = "committees"
+    pageRef = "/2026/team"
 
   [[menu.2027]]
     name = "Home"

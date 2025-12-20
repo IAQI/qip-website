@@ -41,7 +41,16 @@ CurrentYear: {{ $currentYear }}
 
 	{{ if isset .options "arxiv-id" }}
 	<div class="paper-arxivid">
-		<a href="https://arxiv.org/abs/{{index .options "arxiv-id" }}" target="_blank">[arXiv: {{index .options "arxiv-id" }}]</a>
+		{{ $arxivData := index .options "arxiv-id" }}
+		{{ if reflect.IsSlice $arxivData }}
+			{{/* Multiple arXiv IDs */}}
+			{{ range $idx, $arxivId := $arxivData }}
+				<a href="https://arxiv.org/abs/{{ $arxivId }}" target="_blank">[arXiv:{{ $arxivId }}]</a>{{ if ne $idx (sub (len $arxivData) 1) }} {{ end }}
+			{{ end }}
+		{{ else }}
+			{{/* Single arXiv ID */}}
+			<a href="https://arxiv.org/abs/{{ $arxivData }}" target="_blank">[arXiv: {{ $arxivData }}]</a>
+		{{ end }}
 	</div>
   {{ end }}
 
