@@ -35,14 +35,41 @@ Filtered papers: {{ len $filteredPapers }}
 	<ul class="paper-list">
 		{{ range $paper := $filteredPapers }}
 		  {{/* display if no merge, or if the id of the paper merged with is higher than own id */}}
-			{{ if or (not (isset $paper "mergedwith")) (gt $paper.mergedwith $paper.pid) }}
+			{{ $shouldDisplay := true }}
+			{{ if isset $paper "mergedwith" }}
+				{{ if reflect.IsSlice $paper.mergedwith }}
+					{{/* For array: display only if this is the smallest PID */}}
+					{{ range $mergedPid := $paper.mergedwith }}
+						{{ if lt $mergedPid $paper.pid }}
+							{{ $shouldDisplay = false }}
+						{{ end }}
+					{{ end }}
+				{{ else }}
+					{{/* For single int: display if merged PID is higher */}}
+					{{ if le $paper.mergedwith $paper.pid }}
+						{{ $shouldDisplay = false }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
+
+			{{ if $shouldDisplay }}
   			<li value ="{{ $paper.pid }}">
   			{{ partial "paper.html" (dict "paper" $paper "currentYear" (string $currentYear)) }}
 
 				{{ if isset $paper "mergedwith" }}
-  				{{ $mergedpaper := index (where $papers "pid" $paper.mergedwith) 0 }}
-	   			merged with #{{ $mergedpaper.pid }}:
-		  		{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" (string $currentYear))}}
+					{{ if reflect.IsSlice $paper.mergedwith }}
+						{{/* Handle array of merged papers */}}
+						{{ range $mergedPid := $paper.mergedwith }}
+							{{ $mergedpaper := index (where $papers "pid" (int $mergedPid)) 0 }}
+							merged with #{{ $mergedpaper.pid }}:
+							{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" (string $currentYear))}}
+						{{ end }}
+					{{ else }}
+						{{/* Handle single merged paper */}}
+  					{{ $mergedpaper := index (where $papers "pid" $paper.mergedwith) 0 }}
+	   				merged with #{{ $mergedpaper.pid }}:
+		  			{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" (string $currentYear))}}
+					{{ end }}
 				{{ end }}
 		  	</li>
 			{{ end }}

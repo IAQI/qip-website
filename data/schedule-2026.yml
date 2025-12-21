@@ -1,0 +1,344 @@
+# QIP 2026 Conference Schedule
+# January 24-30, 2026
+# Riga, Latvia
+
+# Saturday, 01/24 - House of Science, University of Latvia
+- day: '2026-01-24'
+  sessions:
+    - session: __registration
+      time: '08:30'
+      location: house_of_science
+    - session: tutorial_lami
+      time: '09:30'
+      location: alfa
+    - session: __coffee_break
+      time: '11:00'
+      location: delta_omega
+    - session: tutorial_lami
+      time: '11:30'
+      location: alfa
+    - session: __light_lunch
+      time: '13:00'
+      location: delta_omega
+    - session: tutorial_chailloux
+      time: '14:00'
+      location: alfa
+    - session: __coffee_break
+      time: '15:30'
+      location: delta_omega
+    - session: tutorial_chailloux
+      time: '16:00'
+      location: alfa
+    - session: tutorial_physical_review_referee_tutorial
+      time: '18:00'
+      location: alfa
+
+# Sunday, 01/25 - House of Science, University of Latvia
+- day: '2026-01-25'
+  sessions:
+    - session: __registration
+      time: '08:30'
+      location: house_of_science
+    - session: tutorial_schuster
+      time: '09:30'
+      location: alfa
+    - session: __coffee_break
+      time: '11:00'
+      location: delta_omega
+    - session: tutorial_schuster
+      time: '11:30'
+      location: alfa
+    - session: __light_lunch
+      time: '13:00'
+      location: delta_omega
+    - session: tutorial_aharonov
+      time: '14:00'
+      location: alfa
+    - session: __coffee_break
+      time: '15:30'
+      location: delta_omega
+    - session: tutorial_aharonov
+      time: '16:00'
+      location: alfa
+    - session: __welcome_reception
+      time: '17:45'
+      location: atrium
+
+# Monday, 01/26 - ATTA Centre
+- day: '2026-01-26'
+  sessions:
+    - session: __registration
+      time: '08:30'
+      location: atta_centre
+    - session: __conference_opening
+      time: '09:15'
+      location: room_b
+    - session: invited_plenary1
+      time: '09:30'
+      location: room_b
+    - session: __sponsor_expo_coffee_break
+      time: '10:30'
+      location: hall_1
+    - session: short_plenary1
+      time: '11:00'
+      location: room_b
+    - session: short_plenary2
+      time: '11:30'
+      location: room_b
+    - session: __conference_group_photo
+      time: '12:00'
+      location: networking_b
+    - session: __lunch_break
+      time: '12:30'
+      location: hall_4
+    - session: algorithms_1
+      time: '13:30'
+      location: room_b
+    - session: complexity_1
+      time: '13:30'
+      location: room_a1
+    - session: foundations_1
+      time: '13:30'
+      location: room_a234
+    - session: information_theory_1
+      time: '13:30'
+      location: room_a5
+    - session: __coffee_break
+      time: '15:00'
+      location: hall_1
+    - session: algorithms_2
+      time: '15:30'
+      location: room_b
+    - session: complexity_2
+      time: '15:30'
+      location: room_a1
+    - session: error_correction_1
+      time: '15:30'
+      location: room_a234
+    - session: tomography__learning_1
+      time: '15:30'
+      location: room_a5
+    - session: __poster_session
+      time: '17:30'
+      location: hall_1
+    - session: __women_in_quantum_networking_event
+      time: '19:45'
+      location: startup_house
+
+# Tuesday, 01/27 - ATTA Centre
+- day: '2026-01-27'
+  sessions:
+    - session: __registration
+      time: '08:30'
+      location: atta_centre
+    - session: plenary1
+      time: '09:00'
+      location: room_b
+    - session: short_plenary3
+      time: '10:00'
+      location: room_b
+    - session: __coffee_break
+      time: '10:30'
+      location: hall_1
+    - session: short_plenary4
+      time: '11:00'
+      location: room_b
+    - session: short_plenary5
+      time: '11:30'
+      location: room_b
+    - session: __lunch_break
+      time: '12:00'
+      location: hall_4
+    - session: algorithms_3
+      time: '13:00'
+      location: room_b
+    - session: foundations_2
+      time: '13:00'
+      location: room_a1
+    - session: information_theory_2
+      time: '13:00'
+      location: room_a234
+    - session: many_body_theory_1
+      time: '13:00'
+      location: room_a5
+    - session: __coffee_break
+      time: '14:30'
+      location: hall_1
+    - session: algorithms_4
+      time: '15:00'
+      location: room_b
+    - session: cryptography_1
+      time: '15:00'
+      location: room_a1
+    - session: error_correction_2
+      time: '15:00'
+      location: room_a234
+    - session: tomography__learning_2
+      time: '15:00'
+      location: room_a5
+    - session: __poster_session
+      time: '17:00'
+      location: hall_1
+
+# Wednesday, 01/28 - ATTA Centre
+- day: '2026-01-28'
+  sessions:
+    - session: __registration
+      time: '08:30'
+      location: atta_centre
+    - session: plenary2
+      time: '09:00'
+      location: room_b
+    - session: short_plenary6
+      time: '10:00'
+      location: room_b
+    - session: __coffee_break
+      time: '10:30'
+      location: hall_1
+    - session: invited_plenary2
+      time: '11:00'
+      location: room_b
+    - session: __lunch_break
+      time: '12:00'
+      location: hall_4
+    - session: algorithms_5
+      time: '13:00'
+      location: room_a1
+    - session: complexity_3
+      time: '13:00'
+      location: room_a234
+    - session: cryptography_2
+      time: '13:00'
+      location: room_a5
+    - session: __coffee_break
+      time: '14:30'
+      location: hall_1
+    - session: industry_session
+      time: '15:00'
+      location: room_a1
+    - session: business_session
+      time: '16:30'
+      location: room_a1
+    - session: __gala_dinner
+      time: '19:00'
+      location: halls_bc
+
+# Thursday, 01/29 - ATTA Centre
+- day: '2026-01-29'
+  sessions:
+    - session: __registration
+      time: '08:30'
+      location: atta_centre
+    - session: invited_plenary3
+      time: '09:00'
+      location: room_b
+    - session: short_plenary7
+      time: '10:00'
+      location: room_b
+    - session: __coffee_break
+      time: '10:30'
+      location: hall_1
+    - session: plenary3
+      time: '11:00'
+      location: room_b
+    - session: __lunch_break
+      time: '12:00'
+      location: hall_4
+    - session: algorithms_6
+      time: '13:00'
+      location: room_b
+    - session: complexity_4
+      time: '13:00'
+      location: room_a1
+    - session: error_correction_3
+      time: '13:00'
+      location: room_a234
+    - session: tomography__learning_3
+      time: '13:00'
+      location: room_a5
+    - session: __coffee_break
+      time: '14:30'
+      location: hall_1
+    - session: algorithms_7
+      time: '15:00'
+      location: room_b
+    - session: foundations_3
+      time: '15:00'
+      location: room_a1
+    - session: error_correction_4
+      time: '15:00'
+      location: room_a234
+    - session: cryptography_3
+      time: '15:00'
+      location: room_a5
+    - session: __rump_session
+      time: '17:30'
+      location: hall_1
+
+# Friday, 01/30 - ATTA Centre
+- day: '2026-01-30'
+  sessions:
+    - session: __registration
+      time: '08:30'
+      location: atta_centre
+    - session: algorithms_8
+      time: '09:00'
+      location: room_b
+    - session: error_correction_5
+      time: '09:00'
+      location: room_a1
+    - session: information_theory_3
+      time: '09:00'
+      location: room_a234
+    - session: many_body_theory_2
+      time: '09:00'
+      location: room_a5
+    - session: __coffee_break
+      time: '10:30'
+      location: hall_1
+    - session: algorithms_9
+      time: '11:00'
+      location: room_b
+    - session: complexity_5
+      time: '11:00'
+      location: room_a1
+    - session: information_theory_4
+      time: '11:00'
+      location: room_a234
+    - session: tomography__learning_4
+      time: '11:00'
+      location: room_a5
+    - session: __lunch_break
+      time: '12:00'
+      location: hall_4
+    - session: algorithms_10
+      time: '13:00'
+      location: room_b
+    - session: foundations_4
+      time: '13:00'
+      location: room_a1
+    - session: information_theory_5
+      time: '13:00'
+      location: room_a234
+    - session: many_body_theory_3
+      time: '13:00'
+      location: room_a5
+    - session: __coffee_break
+      time: '14:30'
+      location: hall_1
+    - session: algorithms_11
+      time: '15:00'
+      location: room_b
+    - session: error_correction_6
+      time: '15:00'
+      location: room_a1
+    - session: information_theory_6
+      time: '15:00'
+      location: room_a234
+    - session: many_body_theory_4
+      time: '15:00'
+      location: room_a5
+    - session: __closing_remarks
+      time: '17:00'
+      location: room_b
+

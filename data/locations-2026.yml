@@ -1,0 +1,41 @@
+- key: room_a1
+  label: Hall A1
+  description: ATTA Centre
+- key: room_a234
+  label: Halls A2, A3, A4
+  description: ATTA Centre
+- key: room_a5
+  label: Hall A5
+  description: ATTA Centre
+- key: atta_centre
+  label: ATTA Centre
+  description: Krasta iela 60
+- key: alfa
+  label: Alfa
+  description: House of Science
+- key: room_b
+  label: Hall B
+  description: ATTA Centre
+- key: delta_omega
+  label: Delta & Omega
+  description: House of Science
+- key: hall_1
+  label: Hall 1
+  description: ATTA Centre
+- key: hall_4
+  label: Hall 4
+  description: ATTA Centre
+- key: halls_bc
+  label: Halls B, C
+  description: ATTA Centre
+- key: house_of_science
+  label: House of Science
+  description: University of Latvia
+- key: atrium
+  label: Atrium
+  description: House of Science
+- key: networking_b
+  label: Networking B
+  description: ATTA Centre
+- key: startup_house
+  label: Startup House Riga

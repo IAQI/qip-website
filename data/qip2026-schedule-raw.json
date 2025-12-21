@@ -1,0 +1,590 @@
+{
+  "event": "QIP 2026",
+  "location": "Riga, Latvia",
+  "dates": "2026-01-24 to 2026-01-30",
+  "days": [
+    {
+      "date": "2026-01-24",
+      "day_name": "Saturday",
+      "venue": "House of Science, University of Latvia",
+      "sessions": [
+        {"time": "08:30", "duration": 60, "type": "infrastructure", "title": "Registration", "location": "House of Science"},
+        {"time": "09:30", "duration": 90, "type": "tutorial", "title": "Quantum Hypothesis Testing", "speaker": "Ludovico Lami", "location": "Alfa"},
+        {"time": "11:00", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Delta & Omega"},
+        {"time": "11:30", "duration": 90, "type": "tutorial", "title": "Quantum Hypothesis Testing (continued)", "speaker": "Ludovico Lami", "location": "Alfa"},
+        {"time": "13:00", "duration": 60, "type": "break", "title": "Light Lunch", "location": "Delta & Omega"},
+        {"time": "14:00", "duration": 90, "type": "tutorial", "title": "Algorithmic Applications of Regev's Reduction", "speaker": "André Chailloux", "location": "Alfa"},
+        {"time": "15:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Delta & Omega"},
+        {"time": "16:00", "duration": 90, "type": "tutorial", "title": "Algorithmic Applications (continued)", "speaker": "André Chailloux", "location": "Alfa"},
+        {"time": "18:00", "duration": 60, "type": "tutorial", "title": "Physical Review Referee Tutorial", "speakers": ["Erin Knutson", "Mauro Schiulaz"], "location": "Alfa"}
+      ]
+    },
+    {
+      "date": "2026-01-25",
+      "day_name": "Sunday",
+      "venue": "House of Science, University of Latvia",
+      "sessions": [
+        {"time": "08:30", "duration": 60, "type": "infrastructure", "title": "Registration", "location": "House of Science"},
+        {"time": "09:30", "duration": 90, "type": "tutorial", "title": "Designs and Pseudorandom Unitaries", "speaker": "Thomas Schuster", "location": "Alfa"},
+        {"time": "11:00", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Delta & Omega"},
+        {"time": "11:30", "duration": 90, "type": "tutorial", "title": "Designs and Pseudorandom Unitaries (continued)", "speaker": "Thomas Schuster", "location": "Alfa"},
+        {"time": "13:00", "duration": 60, "type": "break", "title": "Light Lunch", "location": "Delta & Omega"},
+        {"time": "14:00", "duration": 90, "type": "tutorial", "title": "Error Mitigation", "speaker": "Dorit Aharonov", "location": "Alfa"},
+        {"time": "15:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Delta & Omega"},
+        {"time": "16:00", "duration": 90, "type": "tutorial", "title": "Error Mitigation (continued)", "speaker": "Dorit Aharonov", "location": "Alfa"},
+        {"time": "17:45", "duration": 75, "type": "social", "title": "Welcome Reception", "location": "Networking Atrium"}
+      ]
+    },
+    {
+      "date": "2026-01-26",
+      "day_name": "Monday",
+      "venue": "ATTA Centre",
+      "sessions": [
+        {"time": "08:30", "duration": 45, "type": "infrastructure", "title": "Registration", "location": "ATTA Centre"},
+        {"time": "09:15", "duration": 15, "type": "infrastructure", "title": "Conference Opening", "location": "B"},
+        {"time": "09:30", "duration": 60, "type": "plenary", "title": "Invited Plenary", "speaker": "TBC", "location": "B"},
+        {"time": "10:30", "duration": 30, "type": "break", "title": "Sponsor Expo & Coffee Break", "location": "Hall 1"},
+        {"time": "11:00", "duration": 30, "type": "plenary", "title": "Short Plenary 1: Constant Rate Quantum Computer on Line", "speaker": "Thiago Bergamaschi", "location": "B"},
+        {"time": "11:30", "duration": 30, "type": "plenary", "title": "Short Plenary 2: Additivity Counterexamples", "speaker": "Benjamin Lovitz", "location": "B"},
+        {"time": "12:00", "duration": 30, "type": "infrastructure", "title": "Conference Group Photo", "location": "Networking B"},
+        {"time": "12:30", "duration": 60, "type": "break", "title": "Lunch Break", "location": "Hall 4"},
+        {
+          "time": "13:30",
+          "duration": 90,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 1",
+              "location": "B",
+              "talks": [
+                {"time": "13:30", "duration": 30, "title": "Quantum Simulation of Noisy Classical Nonlinear Dynamics", "speaker": "Sergiy Zhuk"},
+                {"time": "14:00", "duration": 30, "title": "Efficient Quantum Optimization via Dynamical Simulation", "speaker": "Ahmet Burak Çath"},
+                {"time": "14:30", "duration": 30, "title": "Mechanisms for Quantum Advantage in Global Optimization", "speaker": "Dylan Herman"}
+              ]
+            },
+            {
+              "track": "Complexity 1",
+              "location": "A1",
+              "talks": [
+                {"time": "13:30", "duration": 30, "title": "Random Unitaries in Constant Time", "speaker": "Benjamin Foxman"},
+                {"time": "14:00", "duration": 30, "title": "Fourier Spectrum of Noisy Quantum Algorithms", "speaker": "Uma Girish"},
+                {"time": "14:30", "duration": 30, "title": "Fast Quantum Computation with All-to-All Hamiltonians", "speaker": "Chao Yin"}
+              ]
+            },
+            {
+              "track": "Foundations 1",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "13:30", "duration": 30, "title": "Causal Decompositions of 1D Quantum Cellular Automata", "speaker": "Augustin Vanrietvelde"},
+                {"time": "14:00", "duration": 30, "title": "Cyclic Quantum Causal Modelling", "speaker": "Carla Ferradini"},
+                {"time": "14:30", "duration": 30, "title": "Symmetric Localizable Multiparty Quantum Measurements", "speaker": "Jef Pauwels"}
+              ]
+            },
+            {
+              "track": "Information Theory 1",
+              "location": "A5",
+              "talks": [
+                {"time": "13:30", "duration": 30, "title": "Partial Trace Relations Beyond Normal Matrices", "speaker": "Pablo Costa Rico"},
+                {"time": "14:00", "duration": 30, "title": "Clifford Commutant Theory and Applications", "speaker": "Lorenzo Leone"},
+                {"time": "14:30", "duration": 30, "title": "Complexity of Mixed Schatten Norms / Trace Norm Contraction Coefficient", "speakers": ["Jan Kochanowski", "Idris Delsol"]}
+              ]
+            }
+          ]
+        },
+        {"time": "15:00", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {
+          "time": "15:30",
+          "duration": 120,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 2",
+              "location": "B",
+              "talks": [
+                {"time": "15:30", "duration": 30, "title": "Efficient Gibbs Sampling for 2D Toric Code", "speaker": "Pablo Páez Velasco"},
+                {"time": "16:00", "duration": 30, "title": "Quantum to Classical Comparison for Davies Generators", "speaker": "Thuy-Duong Vuong"},
+                {"time": "16:30", "duration": 30, "title": "Quantized Markov Chain Couplings", "speaker": "Kristan Temme"},
+                {"time": "17:00", "duration": 30, "title": "Quantum Generalizations of Glauber and Metropolis Dynamics", "speaker": "Joao F. Doriguello"}
+              ]
+            },
+            {
+              "track": "Complexity 2",
+              "location": "A1",
+              "talks": [
+                {"time": "15:30", "duration": 30, "title": "Gap-Preserving Reductions and RE-Completeness", "speaker": "Laura Mančinska"},
+                {"time": "16:00", "duration": 30, "title": "MIPco=coRE", "speaker": "Junqiao Lin"},
+                {"time": "16:30", "duration": 30, "title": "Two Bases Suffice for QMA1-Completeness", "speaker": "Henry Ma"},
+                {"time": "17:00", "duration": 30, "title": "Better Completeness for QMA", "speaker": "Freek Witteveen"}
+              ]
+            },
+            {
+              "track": "Error Correction 1",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "15:30", "duration": 30, "title": "Continuous-Variable Quantum MacWilliams Identities", "speaker": "Ansgar G. Burchards"},
+                {"time": "16:00", "duration": 30, "title": "Haar Random Codes and Quantum Hamming Bound", "speaker": "Fermi Ma"},
+                {"time": "16:30", "duration": 30, "title": "Unified Framework for Quantum Code Embedding", "speaker": "Andrew C. Yuan"},
+                {"time": "17:00", "duration": 30, "title": "Tile Codes", "speaker": "Vincent Steffan"}
+              ]
+            },
+            {
+              "track": "Tomography & Learning 1",
+              "location": "A5",
+              "talks": [
+                {"time": "15:30", "duration": 30, "title": "Efficiently Learning Depth-3 Circuits", "speaker": "Arkopal Dutt"},
+                {"time": "16:00", "duration": 30, "title": "Polynomial Freiman-Ruzsa Theorem via Stabilizer Learning", "speaker": "Davi Castro-Silva"},
+                {"time": "16:30", "duration": 30, "title": "Learning Quantum Gibbs States", "speaker": "Chi-Fang Chen"},
+                {"time": "17:00", "duration": 30, "title": "Quantum Spin Chains Thermalize at All Temperatures", "speaker": "Chi-Fang Chen"}
+              ]
+            }
+          ]
+        },
+        {"time": "17:30", "duration": 120, "type": "poster", "title": "Poster Session 1", "location": "Hall 1"},
+        {"time": "19:45", "duration": 120, "type": "social", "title": "Women in Quantum Networking Event", "location": "Startup House Riga"}
+      ]
+    },
+    {
+      "date": "2026-01-27",
+      "day_name": "Tuesday",
+      "venue": "ATTA Centre",
+      "sessions": [
+        {"time": "08:30", "duration": 30, "type": "infrastructure", "title": "Registration", "location": "ATTA Centre"},
+        {"time": "09:00", "duration": 60, "type": "plenary", "title": "Plenary 1: Group Order is in QCMA", "speaker": "Harumichi Nishimura", "location": "B"},
+        {"time": "10:00", "duration": 30, "type": "plenary", "title": "Short Plenary 3: Quantum Precomputation & Moore-Nilsson Conjecture", "speaker": "Joseph Slote", "location": "B"},
+        {"time": "10:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {"time": "11:00", "duration": 30, "type": "plenary", "title": "Short Plenary 4: Compressed Permutation Oracles", "speaker": "Joseph Carolan", "location": "B"},
+        {"time": "11:30", "duration": 30, "type": "plenary", "title": "Short Plenary 5: Strong Random Unitaries and Fast Scrambling", "speaker": "Thomas Schuster", "location": "B"},
+        {"time": "12:00", "duration": 60, "type": "break", "title": "Lunch Break", "location": "Hall 4"},
+        {
+          "time": "13:00",
+          "duration": 90,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 3",
+              "location": "B",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Quantum Advantage from Soft Decoders", "speaker": "André Chailloux"},
+                {"time": "13:30", "duration": 30, "title": "QAOA Efficiency Evidence on Sherrington-Kirkpatrick Model", "speaker": "Sami Boulebnane"},
+                {"time": "14:00", "duration": 30, "title": "Hamiltonian Decoded Quantum Interferometry", "speaker": "Alexander Schmidhuber"}
+              ]
+            },
+            {
+              "track": "Foundations 2",
+              "location": "A1",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Completeness of Bosonic System Descriptions", "speaker": "Ulysse Chabaud"},
+                {"time": "13:30", "duration": 30, "title": "Quantum Soundness for Bipartite Games / Sum-of-Squares Hierarchy", "speakers": ["Xiangling Xu", "David Cui"]},
+                {"time": "14:00", "duration": 30, "title": "Multipartite Quantum Soundness / Asymptotic Value Bounds", "speakers": ["Xiangling Xu", "Dominik Leichtle"]}
+              ]
+            },
+            {
+              "track": "Information Theory 2",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Optimal Distillation of Qubit Clocks", "speaker": "Sujay Kazi"},
+                {"time": "13:30", "duration": 30, "title": "Quantum Divergence Optimization", "speaker": "Gereon Koßmann"},
+                {"time": "14:00", "duration": 30, "title": "Entanglement Theory with Limited Resources / Computational Entropies / Relative Entropy", "speakers": ["Lorenzo Leone", "Thomas A. Hahn", "Johannes Jakob Meyer"]}
+              ]
+            },
+            {
+              "track": "Many Body Theory 1",
+              "location": "A5",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "High-Temperature Fermionic Gibbs States", "speaker": "Akshar Ramkumar"},
+                {"time": "13:30", "duration": 30, "title": "Parent Lindbladians for Matrix Product Density Operators", "speaker": "Yuhan Liu"},
+                {"time": "14:00", "duration": 30, "title": "Quantum Gibbs States are Locally Markov", "speaker": "Chi-Fang Chen"}
+              ]
+            }
+          ]
+        },
+        {"time": "14:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {
+          "time": "15:00",
+          "duration": 120,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 4",
+              "location": "B",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Optimal Quantum Simulation of Linear Non-Unitary Dynamics", "speaker": "Guang Hao Low"},
+                {"time": "15:30", "duration": 30, "title": "Quantum Matrix Arithmetics with Hamiltonian Evolution", "speaker": "Christopher Kang"},
+                {"time": "16:00", "duration": 30, "title": "Sum of Squares Spectral Amplification", "speaker": "Robbie King"},
+                {"time": "16:30", "duration": 30, "title": "Efficient Learning Implies Quantum Glassiness", "speaker": "Eric Anschuetz"}
+              ]
+            },
+            {
+              "track": "Cryptography 1",
+              "location": "A1",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Quantum Approach for Reducing Communications in Secure Computation", "speaker": "Jiayu Zhang"},
+                {"time": "15:30", "duration": 30, "title": "Meta-Complexity Characterization of Minimal Quantum Cryptography", "speaker": "Boyang Chen"},
+                {"time": "16:00", "duration": 30, "title": "Entanglement Sharing Schemes", "speaker": "Zhi Li"},
+                {"time": "16:30", "duration": 30, "title": "Cryptographic Foundations of Interactive Quantum Advantage", "speaker": "Kabir Tomer"}
+              ]
+            },
+            {
+              "track": "Error Correction 2",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Unfolded Distillation for Magic States", "speaker": "Diego Ruiz"},
+                {"time": "15:30", "duration": 30, "title": "Layer Codes as Partially Self-Correcting Memories", "speaker": "Libor Caha"},
+                {"time": "16:00", "duration": 30, "title": "Average-Case Hardness of Decoding Quantum Stabilizer Codes", "speaker": "Jonathan Lu"},
+                {"time": "16:30", "duration": 30, "title": "Quantum Codes with Addressable Transversal Gates", "speaker": "Adam Wills"}
+              ]
+            },
+            {
+              "track": "Tomography & Learning 2",
+              "location": "A5",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Information-Computation Gaps in Quantum Learning", "speaker": "Yihui Quek"},
+                {"time": "15:30", "duration": 30, "title": "Heisenberg-Limited Hamiltonian Learning via Engineered Dissipation", "speaker": "Tim Möbus"},
+                {"time": "16:00", "duration": 30, "title": "Quantum Computing Enhanced Sensing", "speaker": "Richard R. Allen"},
+                {"time": "16:30", "duration": 30, "title": "Learning Structured Bosonic and Fermionic Unitaries", "speaker": "Vishnu Iyer"}
+              ]
+            }
+          ]
+        },
+        {"time": "17:00", "duration": 120, "type": "poster", "title": "Poster Session 2", "location": "Hall 1"}
+      ]
+    },
+    {
+      "date": "2026-01-28",
+      "day_name": "Wednesday",
+      "venue": "ATTA Centre",
+      "sessions": [
+        {"time": "08:30", "duration": 30, "type": "infrastructure", "title": "Registration", "location": "ATTA Centre"},
+        {"time": "09:00", "duration": 60, "type": "plenary", "title": "Plenary 2: Multi-qubit Toffoli with Fewer T Gates", "speaker": "Robin Kothari", "location": "B"},
+        {"time": "10:00", "duration": 30, "type": "plenary", "title": "Short Plenary 6: Few Single-Qubit Measurements for State Certification (Best Student Paper)", "speaker": "William He", "location": "B"},
+        {"time": "10:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {"time": "11:00", "duration": 60, "type": "plenary", "title": "Invited Plenary 2", "speaker": "TBC", "location": "B"},
+        {"time": "12:00", "duration": 60, "type": "break", "title": "Lunch Break", "location": "Hall 4"},
+        {
+          "time": "13:00",
+          "duration": 90,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 5",
+              "location": "A1",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Inverse Nonlinear Fast Fourier Transform", "speaker": "Hongkang Ni"},
+                {"time": "13:30", "duration": 30, "title": "Log-Depth In-Place Quantum Fourier Transform", "speaker": "Gregory D. Kahanamoku-Meyer"},
+                {"time": "14:00", "duration": 30, "title": "Catalytic Z-Rotations in Constant T-Depth [remote]", "speaker": "Isaac Kim"}
+              ]
+            },
+            {
+              "track": "Complexity 3",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "NPA Hierarchy and Commuting Operator Value", "speaker": "Yuming Zhao"},
+                {"time": "13:30", "duration": 30, "title": "Quantum Circuit Lower Bounds in Magic Hierarchy", "speaker": "Natalie Parham"},
+                {"time": "14:00", "duration": 30, "title": "Hamiltonians and Random Unitaries", "speakers": ["Laura Cui", "Liang Mao"]}
+              ]
+            },
+            {
+              "track": "Cryptography 2",
+              "location": "A5",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Uncloneable Encryption from Decoupling", "speaker": "Archishna Bhattacharyya"},
+                {"time": "13:30", "duration": 30, "title": "Copy Complexity in Quantum Cryptography", "speaker": "Eli Goldin"},
+                {"time": "14:00", "duration": 30, "title": "Gluing Random Unitaries with Inverses", "speaker": "Aditya Gulati"}
+              ]
+            }
+          ]
+        },
+        {"time": "14:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {"time": "15:00", "duration": 90, "type": "industry", "title": "Industry Session", "location": "A1"},
+        {"time": "16:30", "duration": 60, "type": "business", "title": "Business Session", "location": "A1"},
+        {"time": "19:00", "duration": 150, "type": "social", "title": "Gala Dinner", "location": "Halls B, C"}
+      ]
+    },
+    {
+      "date": "2026-01-29",
+      "day_name": "Thursday",
+      "venue": "ATTA Centre",
+      "sessions": [
+        {"time": "08:30", "duration": 30, "type": "infrastructure", "title": "Registration", "location": "ATTA Centre"},
+        {"time": "09:00", "duration": 60, "type": "plenary", "title": "Invited Plenary 3", "speaker": "TBC", "location": "B"},
+        {"time": "10:00", "duration": 30, "type": "plenary", "title": "Short Plenary 7: Code Switching Protocols", "speakers": ["Louis Golowich", "Shi Jie Samuel Tan"], "location": "B"},
+        {"time": "10:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {"time": "11:00", "duration": 60, "type": "plenary", "title": "Plenary 3: f-Divergences & Quantum Hypothesis Testing / Quantum Channel Coding with Few Code Lengths", "speakers": ["Christoph Hirche", "Hao-Chung Cheng"], "location": "B"},
+        {"time": "12:00", "duration": 60, "type": "break", "title": "Lunch Break", "location": "Hall 4"},
+        {
+          "time": "13:00",
+          "duration": 90,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 6",
+              "location": "B",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Abelian State Hidden Subgroup Problem", "speaker": "Marcel Hinsche"},
+                {"time": "13:00", "duration": 60, "title": "Jacobi Factoring Circuit", "speaker": "Seyoon Ragavan"},
+                {"time": "14:00", "duration": 30, "title": "Parallel Spooky Pebbling for Regev Factoring", "speaker": "Gregory D. Kahanamoku-Meyer"}
+              ]
+            },
+            {
+              "track": "Complexity 4",
+              "location": "A1",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Dequantization and Spectral Sum Estimation", "speaker": "Roman Edenhofer"},
+                {"time": "13:30", "duration": 30, "title": "Classical Simulations of Low Magic Quantum Dynamics", "speaker": "Kemal Aziz"},
+                {"time": "14:00", "duration": 30, "title": "Treewidth Barrier in Quantum Circuit Simulation", "speaker": "Bin Cheng"}
+              ]
+            },
+            {
+              "track": "Error Correction 3",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Fast and Error-Correctable Quantum RAM", "speaker": "Francesco Cesa"},
+                {"time": "13:30", "duration": 30, "title": "Universal Fault Tolerance with Non-Transversal Gates", "speaker": "Benjamin Anker"},
+                {"time": "14:00", "duration": 30, "title": "Distillation-Teleportation Protocol for Fault-Tolerant QRAM", "speaker": "Alexander M. Dalzell"}
+              ]
+            },
+            {
+              "track": "Tomography & Learning 3",
+              "location": "A5",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Adversarially Robust Quantum State Learning", "speaker": "Vladimir Braverman"},
+                {"time": "13:30", "duration": 30, "title": "Optimal Lower Bounds for Quantum Tomography / Debiased Keyl's Algorithm", "speakers": ["Thilo Scharnhorst", "Jack Spilecki"]},
+                {"time": "14:00", "duration": 30, "title": "Multi-Copy Quantum Learning Hierarchy / Exponential Advantage from Replicas", "speakers": ["Jan Nöller", "Qi Ye"]}
+              ]
+            }
+          ]
+        },
+        {"time": "14:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {
+          "time": "15:00",
+          "duration": 120,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 7",
+              "location": "B",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Sequential Quantum Processes with Group Symmetry", "speakers": ["Dmitry Grinko", "Satoshi Yoshida"]},
+                {"time": "15:30", "duration": 30, "title": "Quantum Algorithms for Uhlmann Transformation", "speaker": "Takeru Utsumi"},
+                {"time": "16:00", "duration": 30, "title": "Efficient Quantum Hermite Transform", "speaker": "Vishnu Iyer"},
+                {"time": "16:30", "duration": 30, "title": "Quantum Circuit Complexity of Matrix-Product Unitaries", "speaker": "Georgios Styliaris"}
+              ]
+            },
+            {
+              "track": "Foundations 3",
+              "location": "A1",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Multipartite Bell Inequalities from Renormalization Group", "speaker": "Paolo Abiuso"},
+                {"time": "15:30", "duration": 30, "title": "Self-Testing All Pure Multipartite Entangled States", "speaker": "Ivan Šupić"},
+                {"time": "16:00", "duration": 30, "title": "Nonlocality of Quantum States Can Be Transitive", "speaker": "Kai-Siang Chen"},
+                {"time": "16:30", "duration": 30, "title": "Quantum Nonlocality and Bound Randomness", "speaker": "Ravishankar Ramanathan"}
+              ]
+            },
+            {
+              "track": "Error Correction 4",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Extractors for QLDPC Architectures", "speaker": "Zhiyang He"},
+                {"time": "15:30", "duration": 30, "title": "Topological Quantum Spin Glass in qLDPC Codes", "speaker": "Benedikt Placke"},
+                {"time": "16:00", "duration": 30, "title": "Tour de Gross - Modular Quantum Computer", "speaker": "Eddie Schoute"},
+                {"time": "16:30", "duration": 30, "title": "Batched Logical Operations for Quantum LDPC", "speaker": "Nishad Maskara"}
+              ]
+            },
+            {
+              "track": "Cryptography 3",
+              "location": "A5",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Parallel Repetition for Post-Quantum Arguments", "speaker": "Andrew Huang"},
+                {"time": "15:30", "duration": 30, "title": "One-Shot Signatures and Obfuscating Permutations", "speaker": "Omri Shmueli"},
+                {"time": "16:00", "duration": 30, "title": "Quantum Lifting / Sponge Indifferentiability", "speakers": ["Alexandru Cojocaru", "Saliha Tokat"]},
+                {"time": "16:30", "duration": 30, "title": "Obfuscation of Unitary Quantum Programs [remote]", "speaker": "Miryam Mi-Ying Huang"}
+              ]
+            }
+          ]
+        },
+        {"time": "17:30", "duration": 90, "type": "social", "title": "Rump Session", "location": "Hall 1"}
+      ]
+    },
+    {
+      "date": "2026-01-30",
+      "day_name": "Friday",
+      "venue": "ATTA Centre",
+      "sessions": [
+        {"time": "08:30", "duration": 30, "type": "infrastructure", "title": "Registration", "location": "ATTA Centre"},
+        {
+          "time": "09:00",
+          "duration": 90,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 8",
+              "location": "B",
+              "talks": [
+                {"time": "09:00", "duration": 30, "title": "Quantum Oracles, Weak and Strong", "speaker": "Ewin Tang"},
+                {"time": "09:30", "duration": 30, "title": "Distributed Quantum Advantage for Local Problems", "speaker": "Isadora Veeren"},
+                {"time": "10:00", "duration": 30, "title": "Quantum Advantage from Shallow Circuits", "speaker": "Jackson Morris"}
+              ]
+            },
+            {
+              "track": "Error Correction 5",
+              "location": "A1",
+              "talks": [
+                {"time": "09:00", "duration": 30, "title": "Composable Logical Gate Error in Approximate QEC", "speaker": "Lukas Brenner"},
+                {"time": "09:30", "duration": 30, "title": "Quantum Error Correction Beyond SU(2)", "speaker": "Arda Aydin"},
+                {"time": "10:00", "duration": 30, "title": "Approximate QEC with 1D Log-Depth Circuits", "speaker": "Guoding Liu"}
+              ]
+            },
+            {
+              "track": "Information Theory 3",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "09:00", "duration": 30, "title": "Universal Classical-Quantum Channel Resolvability", "speaker": "Takaya Matsuura"},
+                {"time": "09:30", "duration": 30, "title": "Strong Converse Exponent of Channel Interconversion", "speaker": "Mario Berta"},
+                {"time": "10:00", "duration": 30, "title": "Improving Quantum Communication Rates", "speaker": "Felix Leditzky"}
+              ]
+            },
+            {
+              "track": "Many Body Theory 2",
+              "location": "A5",
+              "talks": [
+                {"time": "09:00", "duration": 30, "title": "Hardness of Recognizing Phases of Matter", "speaker": "Thomas Schuster"},
+                {"time": "09:30", "duration": 30, "title": "Long-Range Nonstabilizerness and Quantum Codes", "speaker": "Fuchuan Wei"},
+                {"time": "10:00", "duration": 30, "title": "Bialgebraic Structures in MPS Symmetries", "speaker": "Yuhan Liu"}
+              ]
+            }
+          ]
+        },
+        {"time": "10:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {
+          "time": "11:00",
+          "duration": 60,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 9",
+              "location": "B",
+              "talks": [
+                {"time": "11:00", "duration": 30, "title": "Efficient Quantum Algorithms for Tolerant Junta Testing", "speaker": "Zongbo Bao"},
+                {"time": "11:30", "duration": 30, "title": "Quantum Time-Space Tradeoff for Directed Connectivity", "speaker": "Galina Pass"}
+              ]
+            },
+            {
+              "track": "Complexity 5",
+              "location": "A1",
+              "talks": [
+                {"time": "11:00", "duration": 30, "title": "Exponential BosonSampling Hardness Improvements", "speaker": "Ishaun Datta"},
+                {"time": "11:30", "duration": 30, "title": "Average-Case Quantum Complexity from Glassiness", "speaker": "Alexander Zlokapa"}
+              ]
+            },
+            {
+              "track": "Information Theory 4",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "11:00", "duration": 30, "title": "Universal Work Extraction in Quantum Thermodynamics", "speaker": "Kaito Watanabe"},
+                {"time": "11:30", "duration": 30, "title": "Optimising Quantum Data Hiding", "speaker": "Francesco Anna Mele"}
+              ]
+            },
+            {
+              "track": "Tomography & Learning 4",
+              "location": "A5",
+              "talks": [
+                {"time": "11:00", "duration": 30, "title": "Polynomial-Time Stabilizer State Testing", "speaker": "Arkopal Dutt"},
+                {"time": "11:30", "duration": 30, "title": "Testing Bosonic Quantum States", "speaker": "Filippo Girardi"}
+              ]
+            }
+          ]
+        },
+        {"time": "12:00", "duration": 60, "type": "break", "title": "Lunch Break", "location": "Hall 4"},
+        {
+          "time": "13:00",
+          "duration": 90,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 10",
+              "location": "B",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Improved Quantum Lattice Sieving", "speaker": "Lynn Engelberts"},
+                {"time": "13:30", "duration": 30, "title": "Compressed Oracle as Adversary", "speaker": "Sebastian Zur"},
+                {"time": "14:00", "duration": 30, "title": "Quartic Quantum Speedups for Community Detection", "speaker": "Alexander Zlokapa"}
+              ]
+            },
+            {
+              "track": "Foundations 4",
+              "location": "A1",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Firewall Paradox and Wigner's Friend Paradox", "speaker": "Ladina Hausmann"},
+                {"time": "13:30", "duration": 30, "title": "Cloning Games, Black Holes and Cryptography", "speaker": "Seyoon Ragavan"},
+                {"time": "14:00", "duration": 30, "title": "Universal Tradeoff Relations and Wigner-Araki-Yanase Theorems", "speaker": "Hiroyasu Tajima"}
+              ]
+            },
+            {
+              "track": "Information Theory 5",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Rigidity of Local Transformations of Bipartite Entanglement", "speaker": "John Bostanci"},
+                {"time": "13:30", "duration": 30, "title": "Smooth Relative Entropy Relations and Equivalences", "speaker": "Bartosz Regula"},
+                {"time": "14:00", "duration": 30, "title": "Infinite Temperature at Zero Energy", "speaker": "David M. Long"}
+              ]
+            },
+            {
+              "track": "Many Body Theory 3",
+              "location": "A5",
+              "talks": [
+                {"time": "13:00", "duration": 30, "title": "Pauli Tomography", "speaker": "Abhilash Dharmavarapu"},
+                {"time": "13:30", "duration": 30, "title": "Thermalization Complexity in Finite Quantum Systems", "speaker": "Dhruv Devulapalli"},
+                {"time": "14:00", "duration": 30, "title": "Dobrushin Condition for Quantum Markov Chains", "speaker": "Ewin Tang"}
+              ]
+            }
+          ]
+        },
+        {"time": "14:30", "duration": 30, "type": "break", "title": "Coffee Break", "location": "Hall 1"},
+        {
+          "time": "15:00",
+          "duration": 120,
+          "type": "parallel_sessions",
+          "tracks": [
+            {
+              "track": "Algorithms 11",
+              "location": "B",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Fast Fermion Simulation with Reconfigurable Qubits", "speaker": "Nishad Maskara"},
+                {"time": "15:30", "duration": 30, "title": "Fast-Forwardable Lindbladians and Phase Estimation", "speaker": "Zhong-Xia Shang"},
+                {"time": "16:00", "duration": 30, "title": "Derandomised Tensor Product Gap Amplification", "speaker": "Tony Metger"},
+                {"time": "16:30", "duration": 30, "title": "Quantum Linear System Algorithm Beyond Condition Number [remote]", "speaker": "Jianqiang Li"}
+              ]
+            },
+            {
+              "track": "Error Correction 6",
+              "location": "A1",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Fault Tolerance by Construction", "speaker": "Benjamin Rodatz"},
+                {"time": "15:30", "duration": 30, "title": "Universal Quantum Computing in 2D Without Knots", "speaker": "Julio Magdalena de la Fuente"},
+                {"time": "16:00", "duration": 30, "title": "Fault-Tolerant Protocols via Spacetime Concatenation", "speaker": "Arpit Dua"}
+              ]
+            },
+            {
+              "track": "Information Theory 6",
+              "location": "A2, A3, A4",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Non-iid Hypothesis Testing", "speaker": "Marco Fanizza"},
+                {"time": "15:30", "duration": 30, "title": "Umlaut Information", "speaker": "Filippo Girardi"},
+                {"time": "16:00", "duration": 30, "title": "Quantum Relative Entropy Decay Composition", "speaker": "Nicholas Laracuente"}
+              ]
+            },
+            {
+              "track": "Many Body Theory 4",
+              "location": "A5",
+              "talks": [
+                {"time": "15:00", "duration": 30, "title": "Area Law for Metastable States", "speaker": "Thiago Bergamaschi"},
+                {"time": "15:30", "duration": 30, "title": "Lieb-Robinson Bounds with Exponential Tails", "speaker": "Ben McDonough"},
+                {"time": "16:00", "duration": 30, "title": "Free Mutual Information in Operator Space [remote]", "speaker": "Shreya Vardhan"}
+              ]
+            }
+          ]
+        },
+        {"time": "17:00", "duration": 5, "type": "infrastructure", "title": "Closing Remarks", "location": "B"}
+      ]
+    }
+  ]
+}
