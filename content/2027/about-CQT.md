@@ -5,7 +5,7 @@ menu:
     2027:
         weight: 40
         identifier: about-cqt
-        parent: attend
+        parent: about
 
 draft: false
 type: no_toc

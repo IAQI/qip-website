@@ -138,15 +138,22 @@ enableMissingTranslationPlaceholders = true
     identifier = "home"
     pageRef = '/2027'
 
+  [[menu.2027]]
+    name = "About"
+    weight = 20
+    identifier = "about"
+    pageRef = '/2027' 
+
 #  [[menu.2027]]
 #    name = "Technical Program"
 #    weight = 20
 #    identifier = "technical-program"
 
-  [[menu.2027]]
-    name = "Attend"
-    weight = 30
-    identifier = "attend"
+#  [[menu.2027]]
+#    name = "Attend"
+#    weight = 30
+#    identifier = "attend"
+
 #  [[menu.2027]]
 #    name = "Sponsors"
 #    weight = 40

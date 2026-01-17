@@ -5,7 +5,7 @@ menu:
     2027:
         weight: 40
         identifier: about-singapore
-        parent: attend
+        parent: about
 
 draft: false
 type: 
