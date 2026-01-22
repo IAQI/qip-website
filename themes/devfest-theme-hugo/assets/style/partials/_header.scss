@@ -118,9 +118,10 @@ body > header {
       left: 0;
       background-color: var(--primary);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      list-style: none;
-      padding: 0;
-      margin: 0;
+      width: max-content;
+      min-width: 100%;
+      white-space: nowrap;
+
 
       li {
         // padding: 8px 16px;
