@@ -5,7 +5,7 @@ menu:
     2027:
         weight: 40
         identifier: code-of-conduct
-        parent: attend
+        parent: about
 
 draft: false
 type: no_toc
