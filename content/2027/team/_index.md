@@ -9,18 +9,21 @@ draft: False
 <!-- We have to include the section titles here, rather than generating them in the teams shortcode, because otherwise the .TableOfContent is incorrect. -->
 
 ### Steering Committee
-- Sandy Irani (Chair) | University of California, Irvine 
-- Robin Kothari (Co-chair) | Google Quantum AI
+- Robin Kothari (Chair) | Google Quantum AI
+- Stacey Jeffery (Co-chair) | CWI and University of Amsterdam 
+<br> <br>
+- Antonio Ac&iacute;n | ICFO
 - Andris Ambainis | University of Latvia 
 - Salman Beigi | Institute for Research in Fundamental Sciences 
 - Giulio Chiribella | The University of Hong Kong 
 - Nilanjana Datta | University of Cambridge 
-- David Gosset | University of Waterloo, Perimeter Institute 
 - Aram Harrow | Massachusetts Institute of Technology 
-- Stacey Jeffery | CWI and University of Amsterdam 
-- Elham Kashefi | CNRS, University of Edinburgh 
+- Sandy Irani | University of California, Irvine 
 - Iman Marvian | Duke University 
-- Frank Verstraete | Ghent University 
+- David P&eacute;rez Garc&iacute;a | Universidad Complutense de Madrid 
+- Marco Tomamichel | National University of Singapore
+
+[Official Page of QIP Steering Committee](https://qipconference.org/steeringcommittee) 
 
 ### Program Committee
 To be announced.
