@@ -7,7 +7,7 @@ type: text_page
 ---
 
 TODO: update!
-from https://qipconference.org/qip-charter/
+from https://qip.iaqi.org/qip-charter/
 
 ## PC Chairs & Local Organizers
 |Edition |PC chair| PC co-chair | Local organizer chair(s)

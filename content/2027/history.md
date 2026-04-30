@@ -6,4 +6,4 @@ type: no_toc
 # no menu entry necessary, as the charter, history and code of conduct are accessible from the links in the footer
 ---
 
-Past QIP conferences can be accessed through <a href="https://qipconference.org/"> qipconference.org.</a> 
+Past QIP conferences can be accessed through <a href="https://qip.iaqi.org/"> qip.iaqi.org.</a> 

@@ -17,4 +17,4 @@ Since its beginnings in Aarhus, Denmark in 1998, QIP has grown into a leading gl
 
 February 20–26, 2027 QIP will be hosted by the Centre for Quantum Technologies in Singapore with tutorials taking place on February 20 and 21.  
 
-[Past QIP Conferences](https://qipconference.org/)
+[Past QIP Conferences](https://qip.iaqi.org/)

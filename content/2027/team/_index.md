@@ -23,7 +23,7 @@ draft: False
 - David P&eacute;rez Garc&iacute;a | Universidad Complutense de Madrid 
 - Marco Tomamichel | National University of Singapore
 
-[Official Page of QIP Steering Committee](https://qipconference.org/steeringcommittee) 
+[Official Page of QIP Steering Committee](https://qip.iaqi.org/steeringcommittee) 
 
 ### Program Committee
 To be announced.
