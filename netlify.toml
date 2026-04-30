@@ -29,3 +29,137 @@ TZ = "Europe/Amsterdam"
     to = "/2027/"
     status = 302
     force = true 
+
+[[redirects]]
+    from = "/1998"
+    to = "https://qip.iaqi.org/1998"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/1999"
+    to = "https://qip.iaqi.org/1999"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2000"
+    to = "https://qip.iaqi.org/2000"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2001"
+    to = "https://qip.iaqi.org/2001"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2002"
+    to = "https://qip.iaqi.org/2002"
+    status = 301
+    force = true
+
+[[redirects]]
+    from = "/2004"
+    to = "https://qip.iaqi.org/2004"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2005"
+    to = "https://qip.iaqi.org/2005"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2006"
+    to = "https://qip.iaqi.org/2006"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2007"
+    to = "https://qip.iaqi.org/2007"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2008"
+    to = "https://qip.iaqi.org/2008"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2009"
+    to = "https://qip.iaqi.org/2009"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2010"
+    to = "https://qip.iaqi.org/2010"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2011"
+    to = "https://qip.iaqi.org/2011"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2012"
+    to = "https://qip.iaqi.org/2012"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2013"
+    to = "https://qip.iaqi.org/2013"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2014"
+    to = "https://qip.iaqi.org/2014"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2015 "
+    to = "https://qip.iaqi.org/2015"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2016"
+    to = "https://qip.iaqi.org/2016"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2018"
+    to = "https://qip.iaqi.org/2018"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2019"
+    to = "https://qip.iaqi.org/2019"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2020"
+    to = "https://qip.iaqi.org/2020"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2021"
+    to = "https://qip.iaqi.org/2021"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2023"
+    to = "https://qip.iaqi.org/2023"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2024"
+    to = "https://qip.iaqi.org/2024"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2025"
+    to = "https://qip.iaqi.org/2025"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2026"
+    to = "https://qip.iaqi.org/2026"
+    status = 301
+    force = true
+
+  

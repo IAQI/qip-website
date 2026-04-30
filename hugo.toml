@@ -1,6 +1,6 @@
 # publishDir = "docs"
 
-baseURL = "https://qip-website.netlify.app/"
+baseURL = "https://qipconference.org/"
 languageCode = "en"
 title = "QIP Conference Website"
 
