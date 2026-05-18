@@ -3,7 +3,7 @@ title: About Singapore
 year: 2027
 menu:
     2027:
-        weight: 40
+        weight: 30
         identifier: about-singapore
         parent: about
 
@@ -25,6 +25,7 @@ For car hailing services, you can use Grab, Gojek or Tada apps to hail a ride in
 
 ## Good to Know
 Official Language: English
+
 The Singapore dollar (SGD) is the official currency of Singapore. 
 While credit/debit cards can be used widely, most food courts might only take cash. Use a money exchange at the airport or ATM at train stations. 
 ATM fees vary depending on the foreign bank and your home bank.
@@ -35,15 +36,22 @@ GST (sales tax) is 9%.
 For SIM Card, you can buy local prepaid SIM/eSIM at airport or convenient stores with your passport.
 
 Singapore's climate is tropical, featuring high temperatures and humidity year-round, with high rainfall. Daily temperatures average between 28°C and 32°C, and relative humidity typically stays around 75% or higher. 
+
 Power and connectivity: Type G plugs (UK-style), 230V.
-Emergency numbers in Singapore: - Ambulance: 995, Police: 999
+
+Emergency numbers in Singapore: 
+- Ambulance: 995
+- Police: 999
 
 ## Practical Tips
-Dress light; many venues are air‑conditioned—carry a light layer for indoors.
-Bring reusable water bottles; drinking water is safe from the tap.
-Smoking is limited to designated areas; e‑cigarettes/vapes are illegal.
-Alcohol rules: public drinking is restricted from 10:30 PM to 7:00 AM; consumption is allowed in licensed premises (bars, restaurants, etc.) during the hours stipulated.
-Chewing gum sales are restricted; don’t litter or vandalise—laws are strictly enforced.
+- Dress light; many venues are air‑conditioned—carry a light layer for indoors.
+- Bring reusable water bottles; drinking water is safe from the tap.
+- Smoking is limited to designated areas; e‑cigarettes/vapes are illegal.
+- Alcohol rules: public drinking is restricted from 10:30 PM to 7:00 AM; consumption is allowed in licensed premises (bars, restaurants, etc.) during the hours stipulated.
+- Chewing gum sales are restricted; don’t litter or vandalise—laws are strictly enforced.
+
+## Food Guide
+Singapore is world-famous for its food culture. The following guide highlights dining options both near the venue and in other areas of interest across Singapore: [Download Singapore Food Guide PDF](/pdf/Singapore_Food_Guide.pdf)
 
 ## Attractions
 -	Marina Bay Sands Skypark - https://www.marinabaysands.com/attractions/skypark-observation-deck.html

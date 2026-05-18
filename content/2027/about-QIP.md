@@ -3,7 +3,7 @@ title: About QIP
 year: 2027
 menu:
     2027:
-        weight: 40
+        weight: 10
         identifier: about-qip
         parent: about
 
