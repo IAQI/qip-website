@@ -3,7 +3,7 @@ title: About CQT
 year: 2027
 menu:
     2027:
-        weight: 40
+        weight: 20
         identifier: about-cqt
         parent: about
 
