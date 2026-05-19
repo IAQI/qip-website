@@ -8,7 +8,7 @@ menu:
         parent: about
 
 draft: false
-type: 
+type: no_toc
 ---
 
 ## About Singapore
