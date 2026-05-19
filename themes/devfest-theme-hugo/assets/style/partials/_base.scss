@@ -93,3 +93,14 @@ body > main > section.container, body > header.container, body > footer.containe
   margin-top: calc(-1 * var(--toolbar-height));
   visibility: hidden;
 }
+
+.venue-images{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+    img {
+        width: 45%;
+        border-radius: 8px;
+    }
+}

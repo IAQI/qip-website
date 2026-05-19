@@ -26,7 +26,7 @@ draft: False
 [Official Page of QIP Steering Committee](https://qip.iaqi.org/steeringcommittee) 
 
 ### Program Committee
-To be announced.
+{{< teams types="pcchairs" year=2027 >}}
 
 ### Local Organizers
 {{< teams types="general-chair" year=2027 >}}
