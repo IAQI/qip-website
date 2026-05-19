@@ -53,17 +53,19 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 {{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
+-->
 
 {{% home-location
-    image="/images/2027/map-stand-in.png"
-    address="Marina Bay Sands, Singapore"
+    image="/images/2027/University_Cultural_Centre.jpg"
+    address="University Cultural Centre, 50 Kent Ridge Cres, Singapore 119279"
     %}}
 
 
 ## The 2027 venue
-<strong>Organized by: People</strong>
+<strong>Organized by: Centre for Quantum Technologies </strong>
 {{% /home-location %}}
 
+<!--
 {{% home-speakers year=2027 %}}
 ## Featured Speakers
 {{< button-link label="All Speakers"
