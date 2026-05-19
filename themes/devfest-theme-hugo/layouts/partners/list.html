@@ -22,15 +22,14 @@
   </div>
 {{ end }}
 
-<div class="text_page">
-	<div class="hero">
-		<h1>{{ .Title }}</h1>
-		<div class="description">
-			{{ .TableOfContents }}
-		</div>
+<div class="hero">
+	<h1>{{ .Title }}</h1>
+	<div class="description">
+		{{ .TableOfContents }}
 	</div>
+</div>
 
-	<section class="content fix-header-offset">
+<section class="content fix-header-offset">
 		{{ .Content }}
 	</section>
 </div>
