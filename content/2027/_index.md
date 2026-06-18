@@ -10,16 +10,19 @@ layout: home
 ---
 
 <!-- JUMBO -->
-{{% jumbo img="/images/2027/qip2027-home-banner-hard-code.jpg" imgLabel="QIP 2027 background" logo="/images/2027/blank-2027.png" %}}
 
+{{% jumbo img="/images/2027/qip2027-home-banner-soft.jpg" imgLabel="QIP 2027 background" logo="/images/2027/qip2027-logo.png" %}}
+
+<p style="margin-bottom: 4rem;">
+20-26 February 2027 
+</p>
 
 <!--
-20-26 February 2027 
-
 {{< button-link label="Call For Papers"
                 url="call"
                 icon="cfp" >}}
 -->
+
 {{% /jumbo %}}
 
 {{% home-info class="primary" %}}
