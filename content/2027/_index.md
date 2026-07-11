@@ -32,7 +32,6 @@ layout: home
 QIP 2027 is the 30th edition of the yearly international scientific conference on the Quantum Information Processing. See the list of previous conferences <a href="https://qip.iaqi.org/previousqips"><u>here</u></a>.
 {{% /home-info %}}
 
-<!--
 {{% home-keydates %}}
 
 {{% home-keydate-table title="Key Dates QIP 2027" %}}
@@ -40,23 +39,29 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 
 |Date |Event|
 |:----|:----|
-| 10 July 2026 | Opening of submission server |
-| 10 September 2027 |  Talk/Poster submission deadline |
-| 1 November 2027 | Talk acceptance notification |
-| TBD 2027 | Poster-only submission deadline |
-| TBD May 2027 | Poster-only acceptance notification |
+| 28 Sep 2026 | Talk registration deadline |
+| 5 Oct 2026 |  Talk submission deadline |
+| 19 Oct 2026 |  Poster submission deadline |
+| 26 Oct 2026 |  Decision notification for posters |
+| 30 Nov 2027 | Decision notification for talks |
+| 20 Dec 2026 | Early Bird Registration Closes |
+| 20 Jan 2027 | Early Bird Registration Closes |
 | 20 - 26 Feb 2027 | QIP 2027 |
+
+More details will be given in the forthcoming call for submissions.
 {{% /home-keydate-table %}}
 
 
+<!-- 
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
 |TBD | New website created|
 {{% /home-keydate-table %}}
+-->
 
 {{% /home-keydates %}}
--->
+
 
 {{% home-location
     image="/images/2027/University_Cultural_Centre.jpg"
