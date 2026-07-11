@@ -45,7 +45,7 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 | 26 Oct 2026 |  Decision notification for posters |
 | 30 Nov 2027 | Decision notification for talks |
 | 20 Dec 2026 | Early Bird Registration Closes |
-| 20 Jan 2027 | Early Bird Registration Closes |
+| 20 Jan 2027 | Registration Closes |
 | 20 - 26 Feb 2027 | QIP 2027 |
 
 More details will be given in the forthcoming call for submissions.
