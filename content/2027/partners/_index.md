@@ -5,7 +5,20 @@ type: partners
 draft: false
 ---
 
-## Our Sponsors
+
+<style>
+.partners-group .fancy { display: none; }
+.partners-group.partner-anchor ul li {
+  height: var(--partner-platinum-height);
+  flex-basis: 360px;
+}
+</style>
+
+{{% partners categories="anchor" year=2027 %}}
+
+{{% /partners %}}
+
+## Community Sponsors
 
 {{% partners categories="community" year=2027 %}}
 
