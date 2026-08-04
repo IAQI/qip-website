@@ -4,6 +4,6 @@ title: Centre for Quantum Technologies
 type: partner
 draft: false
 category: anchor
-logo: /2027/partners/logos/CQT-simplified.png
+logo: /2027/partners/logos/CQT-simplified-padded.png
 website: https://www.cqt.sg/
 ---
