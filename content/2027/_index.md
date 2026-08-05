@@ -82,12 +82,9 @@ More details will be given in the forthcoming call for submissions.
 {{% /home-speakers %}}
 -->
 
-{{% partners categories="community" year=2027 %}}
-## Sponsors
 
-QIP 2027 is seeking sponsors. Please see our <a href="/pdf/QIP2027_Sponsorship_Prospectus_CQT.pdf" style="color:#4c9cde;">
-Sponsorship Prospectus
-</a> for information. To learn more, contact {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org?subject=Sponsorship Enquiry" icon="email">}}
+{{% partners year=2027 %}}
+
+QIP 2027 is hosted by <a href="https://www.cqt.sg/" target="_blank" title="Centre for Quantum Technologies"><img src="/2027/partners/logos/CQT-simplified.png" alt="Centre for Quantum Technologies" style="height: 2.5em; vertical-align: middle;"></a>. We are proud to have <a href="https://www.horizonquantum.com/" target="_blank" title="Horizon Quantum"><img src="/2027/partners/logos/horizon-quantum.png" alt="Horizon Quantum" style="height: 2.5em; vertical-align: middle;"></a> as our anchor sponsor. Further sponsor information may be found <a href="/2027/partners/" style="color: #0bb3db;">here</a>.
 
 {{% /partners %}}
-
