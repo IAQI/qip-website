@@ -27,6 +27,7 @@ draft: False
 
 ### Program Committee
 {{< teams types="pcchairs" year=2027 >}}
+[Call for Submissions](/2027/call/)
 
 ### Local Organizers
 {{< teams types="general-chair" year=2027 >}}

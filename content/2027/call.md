@@ -1,14 +1,28 @@
 ---
-title: Call
+title: Call for Submissions
 year: 2027
 draft: false
 type: no_toc
 menu:
     2027:
-        weight: 15
+        weight: 60
         identifier: call
-        parent: technical-program
+        parent: #technical-program
 ---
+
+<style>
+/* Page-local overrides for the Call for Submissions page. */
+.content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #000;
+}
+
+/* Extra vertical space after the following headings. */
+#important-changes-for-qip-2027,
+#author-names-should-not-appear-on-the-extended-abstract,
+#program-committee {
+    margin-bottom: 1.5rem;
+}
+</style>
 
 QIP 2027 will take place in Singapore from February 20 to 26, 2027.
 
@@ -40,7 +54,7 @@ The submission must then be completed by October 5, 2026. A completed submission
 
 The complete technical work must be publicly available on arXiv by the talk submission deadline. Authors must provide the relevant arXiv link or links in HotCRP.
 
-### <span style="color: #ff0000;">Author names should not appear on the extended abstract</span> {#author-names-should-not-appear-on-the-extended-abstract}
+### <span style="color: #ff0000;">Author names should not appear on the extended abstract</span> {#author-names-should-not-appear-on-the-extended-abstract} 
 
 ### Talk and poster submissions are separate
 

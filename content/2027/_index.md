@@ -48,7 +48,8 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 | 20 Jan 2027 | Registration Closes |
 | 20 - 26 Feb 2027 | QIP 2027 |
 
-More details will be given in the forthcoming call for submissions.
+Further details on submissions may be found at the [Call for Submissions](/2027/call/).
+
 {{% /home-keydate-table %}}
 
 
