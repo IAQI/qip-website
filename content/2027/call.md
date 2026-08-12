@@ -10,6 +10,13 @@ menu:
         parent: #technical-program
 ---
 
+<style>
+/* Page-local overrides for the Call for Submissions page. */
+.content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: #000;
+}
+</style>
+
 QIP 2027 will take place in Singapore from February 20 to 26, 2027.
 
 We invite submissions presenting outstanding recent research in the theory of quantum information and computation. Contributions may be submitted for presentation as a contributed talk, as a poster, or both.
