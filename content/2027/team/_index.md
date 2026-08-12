@@ -28,6 +28,18 @@ draft: False
 ### Program Committee
 {{< teams types="pcchairs" year=2027 >}}
 
+[Call for Submissions](/2027/call/)
+
+#### <b> Topic Chairs </b> 
+- Cryptography: Andrea Coladangelo, University of Washington
+- Quantum algorithms: Andrew Childs, University of Maryland; David Gosset, University of Waterloo
+- Quantum complexity: Bill Fefferman, University of Chicago
+- Quantum error correction: Aleksander Kubica, Yale University
+- Quantum foundations: Roger Colbeck, King’s College London
+- Quantum information theory: Ludovico Lami, Scuola Normale Superiore; Laura Mančinska, University of Copenhagen
+- Quantum learning and tomography: Zoë Holmes, École Polytechnique Fédérale de Lausanne
+- Quantum many-body theory: Cambyse Rouzé, Inria and Institut Polytechnique de Paris
+
 ### Local Organizers
 {{< teams types="general-chair" year=2027 >}}
 
