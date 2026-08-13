@@ -42,9 +42,9 @@ QIP 2027 is the 30th edition of the yearly international scientific conference o
 |:----|:----|
 | 28 Sep 2026 | Talk registration deadline |
 | 5 Oct 2026 |  Talk submission deadline |
+| 5 Oct 2026 | Poster decisions start; decisions are rolling and made within 2 weeks of submission | 
 | 30 Nov 2026 | Decision notification for talks |
 | 4 Dec 2026 | Poster submission deadline |
-| 18 Dec 2026| Poster decision notifications end; rolling decisions within 2 weeks of submission | 
 | 20 Dec 2026 | Early Bird Registration Closes |
 | 20 Jan 2027 | Registration Closes |
 | 20 - 26 Feb 2027 | QIP 2027 |
