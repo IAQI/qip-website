@@ -17,11 +17,9 @@ layout: home
 20-26 February 2027 
 </p>
 
-<!--
 {{< button-link label="Call For Papers"
                 url="call"
                 icon="cfp" >}}
--->
 
 {{% /jumbo %}}
 
