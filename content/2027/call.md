@@ -39,7 +39,7 @@ All deadlines are at **23:59 Anywhere on Earth (AoE)**.
 
   The submission must then be completed by October 5, 2026. A completed submission consists of an extended abstract, one or more arXiv links, and a PDF copy of the technical manuscript.
 
-- **Public arXiv posting required.** The complete technical work must be publicly available on arXiv by the talk submission deadline. Authors must provide the relevant arXiv link or links in HotCRP.
+- **Public arXiv posting required for talk submissions.** The complete technical work must be publicly available on arXiv by the talk submission deadline. Authors must provide the relevant arXiv link or links in HotCRP.
 
 - **Author names should not appear on the extended abstract.** Author names, affiliations, and acknowledgements should not appear in the extended abstract.
 
@@ -152,17 +152,25 @@ A talk submission is eligible for the Best Student Paper Prize only if all of th
 
 The Program Committee chair may request clarification of the authors’ contributions at any stage of the selection process.
 
+### ** Updating a Submission **
+
+Registered talk submissions may be updated until the talk submission deadline, subject to the restrictions above concerning substantial changes to the title, abstract, author list, and topic classification. Only the latest version available at the deadline will be reviewed.
+
+The submission system will close at the deadline. Authors are strongly encouraged to complete their submissions early.
+
+
 ## **Instructions for Poster Submissions**
 
 - Poster submissions must be made through the separate poster submission server.
+  
+- Authors are required to provide a title, a list of authors, an abstract describing the work and explaining how it falls within the scope of the conference and a technical manuscript. The intended presenter must be listed as the first author in HotCRP and must be an author of the work. The ordering of authors in HotCRP does not need to match the ordering in the manuscript. An extended abstract is not required. 
 
-- Authors are required to provide a title, a list of authors, an abstract describing the work and explaining how it falls within the scope of the conference, the name of the person who will present the poster, and a technical manuscript.
-
-- An extended abstract is not required. 
-
+- Authors may save and update a poster submission as a draft until the poster submission deadline. A submission enters the rolling evaluation process only when the authors check “The submission is complete” in HotCRP. Completed submissions are frozen and cannot be changed further, so authors should mark a submission complete only when all information and uploaded materials are final. Poster submissions will normally not receive written reviewer feedback.
+  
 - A work submitted to the talk submission server will not automatically be considered for a poster. Authors who would like the same work to be considered in both categories must make a separate poster submission by the poster submission deadline.
-
+  
 - Acceptance of a poster submission does not by itself guarantee a presentation slot. A slot is confirmed only when the designated presenter registers for the conference and provides the ID of an accepted poster, subject to remaining capacity. At most one poster may be confirmed per registered presenter.
+
 
 
 ## **Conflicts of Interest**
@@ -170,12 +178,6 @@ The Program Committee chair may request clarification of the authors’ contribu
 Authors may confidentially contact the Program Committee chair or the relevant topic chairs if they have a serious and substantive conflict of interest with an individual who may otherwise be considered as a subreviewer for their submission.
 
 Such requests must be made immediately after submission and must include a detailed justification. Requests will be handled confidentially.
-
-## **Updating a Submission**
-
-- Authors may update a submission until the corresponding deadline. Only the latest version available at the deadline will be reviewed.
-
-- The submission system will close automatically at the deadline. Authors are strongly encouraged to complete their submissions early.
 
 
 ## **Compliance with Submission Requirements**
