@@ -152,7 +152,7 @@ A talk submission is eligible for the Best Student Paper Prize only if all of th
 
 The Program Committee chair may request clarification of the authors’ contributions at any stage of the selection process.
 
-### ** Updating a Submission **
+### **Updating a Submission**
 
 Registered talk submissions may be updated until the talk submission deadline, subject to the restrictions above concerning substantial changes to the title, abstract, author list, and topic classification. Only the latest version available at the deadline will be reviewed.
 
