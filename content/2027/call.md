@@ -73,7 +73,10 @@ A proposed talk must be registered in the talk submission system by the talk reg
 
 The topics are used only to facilitate the internal organization of the review process as the number of submissions continues to grow. QIP remains a single-track conference: submissions will not be evaluated through independent tracks with separate standards or selection panels.
 
-The title, short abstract, author list and topic selections must be substantially final by the registration deadline. Authors may make minor corrections and clarifications before the final submission deadline, but significant changes to the title, abstract, author list, or topic classification after the registration deadline may be grounds for desk rejection.
+The author list must be complete and final by the registration deadline. No authors may be added to or removed from a submission after that deadline. Any such change will result in desk rejection.
+
+The title, short abstract, and topic selections must also be substantially final by the registration deadline. Authors may make minor corrections and clarifications to these items before the final submission deadline, but significant changes may be grounds for desk rejection.
+
 
 Registration alone does not constitute a complete submission. A registered submission must be completed by the talk submission deadline to be considered.
 
