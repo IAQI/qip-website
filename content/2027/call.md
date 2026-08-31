@@ -21,7 +21,7 @@ QIP 2027 will take place in Singapore from February 20 to 26, 2027.
 
 We invite submissions presenting outstanding recent research in the theory of quantum information and computation. Contributions may be submitted for presentation as a contributed talk, as a poster, or both.
 
-Talk and poster submissions must be made electronically through separate HotCRP submission servers. Both servers will open no later than September 4, 2026, and links will be posted on the QIP 2027 website.
+Talk and poster submissions must be made electronically through separate HotCRP submission servers. Both servers will open on September 4, 2026, and links will be posted on the QIP 2027 website.
 
 ## **Important Dates**
 
