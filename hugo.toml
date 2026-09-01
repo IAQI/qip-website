@@ -134,13 +134,13 @@ enableMissingTranslationPlaceholders = true
 
   [[menu.2027]]
     name = "Home"
-    weight = 10
+    weight = 1
     identifier = "home"
     pageRef = '/2027'
 
   [[menu.2027]]
     name = "About"
-    weight = 20
+    weight = 50
     identifier = "about"
     pageRef = '/2027' 
 
@@ -156,13 +156,13 @@ enableMissingTranslationPlaceholders = true
 
   [[menu.2027]]
     name = "Sponsors"
-    weight = 40
+    weight = 30
     identifier = "sponsors"
     pageRef = "/2027/partners"
     
   [[menu.2027]]
     name = "Committees"
-    weight = 50
+    weight = 40
     identifier = "committees"
     pageRef = "/2027/team"
 
