@@ -5,7 +5,7 @@ draft: false
 type: no_toc
 menu:
     2027:
-        weight: 60
+        weight: 20
         identifier: call
         parent: #technical-program
 ---
@@ -135,6 +135,9 @@ A detailed description is not required for minor copy-editing, grammar checking,
 Generative AI tools may not be listed as authors. The authors remain fully responsible for the correctness, originality, attribution, and integrity of all submitted material, including material produced with the assistance of generative AI. They are expected to understand and be able to defend all results and arguments in the submitted work and to make a genuine effort to present them clearly to a human reader. It is therefore strongly recommended that the extended abstract be written primarily by the authors.
 
 For the publicly available arXiv paper or papers associated with the submission, authors are encouraged to include an appropriate statement disclosing substantive use of generative AI.
+
+Reviewers may use generative AI tools subject to the [Policy for AI in Reviewing](/2027/review-policy/), including its requirements concerning reviewer responsibility, disclosure, and confidentiality.
+
 
 ### **Previous Presentations and Resubmissions**
 
