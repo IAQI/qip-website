@@ -21,33 +21,44 @@ QIP 2027 will take place in Singapore from February 20 to 26, 2027.
 
 We invite submissions presenting outstanding recent research in the theory of quantum information and computation. Contributions may be submitted for presentation as a contributed talk, as a poster, or both.
 
-Talk and poster submissions must be made electronically through separate HotCRP submission servers. Both servers will open on September 4, 2026, and links will be posted on the QIP 2027 website.
+Talk and poster submissions must be made electronically through separate HotCRP submission servers.
+
+- [Talk submission server](https://hotcrp.science.uva.nl/qip2027/)
+- [Poster submission server](https://hotcrp.science.uva.nl/qip2027_posteronly/)
 
 ## **Important Dates**
 
-All deadlines are at **23:59 Anywhere on Earth (AoE)**.
+Unless otherwise specified, all deadlines are at **23:59 Anywhere on Earth (AoE)**.
 
 - **Talk registration deadline:** September 28, 2026
-- **Talk submission deadline (only for submissions registered by September 28):** October 5, 2026 
+- **Talk submission deadline (only for submissions registered by September 28):** October 5, 2026
 - **Talk decision notifications:** November 30, 2026
 - **Poster submission deadline:** December 4, 2026
-- **Poster decision notifications:** Within two weeks of submission; rolling decisions begin October 5, 2026
+- **Target for poster decision notifications:** Within two weeks after the submission is marked complete; rolling decisions begin October 5, 2026
 
 ## **Important Changes for QIP 2027**
 
-- **Separate registration and submission deadlines for talks.** A talk submission must first be registered by September 28, 2026. Registration requires a title, a short abstract, a list of authors, and the selection of one or two topics.
+### **Separate registration and submission deadlines for talks**
 
-  The submission must then be completed by October 5, 2026. A completed submission consists of an extended abstract, one or more arXiv links, and a PDF copy of the technical manuscript.
+A talk submission must first be registered by September 28, 2026. Registration requires a title, a short abstract, a list of authors, and the selection of one or two topics.
 
-- **Public arXiv posting required for talk submissions.** The complete technical work must be publicly available on arXiv by the talk submission deadline. Authors must provide the relevant arXiv link or links in HotCRP.
+The submission must then be completed by October 5, 2026. In addition to the information required for registration, a completed submission must include an extended abstract, one or more arXiv links, a PDF copy of the technical manuscript, and all required declarations in HotCRP.
 
-- **Author names should not appear on the extended abstract.** Author names, affiliations, and acknowledgements should not appear in the extended abstract.
+### **Public arXiv posting required for talk submissions**
 
-- **Talk and poster submissions are separate.** Talk and poster submissions are handled independently through separate submission servers. A talk submission will not automatically be considered for a poster presentation.
+The complete technical work must be publicly available on arXiv by the talk submission deadline. Authors must provide the relevant arXiv link or links in HotCRP.
 
-  Authors who would like their work to be considered for both a talk and a poster must submit it separately to both servers.
+### **Author names must not appear on the extended abstract**
 
-  Poster submissions will be reviewed on a rolling basis beginning October 5, 2026. Authors will receive a decision within two weeks of submission. For submissions received before October 5, the two-week period will begin on October 5.
+Author names, affiliations, and acknowledgements must not appear in the extended abstract.
+
+### **Talk and poster submissions are separate**
+
+Talk and poster submissions are handled independently through separate submission servers. A talk submission will not automatically be considered for a poster presentation.
+
+Authors who would like their work to be considered for both a talk and a poster must submit it separately to both servers.
+
+Poster submissions will be reviewed on a rolling basis beginning October 5, 2026. We aim to notify authors within two weeks after the submission is marked complete. For submissions marked complete before October 5, the two-week period will begin on October 5.
 
 ## **Instructions for Talk Submissions**
 
@@ -69,7 +80,7 @@ A proposed talk must be registered in the talk submission system by the talk reg
   - Quantum information theory;
   - Quantum learning and tomography;
   - Quantum many-body theory; or
-  - Other topics in quantum information.
+  - Other topics in quantum information and computation.
 
 The topics are used only to facilitate the internal organization of the review process as the number of submissions continues to grow. QIP remains a single-track conference: submissions will not be evaluated through independent tracks with separate standards or selection panels.
 
@@ -77,58 +88,58 @@ The author list must be complete and final by the registration deadline. No auth
 
 The title, short abstract, and topic selections must also be substantially final by the registration deadline. Authors may make minor corrections and clarifications to these items before the final submission deadline, but significant changes may be grounds for desk rejection.
 
-
 Registration alone does not constitute a complete submission. A registered submission must be completed by the talk submission deadline to be considered.
 
 ### **Completing a Talk Submission**
 
-To complete a talk submission, authors must provide all of the following materials.
+To complete a talk submission, authors must provide the following materials and complete the required declarations in HotCRP.
 
-1. **Extended abstract**
+#### **1. Extended abstract**
 
-   The extended abstract must be no more than three pages, excluding references.
+The extended abstract must be submitted in PDF format, be no more than three pages excluding references, use a single-column layout with reasonable margins, and have a font size of at least 11 points.
 
-   It should provide a clear, accessible, and insightful account of:
+It should provide a clear, accessible, and insightful account of:
 
-   - The main ideas and results;
-   - The significance and potential impact of the work;
-   - Its relationship to prior and concurrent work; and
-   - Its principal conceptual contributions.
+- The main ideas and results;
+- The significance and potential impact of the work;
+- Its relationship to prior and concurrent work; and
+- Its principal conceptual contributions.
 
-   The extended abstract should not be a compressed version of the technical manuscript. Its purpose is to convey an intuitive understanding of the research and to help the Program Committee assess its novelty, importance, and suitability for presentation at QIP. Authors should make the ideas as broadly accessible as possible while providing precise references to the relevant publicly available technical manuscript or manuscripts. 
+The extended abstract should not be a compressed version of the technical manuscript. Its purpose is to convey an intuitive understanding of the research and to help the Program Committee assess its novelty, importance, and suitability for presentation at QIP. Authors should make the ideas as broadly accessible as possible while providing precise references to the relevant publicly available technical manuscript or manuscripts.
 
-   The clarity and effectiveness of the extended abstract will form an essential part of the evaluation, and submissions that do not communicate their contributions sufficiently clearly may be rejected even if the underlying technical results are strong.
+The clarity and effectiveness of the extended abstract will form an essential part of the evaluation, and submissions that do not communicate their contributions sufficiently clearly may be rejected even if the underlying technical results are strong.
 
-   Authors should not include names, affiliations, or acknowledgements in the extended abstract. Author information will be collected in HotCRP and will be visible to the Program Committee and subreviewers. The review process is not double blind. In particular, the required arXiv links reveal author identities. Reviewers should nevertheless evaluate submissions on the basis of their scientific content rather than author identity.
+Authors must not include author names, affiliations, or acknowledgements in the extended abstract. This requirement is intended to reduce the salience of author identity and institutional affiliation in the evaluation of the extended abstract. The review process is not double-blind: author information will be visible to the Program Committee and subreviewers in HotCRP, and the required arXiv links will reveal the authors’ identities.
 
-   The extended abstract must be submitted in PDF format, use a single-column layout with reasonable margins, and have a font size of at least 11 points.
+If any part of the work was previously submitted to QIP, the first page of the extended abstract must clearly explain the differences between the present submission and the earlier submission.
 
-   If any part of the work was previously submitted to QIP, the first page of the extended abstract must clearly explain the differences between the present submission and the earlier submission.
+#### **2. arXiv link or links**
 
-2. **arXiv link or links**
+The complete technical work must be publicly accessible on arXiv by the talk submission deadline. The arXiv link or links including the version number (for example, `https://arxiv.org/abs/YYMM.NNNNNv1`) must be entered in the designated HotCRP field.
 
-   The complete technical work must be publicly accessible on arXiv by the talk submission deadline. The relevant arXiv link or links must be entered in the designated HotCRP field.
+A submission without a valid, publicly accessible arXiv link at the deadline will be considered incomplete and will not be reviewed, except in the moderation-delay case described below.
 
-   A submission without a valid, publicly accessible arXiv link at the deadline will be considered incomplete and will not be reviewed, except in the moderation-delay case described below.
+Authors are responsible for allowing sufficient time for their preprint to become publicly available. Because new arXiv submissions may not appear immediately, we strongly recommend submitting the manuscript to arXiv at least one week before the QIP talk submission deadline.
 
-   Authors are responsible for allowing sufficient time for their preprint to become publicly available. Because new arXiv submissions may not appear immediately, we strongly recommend submitting the manuscript to arXiv at least one week before the QIP talk submission deadline.
+An exception will be made if the manuscript was submitted to arXiv before 14:00 Eastern Daylight Time (18:00 UTC) on September 30, 2026, but has not become publicly available by the QIP submission deadline because of an arXiv processing or moderation delay. Authors must provide evidence of the timely arXiv submission.
 
-   An exception will be made if the manuscript was submitted to arXiv before 14:00 US Eastern Time on September 30, 2026, but has not become publicly available by the QIP submission deadline because of an arXiv processing or moderation delay. Authors must provide evidence of the timely arXiv submission.
+In this case, authors should enter `moderation_delay` in the arXiv-link field. The PDF uploaded as the technical manuscript must begin with evidence of the timely arXiv submission, followed by the complete manuscript or manuscripts submitted to arXiv.
 
-   In this case, authors should enter **moderation\_delay** in the arXiv-link field. The PDF uploaded as the technical manuscript must begin with evidence of the timely arXiv submission, followed by the complete manuscript or manuscripts submitted to arXiv.
+Once the manuscript becomes publicly available, the authors must promptly email the versioned arXiv URL and HotCRP submission number to [pcchair2027@qipconference.org](mailto:pcchair2027@qipconference.org).
 
-   Once the manuscript becomes publicly available, the authors must promptly send the corresponding arXiv link to the Program Committee chair.
+#### **3. Technical manuscript**
 
-3. **Technical manuscript**
+A PDF copy of the arXiv manuscript must be uploaded to HotCRP in the technical manuscript field. If the submission is based on multiple arXiv papers, the relevant manuscripts should be combined into a single PDF for upload. The uploaded material should correspond to the arXiv link or links provided in the submission. Any discrepancy may lead to a desk rejection.
 
+#### **Required declarations and submission status**
 
-   A PDF copy of the arXiv manuscript must be uploaded to HotCRP in the technical manuscript field. If the submission is based on multiple arXiv papers, the relevant manuscripts should be combined into a single PDF for upload. The uploaded material should correspond to the arXiv link or links provided in the submission. Any discrepancy may lead to a desk rejection.
+Authors must also complete the author-responsibility attestation and generative-AI contribution fields in HotCRP. To complete the submission, authors must check **“The submission is ready for review”** by the talk submission deadline. Only submissions marked ready for review will be evaluated. Marking a submission ready for review does not freeze it; authors may continue to update it until the submission deadline, subject to the restrictions described above.
 
 ### **Use of Generative AI**
 
 The use of generative AI tools, including large language models, will not in itself be considered either for or against a submission.
 
-Authors must indicate their level of use of generative AI tools in the designated field in HotCRP. This information will be visible only to the Program Committee chair and topic chairs and will not be made public. Authors should briefly describe how the tools were used, which parts of the submission were affected, and, where relevant, which model or models were used.
+Authors must indicate the extent of any substantive contribution made by generative AI tools in the designated field in HotCRP. This information will be visible only to authorized conference administrators, including the Program Committee chair and the responsible topic chair. Authors should briefly describe how the tools were used, which parts of the submission were affected, and, where relevant, which model or models were used.
 
 A detailed description is not required for minor copy-editing, grammar checking, or improvements to the clarity of text written by the authors.
 
@@ -138,14 +149,17 @@ For the publicly available arXiv paper or papers associated with the submission,
 
 Reviewers may use generative AI tools subject to the [Policy for AI in Reviewing](/2027/review-policy/), including its requirements concerning reviewer responsibility, disclosure, and confidentiality.
 
-
 ### **Previous Presentations and Resubmissions**
 
-- **Work Previously Presented at TQC.** Because of the similarity in scope between QIP and TQC, work presented as a contributed talk at TQC 2026, or that substantially overlaps with such work, is not eligible for submission to QIP and may be desk rejected.
+#### **Work Previously Presented at TQC**
 
-- **Work Previously Submitted to QIP.** If any part of the work was previously submitted to QIP, the authors must explain the differences between the present and previous submissions on the first page of the extended abstract.
+Because of the similarity in scope between QIP and TQC, work presented as a contributed talk at TQC 2026, or that substantially overlaps with such work, is not eligible for submission to QIP and will be desk rejected.
 
-  Such submissions will be evaluated on the significance of the new advances relative to the previous submission. Given QIP’s emphasis on recent work, a resubmission will ordinarily be accepted only if it contains substantial new results, ideas, or improvements.
+#### **Work Previously Submitted to QIP**
+
+If any part of the work was previously submitted to QIP, the authors must explain the differences between the present and previous submissions on the first page of the extended abstract.
+
+Such submissions will be evaluated on the significance of the new advances relative to the previous submission. Given QIP’s emphasis on recent work, a resubmission will ordinarily be accepted only if it contains substantial new results, ideas, or improvements.
 
 ### **Best Student Paper Prize**
 
@@ -160,42 +174,39 @@ The Program Committee chair may request clarification of the authors’ contribu
 
 ### **Updating a Submission**
 
-Registered talk submissions may be updated until the talk submission deadline, subject to the restrictions above concerning substantial changes to the title, abstract, author list, and topic classification. Only the latest version available at the deadline will be reviewed.
+Registered talk submissions may be updated until the talk submission deadline, subject to the restrictions above: after the registration deadline, the author list may not change and only minor corrections to the title, short abstract, and topics are permitted. Only the latest version available at the deadline will be reviewed.
 
 The submission system will close at the deadline. Authors are strongly encouraged to complete their submissions early.
 
+### **In-person Presentation**
+
+Authors of accepted submissions are expected to present their work in person at the conference. If no author is able to attend and present on site, the submission will be removed from the program. The Program Committee chair may grant an exception in circumstances beyond the authors’ control, such as serious visa, immigration, or other travel restrictions that make in-person attendance infeasible.
 
 ## **Instructions for Poster Submissions**
 
-- Poster submissions must be made through the separate poster submission server.
-  
-- Authors are required to provide a title, a list of authors, an abstract describing the work and explaining how it falls within the scope of the conference and a technical manuscript. The intended presenter must be listed as the first author in HotCRP and must be an author of the work. The ordering of authors in HotCRP does not need to match the ordering in the manuscript. An extended abstract is not required. 
+Poster submissions must be made through the separate poster submission server.
 
-- Authors may save and update a poster submission as a draft until the poster submission deadline. A submission enters the rolling evaluation process only when the authors check “The submission is complete” in HotCRP. Completed submissions are frozen and cannot be changed further, so authors should mark a submission complete only when all information and uploaded materials are final. Poster submissions will normally not receive written reviewer feedback.
-  
-- A work submitted to the talk submission server will not automatically be considered for a poster. Authors who would like the same work to be considered in both categories must make a separate poster submission by the poster submission deadline.
-  
-- Acceptance of a poster submission does not by itself guarantee a presentation slot. A slot is confirmed only when the designated presenter registers for the conference and provides the ID of an accepted poster, subject to remaining capacity. At most one poster may be confirmed per registered presenter.
+Authors are required to provide a title, a list of authors, an abstract describing the work and explaining how it falls within the scope of the conference, and a technical manuscript in PDF format. An extended abstract is not required, and the technical manuscript need not be posted on arXiv. The intended presenter must be listed as the first author in HotCRP and must be an author of the work. The ordering of authors in HotCRP does not need to match the ordering in the manuscript.
 
+Authors may save and update a poster submission as a draft until the poster submission deadline. A submission enters the rolling evaluation process only when the authors check **“The submission is complete”** in HotCRP. Completed submissions are frozen and cannot be changed further, so authors should mark a submission complete only when all information and uploaded materials are final. Poster submissions will not normally receive written reviewer feedback.
 
+A work submitted to the talk submission server will not automatically be considered for a poster. Authors who would like the same work to be considered in both categories must make a separate poster submission by the poster submission deadline.
+
+Acceptance of a poster submission does not by itself guarantee a presentation slot. A slot is confirmed only when the designated presenter registers for the conference and provides the ID of an accepted poster, subject to remaining capacity. At most one poster may be confirmed per registered presenter.
 
 ## **Conflicts of Interest**
 
-Authors may confidentially contact the Program Committee chair or the relevant topic chairs if they have a serious and substantive conflict of interest with an individual who may otherwise be considered as a subreviewer for their submission.
-
-Such requests must be made immediately after submission and must include a detailed justification. Requests will be handled confidentially.
-
+Authors may confidentially contact the Program Committee chair if they have a serious and substantive conflict of interest with an individual who may otherwise be considered as a reviewer for their submission. Such requests must be made immediately after submission and must include a detailed justification. Requests will be handled confidentially.
 
 ## **Compliance with Submission Requirements**
 
-The Program Committee reserves the right to determine how to handle submissions that do not comply with the requirements above. This may include a desk rejection of a submission solely on the basis of a substantial format violation or missing required material.
-
+The Program Committee reserves the right to determine how to handle submissions that do not comply with the requirements above. This may include desk rejection for a significant format violation or missing required material.
 
 ## **Program Committee**
 
-#### **Program Committee Chair**
+### **Program Committee Chair**
 
-Omar Fawzi, Inria and ENS de Lyon
+Omar Fawzi, Inria and École Normale Supérieure de Lyon
 
 ### **Topic Chairs**
 
