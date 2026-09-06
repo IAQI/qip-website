@@ -9,8 +9,16 @@ draft: false
 <style>
 .partners-group .fancy { display: none; }
 .partners-group.partner-anchor ul li {
-  height: var(--partner-platinum-height);
-  flex-basis: 360px;
+  height: calc(var(--partner-platinum-height) * 1.25);
+  flex-basis: 420px;
+}
+.partners-group.partner-platinum ul li {
+  height: 200px;
+  flex-basis: 300px;
+}
+.partners-group.partner-gold ul li {
+  height: 170px;
+  flex-basis: 260px;
 }
 .call-for-sponsors {
   margin-top: 3rem;
@@ -20,6 +28,18 @@ draft: false
 {{% partners categories="anchor" year=2027 %}}
 
 ## Anchor Sponsor
+
+{{% /partners %}}
+
+## Platinum Sponsors
+
+{{% partners categories="platinum" year=2027 %}}
+
+{{% /partners %}}
+
+## Gold Sponsors
+
+{{% partners categories="gold" year=2027 %}}
 
 {{% /partners %}}
 
