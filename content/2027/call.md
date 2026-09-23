@@ -31,6 +31,7 @@ Talk and poster submissions must be made electronically through separate HotCRP 
 Unless otherwise specified, all deadlines are at **23:59 Anywhere on Earth (AoE)**.
 
 - **Talk registration deadline:** September 28, 2026
+- **Recommended cutoff for arXiv submission:** September 30, 2026, 14:00 US Eastern Time
 - **Talk submission deadline (only for submissions registered by September 28):** October 5, 2026
 - **Talk decision notifications:** November 30, 2026
 - **Poster submission deadline:** December 4, 2026
@@ -115,17 +116,15 @@ If any part of the work was previously submitted to QIP, the first page of the e
 
 #### **2. arXiv link or links**
 
-The complete technical work must be publicly accessible on arXiv by the talk submission deadline. The arXiv link or links including the version number (for example, `https://arxiv.org/abs/YYMM.NNNNNv1`) must be entered in the designated HotCRP field.
+The complete technical work must be publicly accessible on arXiv by the talk submission deadline. The arXiv link or links, including the version number (for example, `https://arxiv.org/abs/YYMM.NNNNNv1`), must be entered in the designated HotCRP field.
 
 A submission without a valid, publicly accessible arXiv link at the deadline will be considered incomplete and will not be reviewed, except in the moderation-delay case described below.
 
-Authors are responsible for allowing sufficient time for their preprint to become publicly available. Because new arXiv submissions may not appear immediately, we strongly recommend submitting the manuscript to arXiv at least one week before the QIP talk submission deadline.
-
-An exception will be made if the manuscript was submitted to arXiv before 14:00 Eastern Daylight Time (18:00 UTC) on September 30, 2026, but has not become publicly available by the QIP submission deadline because of an arXiv processing or moderation delay. Authors must provide evidence of the timely arXiv submission.
+Authors are responsible for allowing sufficient time for their preprint to become publicly available. We strongly recommend submitting the manuscript to arXiv before 14:00 Eastern Daylight Time (18:00 UTC) on September 30, 2026. A manuscript submitted before this cutoff that has not become publicly available by the QIP submission deadline because of an arXiv processing or moderation delay will nevertheless be considered for review, provided that the authors supply evidence of the timely arXiv submission.
 
 In this case, authors should enter `moderation_delay` in the arXiv-link field. The PDF uploaded as the technical manuscript must begin with evidence of the timely arXiv submission, followed by the complete manuscript or manuscripts submitted to arXiv.
 
-Once the manuscript becomes publicly available, the authors must promptly email the versioned arXiv URL and HotCRP submission number to [pcchair2027@qipconference.org](mailto:pcchair2027@qipconference.org).
+Once the manuscript becomes publicly available, the authors must promptly email the versioned arXiv URL and the HotCRP submission number to [pcchair2027@qipconference.org](mailto:pcchair2027@qipconference.org).
 
 #### **3. Technical manuscript**
 
