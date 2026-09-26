@@ -31,7 +31,7 @@ Talk and poster submissions must be made electronically through separate HotCRP 
 Unless otherwise specified, all deadlines are at **23:59 Anywhere on Earth (AoE)**.
 
 - **Talk registration deadline:** September 28, 2026
-- **Recommended cutoff for arXiv submission:** September 30, 2026, 14:00 US Eastern Time (18:00 UTC)
+- **ArXiv moderation-delay protection:** Applies to arXiv submissions made before September 30, 2026, 14:00 US Eastern Time (18:00 UTC)
 - **Talk submission deadline (only for submissions registered by September 28):** October 5, 2026
 - **Talk decision notifications:** November 30, 2026
 - **Poster submission deadline:** December 4, 2026
