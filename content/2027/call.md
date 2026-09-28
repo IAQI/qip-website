@@ -120,9 +120,9 @@ The complete technical work must be publicly accessible on arXiv by the talk sub
 
 A submission without a valid, publicly accessible arXiv link at the deadline will be considered incomplete and will not be reviewed, except in the moderation-delay case described below.
 
-Authors are responsible for allowing sufficient time for their preprint to become publicly available. We strongly recommend submitting the manuscript to arXiv before 14:00 Eastern Daylight Time (18:00 UTC) on September 30, 2026. A manuscript submitted before this cutoff that has not become publicly available by the QIP submission deadline because of an arXiv processing or moderation delay will nevertheless be considered for review, provided that the authors supply evidence of the timely arXiv submission.
+Authors are responsible for allowing sufficient time for their preprint to become publicly available. We strongly recommend submitting the manuscript to arXiv before 14:00 Eastern Daylight Time (18:00 UTC) on September 30, 2026. This date is the cutoff for moderation-delay protection, not the deadline for submitting to arXiv. A manuscript submitted before this cutoff that has not become publicly available by the QIP submission deadline because of an arXiv processing or moderation delay will nevertheless be considered for review, provided that the authors supply evidence of the timely arXiv submission. Authors may submit to arXiv after September 30, but in that case the manuscript must become publicly available by the QIP submission deadline.
 
-In this case, authors should enter `moderation_delay` in the arXiv-link field. The PDF uploaded as the technical manuscript must begin with evidence of the timely arXiv submission, followed by the complete manuscript or manuscripts submitted to arXiv.
+For submissions relying on the moderation-delay protection, authors should enter moderation_delay in the arXiv-link field. The PDF uploaded as the technical manuscript must begin with evidence of the timely arXiv submission, followed by the complete manuscript or manuscripts submitted to arXiv.
 
 Once the manuscript becomes publicly available, the authors must promptly email the versioned arXiv URL and the HotCRP submission number to [pcchair2027@qipconference.org](mailto:pcchair2027@qipconference.org).
 
