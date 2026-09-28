@@ -332,7 +332,7 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Marc-Olivier Renou, Inria and École Polytechnique
 - Benjamin Rodatz, University of Oxford
 - Gregory Rosenthal, University of Waterloo
-- Neil Ross, Dalhousie University
+- Neil J. Ross, Dalhousie University
 - Roberto Rubboli, University of Copenhagen
 - Diego Ruiz, Amazon
 - Kaavya Sahay, Massachusetts Institute of Technology
