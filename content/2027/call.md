@@ -291,7 +291,6 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Liang Jiang, University of Chicago
 - Tomas Jochym-O'Connor, Google Quantum AI
 - Stephen Jordan, Google Quantum AI
-- Greg Kahanamoku-Meyer, Massachusetts Institute of Technology
 - Zahra Khanian, Perimeter Institute for Theoretical Physics
 - Dakshita Khurana, University of Illinois Urbana-Champaign
 - Anirudh Krishna, IBM Research
@@ -313,6 +312,7 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Francesco Mele, California Institute of Technology
 - Tony Metger, New York University
 - Antonio Mezzacapo, NVIDIA
+- Gregory Meyer, Massachusetts Institute of Technology
 - Tomoyuki Morimae, Kyoto University
 - Hui Khoon Ng, National University of Singapore
 - Quynh Nguyen, Simons Institute for the Theory of Computing and University of California Berkeley
