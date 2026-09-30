@@ -110,7 +110,7 @@ The extended abstract should not be a compressed version of the technical manusc
 
 The clarity and effectiveness of the extended abstract will form an essential part of the evaluation, and submissions that do not communicate their contributions sufficiently clearly may be rejected even if the underlying technical results are strong.
 
-Authors must not include author names, affiliations, or acknowledgements in the extended abstract. This requirement is intended to reduce the salience of author identity and institutional affiliation in the evaluation of the extended abstract. The review process is not double-blind: author information will be visible to the Program Committee and subreviewers in HotCRP, and the required arXiv links will reveal the authors’ identities.
+Authors must not include author names, affiliations, or acknowledgements in the extended abstract. This requirement is intended to reduce the salience of author identity and institutional affiliation in the evaluation of the extended abstract. The review process is not double-blind: author information will be visible to the Program Committee and subreviewers in HotCRP, and the required arXiv links will reveal the authors’ identities. ArXiv references may be included in the extended abstract and are encouraged where useful; the main requirement is that author names and affiliations should not appear in the title or author block of the extended abstract.
 
 If any part of the work was previously submitted to QIP, the first page of the extended abstract must clearly explain the differences between the present submission and the earlier submission.
 
