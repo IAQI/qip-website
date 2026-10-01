@@ -28,6 +28,22 @@ draft: False
 ### Program Committee
 {{< teams types="pcchairs" year=2027 >}}
 
+**Topic Chairs**
+
+- **Cryptography:** Andrea Coladangelo, University of Washington
+- **Quantum algorithms:** Andrew Childs, University of Maryland; David Gosset, University of Waterloo
+- **Quantum complexity:** Bill Fefferman, University of Chicago
+- **Quantum error correction:** Aleksander Kubica, Yale University
+- **Quantum foundations:** Roger Colbeck, King’s College London
+- **Quantum information theory:** Ludovico Lami, Scuola Normale Superiore; Laura Mančinska, University of Copenhagen
+- **Quantum learning and tomography:** Zoë Holmes, École Polytechnique Fédérale de Lausanne
+- **Quantum many-body theory:** Cambyse Rouzé, Inria and Institut Polytechnique de Paris
+
+**Technical Operations Chair**
+
+Christian Schaffner, University of Amsterdam and QuSoft
+
+**Members**
 - Amira Abbas, Google Quantum AI
 - Gerardo Adesso, University of Nottingham
 - Victor Albert, NIST and University of Maryland
