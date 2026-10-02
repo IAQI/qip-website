@@ -20,6 +20,10 @@ draft: false
   height: 170px;
   flex-basis: 260px;
 }
+.partners-group.partner-silver ul li {
+  height: 130px;
+  flex-basis: 230px;
+}
 .call-for-sponsors {
   margin-top: 3rem;
 }
@@ -40,6 +44,12 @@ draft: false
 ## Gold Sponsors
 
 {{% partners categories="gold" year=2027 %}}
+
+{{% /partners %}}
+
+## Silver Sponsors
+
+{{% partners categories="silver" year=2027 %}}
 
 {{% /partners %}}
 
