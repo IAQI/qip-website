@@ -9,11 +9,11 @@ The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It origi
 > [!WARNING]
 > This has only been tested on macOS so far, so sharing your experience with other platforms here is very appreciated!
 
-Some version of `npm` might already be installed on your system, check which one with `$ npm --version`. If that works, you can run in the main `\qip-website` folder
+Some version of `npm` might already be installed on your system, check which one with `$ npm --version`. If that works, you can run in the main `qip-website` folder
 ```bash
 $ npm clean-install
 ```
-to install the dependencies as specified in [package.json](/package.json). This will create a `node_modules` subfolder which should not be included in the git repositry (that's why it's excluded in the [.gitignore](/.gitignore)).
+to install the dependencies as specified in [package.json](/package.json). This will create a `node_modules` subfolder which should not be included in the git repository (that's why it's excluded in the [.gitignore](/.gitignore)).
 
 This has installed the PostCSS features, so now you should be able to run
 ```bash
@@ -33,14 +33,14 @@ Now using node v22.12.0 (npm v10.9.0)
 ## A Guided Walk through the ingredients
 Hugo is a static website generator. This means that it takes content files encoded in `.md` files and produces *static HTML* files that can be easily served by a webserver. In our case, [netlify](https://www.netlify.com/) takes care of that. When you run the `$ hugo build` command, this building process is executed and the resulting files are stored in the `/public` directory.
 
-The HTML content mainly comes from the mark-down content files in [/content](/content). These files are organized in subfolders, starting with the year, and then further subdivisions. 
+The HTML content mainly comes from the Markdown content files in [/content](/content). These files are organized in subfolders, starting with the year, and then further subdivisions.
 
-The more data-type content (such as the list of accepted papers and posters, as well as the schedule) is provided from YAML and JSON files in [/data](/data). The data files for the list of accepted papers and posters can be exported (by the PC chair) from the [HotCRP](https://hotcrp.com/) submission handling system. These files should then be [sanitized](https://github.com/IAQI/qip-website/tree/main?tab=readme-ov-file#accepted-papers-and-posters-are-known) before adding them to the repository. The schedule needs to be created manually.
+The more data-type content (such as the list of accepted papers and posters, as well as the schedule) is provided from YAML and JSON files in [/data](/data). The data files for the list of accepted papers and posters can be exported (by the PC chair) from the [HotCRP](https://hotcrp.com/) submission handling system. These files should then be [sanitized](../../README.md#accepted-papers-and-posters-are-known) before adding them to the repository. The schedule needs to be created manually.
 
-[Hugo templates](https://gohugo.io/templates/introduction/) make the content appear in a structured way. The templates are all in [/themes/devfest-theme-hugo/assets/layouts](/themes/devfest-theme-hugo/layouts). It takes a while to figure out which template is used to create particular content. 
+[Hugo templates](https://gohugo.io/templates/introduction/) make the content appear in a structured way. The templates are all in [/themes/devfest-theme-hugo/layouts](/themes/devfest-theme-hugo/layouts). It takes a while to figure out which template is used to create particular content.
 * The basis is [baseof.html](/themes/devfest-theme-hugo/layouts/_default/baseof.html). It's quite instructive to try to understand its structure. It uses various others [partial templates](/themes/devfest-theme-hugo/layouts/partials), it defines *blocks* like "header", "banner", "main" that contain some content, but which might be overwritten by other templates later on. 
 * An interesting partial template is [head.html](/themes/devfest-theme-hugo/layouts/partials/head.html) which defined the `<head>` section of the site, including various parameters, icons, RSS, CSS etc.
-* [css.html](/themes/devfest-theme-hugo/layouts/partials/css.html) is using [Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/) to create a CSS file `css/style-YEAR.css` from the SASS template `style/theme-YEAR.scss` (e.g. [theme-2024.scss](/themes/devfest-theme-hugo/assets/style/theme-2024.scss)). When using `hugo server` the file is immediately served and used, when running `hugo build`, the style file is stored in `\css\style-YEAR.css` and served from there.
+* [css.html](/themes/devfest-theme-hugo/layouts/partials/css.html) is using [Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/) to create a CSS file `css/style-YEAR.css` from the SASS template `style/theme-YEAR.scss` (e.g. [theme-2027.scss](/themes/devfest-theme-hugo/assets/style/theme-2027.scss)). When using `hugo server` the file is immediately served and used, when running `hugo build`, the style file is stored in `css/style-YEAR.css` and served from there.
 * An interesting partial template is [header.html](/themes/devfest-theme-hugo/layouts/partials/header.html), as it defines the menu structure, and retrieves the logo of the current year for the menu bar. 
 * [footer.html](/themes/devfest-theme-hugo/layouts/partials/footer.html) displays the footer.
 * [js.html](/themes/devfest-theme-hugo/layouts/partials/js.html) is the partial template inserted at the end of the [header.html](/themes/devfest-theme-hugo/layouts/partials/header.html). It uses the [Hugo JS functions](https://gohugo.io/functions/js/) to create one `main.js` file which is then included as `<script>`
@@ -54,7 +54,7 @@ Besides the HTML, the site needs CSS and JavaScript to run and be displayed prop
 
 ### SASS
 SASS (Syntactically Awesome Style Sheets) is a preprocessor scripting language that is compiled into CSS. It provides features like variables, nested rules, mixins, and functions, making CSS maintenance more efficient. In our theme, SASS files are processed through Hugo Pipes, which compiles them into regular CSS files during the build process. The main entry point is `theme-YEAR.scss`, which imports various partial SCSS files to create a modular and maintainable stylesheet structure.
-For example, the [theme-2024.scss](/themes/devfest-theme-hugo/assets/style/theme-2024.scss) file serves as the main stylesheet for the 2024 website, importing various partial SCSS files to build the complete CSS. This modular approach helps in organizing styles into manageable and reusable components, making the codebase easier to maintain and extend. The file also defines a root-level custom property for the primary color, ensuring consistent use of the color throughout the website.
+For example, the [theme-2027.scss](/themes/devfest-theme-hugo/assets/style/theme-2027.scss) file serves as the main stylesheet for the 2027 website, importing various partial SCSS files to build the complete CSS. This modular approach helps in organizing styles into manageable and reusable components, making the codebase easier to maintain and extend. The file also defines a root-level custom property for the primary color, ensuring consistent use of the color throughout the website.
 
 This primary color is the main (and so far only) difference between the styles of the different years, but more variables of [_root.scss](/themes/devfest-theme-hugo/assets/style/_root.scss) could be included in the distinction in the future.
 
@@ -100,7 +100,7 @@ Parameters are mostly set in [hugo.toml](../../hugo.toml)
 
 ```toml
 #...
-baseURL = "https://qcrypt.net"
+baseURL = "https://qipconference.org/"
 languageCode = "en"
 title = "QIP Conference Website"
 
@@ -112,43 +112,36 @@ enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
-GoogleAnalytics = "G-XXXXXXXX-X"
+[services]
+  [services.googleAnalytics]
+    id = "G-221GMGECQ6"
 
 [params]
-    title = "QCrypt Conference Website"
-    date = "2024-09-02"
-    currentYear = 2024
-    description = "International Conference on Quantum Cryptography"
+    title = "QIP Conference Website"
+    date = "2027-01-10"
+    currentYear = 2027
+    description = "International Conference on Quantum Information Processing (QIP)"
     images = ["/images/social-share.jpg"]
-    email = "webmaster@qcrypt.net"
-    keywords = "event, quantum cryptography, QCrypt"
-    copyright = "We :heart: sheep"
+    email = "info@qip2027.org"
+    keywords = "event, quantum computation, communication, cryptography, QIP"
+    copyright = "We :heart: quantum"
     copyright_link = "https://github.com/IAQI/qip-website"
-    # cfpUrl = "/2024/call"
+    # cfpUrl = "/2027/call"
     # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"
     favicon16 = "/favicon-16x16.png"
-    manifest = "/manifest.json"
-    safariPinnedTab = "/safari-pinned-tab.svg"
+    manifest = "/site.webmanifest"
+    # safariPinnedTab = "/safari-pinned-tab.svg"
 
-[params.2023]
-  city = "Washington DC, USA"
-  timeanddate_cityid = 263
-  themeColor = "#ac191c"
-  [params.2023.logos]
-    jumbo = "/images/2023/QuCrC23_Logo.png"
-    header = "/images/2023/QuCrC23_Logo.png"
-    banner = "/images/2023/banner-2023.jpeg"
-
-[params.2024]
-  city = "Vigo, Spain"
-  timeanddate_cityid = 4529
-  themeColor = "#0099cc"
-  [params.2024.logos]
-    jumbo = "/images/2024/QCrypt_2024_logo_final.png"
-    header = "/images/2024/QCrypt_24_logo_2.png"
-    banner = "/images/2024/banner-2024.jpg"
+[params.2027]
+  city = "Singapore"
+  timeanddate_cityid = 236
+  themeColor = "#0bb3db"
+  [params.2027.logos]
+    jumbo = "/images/2027/qip2027-home-banner.jpg"
+    header = "/images/2027/qip2027-logo.png"
+    banner = "/images/2027/qip2027-banner-inside-pages.jpg"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
@@ -157,58 +150,34 @@ GoogleAnalytics = "G-XXXXXXXX-X"
 [server]
   [[server.redirects]]
       from = "/"
-      to = "/2024/"
+      to = "/2027/"
       status = 302
       force = true 
 
 [menu]
-  [[menu.2023]]
+  [[menu.2027]]
     name = "Home"
-    weight = 10
+    weight = 1
     identifier = "home"
-    pageRef = '/2023'
-  [[menu.2023]]
-    name = "Technical Program"
-    weight = 20
-    identifier = "technical-program"
-  [[menu.2023]]
-    name = "Attend"
-    weight = 30
-    identifier = "attend"
-  [[menu.2023]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2023/partners"
-  [[menu.2023]]
-    name = "Committees"
-    weight = 50
-    identifier = "committees"
-    pageRef = "/2023/team"
+    pageRef = '/2027'
 
-  [[menu.2024]]
-    name = "Home"
-    weight = 10
-    identifier = "home"
-    pageRef = '/2024'
-  [[menu.2024]]
-    name = "Technical Program"
-    weight = 20
-    identifier = "technical-program"
-  [[menu.2024]]
-    name = "Attend"
-    weight = 30
-    identifier = "attend"
-  [[menu.2024]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2024/partners"
-  [[menu.2024]]
-    name = "Committees"
+  [[menu.2027]]
+    name = "About"
     weight = 50
+    identifier = "about"
+    pageRef = '/2027'
+
+  [[menu.2027]]
+    name = "Sponsors"
+    weight = 30
+    identifier = "sponsors"
+    pageRef = "/2027/partners"
+
+  [[menu.2027]]
+    name = "Committees"
+    weight = 40
     identifier = "committees"
-    pageRef = "/2024/team"
+    pageRef = "/2027/team"
 
 
 [languages]
@@ -236,31 +205,31 @@ The footer is build with
 * data from `data/footer.yml`
 
 ```yml
-share:
-  - name: facebook
-    url: https://www.facebook.com/sharer.php?u=
-  - name: twitter
-    url: https://twitter.com/intent/tweet?text=
+#share:
+#  - name: facebook
+#    url: https://www.facebook.com/sharer.php?u=
+#  - name: twitter
+#    url: https://twitter.com/intent/tweet?text=
 
 follow:
   - name: twitter
-    url: https://twitter.com/Qcryptc
+    url: https://x.com/QIPConference
   - name: youtube
-    url: https://www.youtube.com/channel/UClpn9CxuZPHw3nzhdv0m3Hw
+    url: https://www.youtube.com/@QIPconferencevideos
 
 content:
   - title: footer_about
     links:
       - nameKey: footer_charter
-        name: QCrypt Charter
+        name: QIP Charter
         url: /charter/
         newTab: false
       - nameKey: footer_history
-        name: QCrypt History
+        name: QIP History
         url: /history/
         newTab: false
       - nameKey: footer_coc
-        name: QCrypt Code of Conduct
+        name: QIP Code of Conduct
         url: /code-of-conduct/
         newTab: false
 ```
@@ -277,19 +246,15 @@ The Home page is build with markdown and calling some shortcodes like `jumbo`, `
 #### Jumbo bloc
 
 ```hugo
-{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="QCrypt 2024 background" logo="/images/2024/QCrypt_2024_logo_final.png" %}}
+{{% jumbo img="/images/2027/qip2027-home-banner-soft.jpg" imgLabel="QIP 2027 background" logo="/images/2027/qip2027-logo.png" %}}
 
-## 2-6 September 2024
+<p style="margin-bottom: 4rem;">
+20-26 February 2027
+</p>
 
-{{< button-link label="Conference Program"
-                url="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx"
+{{< button-link label="Call For Papers"
+                url="call"
                 icon="cfp" >}}
-{{< button-link label="Download Photos"
-                url="pictures"
-                icon="picture" >}}
-{{< button-link label="Organize QCrypt 2026"
-                url="2027"
-                icon="map-marker" >}}
 {{% /jumbo %}}
 ```
 
@@ -299,10 +264,10 @@ The Home page is build with markdown and calling some shortcodes like `jumbo`, `
 With main description and key figures.
 
 ```hugo
-{{% home-info what="Participants:900,Day:1,Sessions:36,Parallel Tracks:4" class="primary" %}}
-## What is QCrypt 2024?
+{{% home-info class="primary" %}}
+## What is QIP 2027?
 
-QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qcrypt">here</a>.
+QIP 2027 is the 30th edition of the yearly international scientific conference on Quantum Information Processing. See the list of previous conferences <a href="https://qip.iaqi.org/previousqips">here</a>.
 {{% /home-info %}}
 ```
 
@@ -314,32 +279,20 @@ Define the two important tables with key dates and website updates.
 ```hugo
 {{% home-keydates %}}
 
-{{% home-keydate-table title="Key Dates QCrypt 2023" %}}
+{{% home-keydate-table title="Key Dates QIP 2027" %}}
 |Date |Event|
 |:----|:----|
-|<strike> 27 March 2023 </strike> | <!-- <a href="https://hotcrp.science.uva.nl/" target="_blank"> --> <strike> Talk submission open now </strike>|
-|<strike> Wed, 12 April 2023, 16:00 CET </strike> | <strike> Talk submission deadline </strike>|
-|<strike> Wed, 3 May - Tue, 08 August 2023 </strike>| <strike> Registration open now </strike>|
-|<strike> Wed, 21 June 2023</strike>|<strike> Talk acceptance notification </strike>|
-|<strike>Thu, 22 June 2023</strike>|<strike> Poster submission opens</strike>|
-|<strike>Fri, 30 June 2023, 16:00 CET</strike>|<strike>Poster submission deadline</strike>|
-|<strike>Sat, 8 July 2023</strike>| <strike>Poster acceptance notification</strike>|
-|<strike>Sat, 15 July 2023</strike>| <strike>Early bird rate deadline</strike>|
-|<strike>Tue, 08 August 2023</strike>| <strike>Registration deadline</strike>|
-|<strong>Mon, 14 - Fri, 18 August 2023 </strong>| <strong>QCrypt 2023</strong>|
+|28 Sep 2026 | Talk registration deadline |
+|5 Oct 2026 | Talk submission deadline |
+|30 Nov 2026 | Decision notification for talks |
+|4 Dec 2026 | Poster submission deadline |
+|20 - 26 Feb 2027 | QIP 2027 |
 {{% /home-keydate-table %}}
 
 {{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
-|December 12, 2023 |Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>|
-|August 17, 2023 | QCrypt 2024 Venue Announced <a href="/2023/2024"> here</a>.|
-|August 17, 2023 | <strong>Student Paper Awards Announced</strong> <a href="/2023/sessions/business/">here</a>.|
-|August 15, 2023 | The group photo from Monday evening is now <a href="https://umd.box.com/s/ro56fac22mf5j8xkjcb06ggw0igil4nv">available to view and download.</a>|
-|August 14, 2023 | The <a href="/2023/sessions/rump/">Rump Session</a> theme is: “We love turtles” ❤️🐢❤️|
-|August 14, 2023 | Attendees are encouraged to fill out the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScFytHnfnz8iix5UXr8YUJgxAiBvdEAtshy3y9twJvQAY8DBA/viewform">exit questionnaire</a> about their conference experience.|
-|August 11, 2023 | The digital version of the <a href="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx">conference program is now available.|
-|August 4, 2023 | Updated Rump Session Instructions: Have a breakthrough result or an amusing quantum cryptography anecdote? Share it at the QCrypt 2023 Rump Session! Submit your proposal <a href="/2023/sessions/rump/"><strong>here</strong></a> before the early submission deadline on Tuesday, August 15, at 11:30 a.m. to secure your spot.|
+|<DATE> | Add conference news or website updates here.|
 {{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
@@ -353,19 +306,13 @@ Show conference location.
 
 ```hugo
 {{% home-location
-    image="https://brandportal.umd.edu/m/201095fc65e15cf6/Hero_web-IribeCenter_JC_09182019_8325-tif.jpg"
-    address="Brendan Iribe Center for Computer Science and Engineering, University of Maryland, 8125 Paint Branch Drive, College Park, MD, USA 20742"
-    latitude="38.98928161543911"
-    longitude="-76.9361273795895"
+    image="/images/2027/University_Cultural_Centre.jpg"
+    address="University Cultural Centre, 50 Kent Ridge Cres, Singapore 119279"
     %}}
 
-## The 2023 venue
+## The 2027 venue
 
-### Centre de Congrès Pierre Baudis
-
-The Centre de Congrès Pierre Baudis is a modern place of exchange,
-located on a privileged location,
-in the immediate vicinity of the centre of Toulouse and in a green environment.
+The 2027 conference is organized by the Centre for Quantum Technologies in Singapore.
 
 {{% /home-location %}}
 ```
@@ -378,10 +325,10 @@ in the immediate vicinity of the centre of Toulouse and in a green environment.
 Just present your feature speakers
 
 ```hugo
-{{% home-speakers year=2024 %}}
+{{% home-speakers year=2027 %}}
 ## Featured Speakers
 {{< button-link label="All Speakers"
-                url="/2024/speakers"
+                url="/2027/speakers"
                 icon="cfp" >}}
 {{% /home-speakers %}}
 ```
@@ -393,7 +340,7 @@ Just present your feature speakers
 Show your partners
 
 ```hugo
-{{% partners categories="gold,silver,bronze,exhibitors" year=2024 %}}
+{{% partners year=2027 %}}
 ## Sponsors
 {{% /partners %}}
 ```
@@ -486,13 +433,13 @@ A partner should have these parameters:
 
 ```yaml
 ---
-title: QuSoft
+title: Centre for Quantum Technologies
 type: partner
-year: 2023
+year: 2027
 draft: false
 category: community
-logo: /2023/partners/logos/qusoft.jpg
-website: http://www.qusoft.org
+logo: /2027/partners/logos/CQT-simplified.png
+website: https://www.cqt.sg/
 socials: []
 ---
 ```
@@ -502,21 +449,21 @@ socials: []
 A speaker should have these parameters:
 
 ```yaml
-key: diamanti
-name: Eleni Diamanti
-surname: Diamanti
-year: 2024
-company: LIP6, CNRS/Sorbonne Université
-photoURL: /2024/speakers/images/diamanti.jpg
+key: eisert
+name: Jens Eisert
+surname: Eisert
+year: 2027
+company: FU Berlin
+photoURL: /2027/speakers/images/eisert.jpg
 type: invited
-website: '/2024/sessions/invited_diamanti'
+website: '/2027/sessions/invited_eisert'
 ---
 ```
 
 `surname` is used for sorting speakers.
 
 > [!WARNING]
-> The bio of the speaker should be put into the description of the session, like on [this example](https://qcrypt.net/2023/sessions/invited_kalai/). There are **no individual speaker pages!**
+> The bio of the speaker should be put into the description of the session, like on [this example](/2027/sessions/invited_eisert/). There are **no individual speaker pages!**
 
 
 additional parameters we are not using:
@@ -544,15 +491,14 @@ A session should have these parameters:
 
 ```yaml
 ---
-title: "Invited Talk: Constructive Post-Quantum Reductions"
+title: "Invited Talk: Potential and Limitations of Near-Term Quantum Computing"
 speakers:
-  - kalai
+  - eisert
 draft: false
 format: invited
 type: sessions
-year: 2023
-videoID : 8VNh1dyQxsg
-presentation: "/2023/sessions/slides/QCrypt2023InvitedKalai.pdf"
+year: 2027
+presentation: null
 ---
 ## Bio
 **Yael Tauman Kalai** is a Senior Principal Researcher at Microsoft Research and Adjunct Professor at the Massachusetts Institute of Technology (MIT). Kalai earned a B.Sc in Mathematics from the Hebrew University of Jerusalem, an MS in Computer Science and Applied Mathematics from The Weizmann Institute of Science, and a Ph.D. in Computer Science from MIT.
@@ -580,13 +526,13 @@ The body of the file is used as description.
 A team member should have these params:
 ```yaml
 ---
-title: Gorjan Alagic
-surname: Alagic
+title: Marco Tomamichel
+surname: Tomamichel
 type: core
-year: 2023
-subtitle: University of Maryland & NIST
+year: 2027
+subtitle: National University of Singapore
 job: General chair
-photoURL: /2023/team/images/gorjan_alagic.jpg
+photoURL: /2027/team/images/marco-tomamichel.jpg
 socials:
   - link: 'https://quics.umd.edu/people/gorjan-alagic'
     name: Site
@@ -597,68 +543,29 @@ socials:
 Schedule data per year is in `/data/schedule-YEAR.yml`, for example:
 
 ```yml
-- day: '2024-09-02'
+- day: '2026-01-24'
   sessions:
-    - session: __checkin
+    - session: __registration
       time: '08:30'
-    - session: __welcomingremarks
-      time: '09:00'
-    - session: tutorial_tavakoli
-      time: '09:15'
-    - session: invited_lo
-      time: '10:30'
-    - session: __break
-      time: '11:15'
-    - session: invited_malavolta
-      time: '11:45'
-    - session: contributed1a
-      time: '12:30'
-    - session: __lunch
-      time: '13:10'
-    - session: contributed1b
-      time: '14:40'
-    - session: __break
-      time: '16:00'
-    - session: contributed1c
-      time: '16:30'
-    - session: __reception
-      time: '19:00'
-
-- day: '2024-09-03'
-  sessions:
-    - session: __updates&announcements
-      time: '09:00'
-    - session: tutorial_lukens
-      time: '09:15'
-    - session: invited_cao
-      time: '10:30'
-    - session: __break
-      time: '11:15'
-    - session: invited_brunner
-      time: '11:45'
-    - session: contributed2a
-      time: '12:30'
-    - session: __lunch
-      time: '13:10'
-    - session: contributed2b
-      time: '14:40'
-    - session: __break
-      time: '16:00'
-    - session: contributed2c
-      time: '16:30'
-    - session: poster
-      time: '17:10'
-    - session: _public_lecture
-      time: '19:00'
+      location: house_of_science
+    - session: tutorial_lami
+      time: '09:30'
+      location: alfa
+    - session: __coffee_break
+      time: '11:00'
+      location: delta_omega
+    - session: tutorial_lami
+      time: '11:30'
+      location: alfa
     - session: __endofday
       time: '20:00'
 ```
 
 The `session` field refers to the `.md` content file in `/YEAR/sessions/`.
-The `time` field is the start time of the day.
+The `time` field is the start time of the session.
 
 > [!NOTE]
-> When displaying a single session like [this one](https://qcrypt.net/2023/sessions/tutorial_yuen/), the start and end time are inferred from the schedule. In particular, the **end time** is the start time of the next event. Therefore, it's wise to include a `__endofday` event in the schedule of every day.
+> When displaying a single session like [this one](/2027/sessions/invited_eisert/), the start and end time are inferred from the schedule. In particular, the **end time** is the start time of the next event. Therefore, it's wise to include a `__endofday` event in the schedule of every day.
 
 
 ### Charter, History, Code of Conduct, other pages
@@ -717,9 +624,9 @@ This information is not displayed in a production environment, so don't worry ab
 For debugging, various `warnf` messages are ready to be un-commented in the crucial [css.html](/themes/devfest-theme-hugo/layouts/partials/css.html), [js.html](/themes/devfest-theme-hugo/layouts/partials/js.html) and [icon.html](/themes/devfest-theme-hugo/layouts/shortcodes/icon.html) files.
 
 ### Debugging SASS
-For testing and debugging purposes, you can also build the `css` outside of Hugo. Make sure you have [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/) installed. The run the following in the `qcrypt-website` main folder 
+For testing and debugging purposes, you can also build the `css` outside of Hugo. Make sure you have [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/) installed. Then run the following in the `qip-website` main folder
 ```bash
-$ sass themes/devfest-theme-hugo/assets/style/theme-2024.scss themes/devfest-theme-hugo/assets/style/theme-2024.css
+$ sass themes/devfest-theme-hugo/assets/style/theme-2027.scss themes/devfest-theme-hugo/assets/style/theme-2027.css
 ```
 This might show you more detailed error messages.
 

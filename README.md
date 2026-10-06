@@ -1,26 +1,22 @@
-# QIP 2027+ website
+# QIP website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2d3b6d5c-0a7d-4fea-a32e-9a1f7cbaa79a/deploy-status)](https://app.netlify.com/sites/qip-website/deploys)
 
-Hugo-powered QIP website for 2025 edition and later, live at at https://qip-website.netlify.app. The Quantum Information Processing (QIP) is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science. 
+Hugo-powered website for the Quantum Information Processing (QIP) conference, live at https://qipconference.org/ (and https://qip-website.netlify.app). QIP is a leading annual international conference for students and researchers working in the theoretical aspects of quantum information science.
 
- [Hugo](https://gohugo.io/) is a fast static website generator. https://qip-website.netlify.app is generously hosted by [netlify](https://www.netlify.com/) under a [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
+[Hugo](https://gohugo.io/) is a fast static website generator. Deploy previews and production builds are generously hosted by [Netlify](https://www.netlify.com/) under an [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
 
-This project branched off from https://github.com/IAQI/tqc-website which branched off from 
- https://github.com/QCrypt/qcrypt-website in 2025 which is maintained since 2020 by [Christian Schaffner](https://github.com/cschaffner).
-
-> [!CAUTION]
-> TODO: adjust everything below here!
+This repository was forked from https://github.com/IAQI/tqc-website for the QIP conference website. The TQC repository originated from https://github.com/QCrypt/qcrypt-website, which has been maintained since 2020 by [Christian Schaffner](https://github.com/cschaffner).
 
 ## History
 Originally based on the Hugo template from https://github.com/GDGToulouse/devfest-theme-hugo
 adapted from the fork by the cloudnative-amsterdam people: https://github.com/cloudnative-amsterdam/public-website
 
-Used to run https://2020.qcrypt.net, https://2021.qcrypt.net, https://2022.qcrypt.net.
+The predecessor QCrypt repository used to run https://2020.qcrypt.net, https://2021.qcrypt.net, and https://2022.qcrypt.net.
 
 Since 2023, the theme submodule is included directly in this git repository.
 
-In preparation of the 2027 edition, a more permanent solution is envisioned with one main page, where more years can be added, broadly modeled after the IACR flagship websites like https://eurocrypt.iacr.org/2024, https://eurocrypt.iacr.org/2025, https://crypto.iacr.org/2023/, https://asiacrypt.iacr.org/2024/, and the *odd one out (in terms of design)* https://crypto.iacr.org/2024/.
+The QIP site follows a multi-year structure with one main codebase and year-specific content, broadly modeled after the IACR flagship websites like https://eurocrypt.iacr.org/2024, https://eurocrypt.iacr.org/2025, https://crypto.iacr.org/2023/, https://asiacrypt.iacr.org/2024/, and the *odd one out (in terms of design)* https://crypto.iacr.org/2024/.
 
 
 ## Building this conference site from scratch
@@ -41,11 +37,11 @@ $ cd qip-website
 $ hugo server
 ``` 
 
-5. Edit the markdown source files with ending .md in the /content/ subdirectories to make changes to the site. You might also have to edit .json and .yml files in the /data/ subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
+4. Edit the Markdown source files ending in `.md` in the `/content/` subdirectories to make changes to the site. You might also have to edit `.json` and `.yml` files in the `/data/` subdirectory. As long as the Hugo server is running, your changes should be visible immediately at http://localhost:1313/.
 
-6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
+5. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows you to easily search across all source files and find the correct file to edit.
 
-7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://qip-website.netlify.com/ and accessible under https://qip-website.netlify.app. If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/qip-website/deploys).
+6. When you are happy with the result, commit the changes to the repository. Netlify creates a deploy preview, and production deployments publish the site at https://qipconference.org/. If you have the proper rights, you can see the deployment logs on [Netlify](https://app.netlify.com/sites/qip-website/deploys).
 
 
 ## Customizing the theme
@@ -66,77 +62,77 @@ This site is built with modern web technologies:
 
 This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers. Sounds great? Check out [this guided walk](https://github.com/IAQI/qip-website/tree/main/themes/devfest-theme-hugo#a-guided-walk-through-the-ingredients) to learn how it actually works in more detail.
 
-## Setting up the next year 2025 based on previous years
+## Setting up the next conference year based on previous years
 
 ### design 
-1. create a new logo, something with a sheep... see [here](https://qcrypt.net/2024/history/#websites--logos) for inspiration.
-2. choose a background image for the main site, e.g. [2024](/static/images/2024/background-2024.jpg) or [2023](/static/images/2023/background-2023.jpg) 
-3. and make a related banner, e.g. [2024](/static/images/2024/banner-2024.jpg) or [2023](/static/images/2023/banner-2023.jpg) 
+1. create a new logo, using previous editions for inspiration.
+2. choose a background image for the main site, e.g. [2027](/static/images/2027/) or [2026](/static/images/2026/)
+3. and make a related banner, using previous editions as examples.
 4. pick a related themecolor, like `#0099cc` or `#ac191c`.
 
 ### create new subdirectories for content
-1. It's probably easiest to copy the entire content folder from a previous year like [/content/2024](/content/2024) and start adjusting from there
-2. create 2025 subfolder in [/static/images](/static/images)
+1. It's probably easiest to copy the entire content folder from a previous year like [/content/2027](/content/2027) and start adjusting from there
+2. create a new year subfolder in [/static/images](/static/images)
 3. put the images (logo, background image, banner) from above to this folder
 
 ### add info to main config file [/hugo.toml](/hugo.toml) 
-4. In `[params]`, LEAVE the currentYear and date as it is right now. Change this only when the new 2025 site is ready.
-5. add a section `[params.2025]` and supply the required information
+4. In `[params]`, leave `currentYear` and `date` as they are right now. Change them only when the new year site is ready.
+5. add a section `[params.<YEAR>]` and supply the required information
 6. the timeanddate_cityid can be inferred from https://www.timeanddate.com/worldclock/personal.html by looking at the link after clicking on "Share This Personal World Clock" 
-7. Under `[menu]`, create a new `[[menu.2025]]` structure as for 2023 and 2024.
+7. Under `[menu]`, create a new `[[menu.<YEAR>]]` structure following the existing yearly menus.
 
 ### adjust content files
-1. Go through all .md files in [/content/2025](/content/2025) and the `_index.md` files in the subdirectories, and adjust the front matter. 
-2. Adjust the `menu:` sub-entry to say `2025` instead of `2024`.
+1. Go through all `.md` files in the new `content/<YEAR>/` directory and the `_index.md` files in the subdirectories, and adjust the front matter.
+2. Adjust the `menu:` sub-entry to use the new year instead of the copied one.
 3. put `draft: true` in case you want to disable the page for the time being.
-4. In general, whenever the year is passed on as parameter, you might have to update it. So, searching under [/content/2025](/content/2025) for all occurrences of 2024 and replacing the correct ones with 2025 is probably a good strategy.
+4. In general, whenever the year is passed on as a parameter, you might have to update it. Searching inside the newly copied year directory for the previous year and replacing the correct occurrences is usually a good strategy.
 
 ### create new style file
-1. In [/themes/devfest-theme-hugo/assets/style/], duplicate [theme-2024.css](/themes/devfest-theme-hugo/assets/style/theme-2024.css) and rename it to `theme-2025.css`
+1. In [/themes/devfest-theme-hugo/assets/style/](/themes/devfest-theme-hugo/assets/style/), duplicate the most recent yearly stylesheet (for example [theme-2027.scss](/themes/devfest-theme-hugo/assets/style/theme-2027.scss)) and rename it for the new year.
 2. adjust the last line to set the `--primary:` variable in `root` to the themecolor picked above.
 
 
 ### Steps you will need help with
-1. on https://github.com/orgs/IAQI/new-team, create a new team ```QIP 2027```
-2. add admins https://github.com/orgs/IAQI/teams/qip-2027
-3. add repositories https://github.com/orgs/IAQI/teams/qip-2027/repositories
-5. In netlify https://app.netlify.com/teams/qcrypt/members: add new admin as collaborator to qcrypt-website
+1. on https://github.com/orgs/IAQI/teams, create a new team `qip-<year>`
+2. add admins
+3. add repositories
+5. in Netlify, add the new admin as collaborator to the `qip-website` site
 1. on https://api.slack.com/apps/A01P06YNCCU/incoming-webhooks , create a new Webhook (on the bottom of the page)
-1. paste the Webhook URL into netfliy:  https://app.netlify.com/sites/qcrypt2024/settings/deploys (for deploy succeesful and deploy failed)
+1. paste the Webhook URL into Netlify site notifications for the current QIP site (for successful and failed deploys)
 1. add admins to Slack channel
-3. We probably need new email addresses like 2025@qipconference.org and pcchairs2025@qipconference.org
+3. We probably need new email addresses like `<year>@qipconference.org` and `pcchairs<year>@qipconference.org`.
 3. connect new admins to admins from last year
 4. Is it time to update the hugo version? check what needs to be updated.
 
 ### bump year
 Once the new site is ready to be "promoted" to be the current year, make the following changes:
 1. In hugo.toml, in [params], change the currentYear and date
-2. In [[server.redirects]], change the forward to = "/2025/"
-3. In https://github.com/IAQI/qip-website/blob/main/netlify.toml , adjust the redirect as well
+2. In `[[server.redirects]]`, change the forward target to the new current year.
+3. In [/netlify.toml](/netlify.toml), adjust the redirect as well.
 
 
 ## Later Updates
 
 ### call for papers, venue updates, registration
-1. adjust the according .md file in content/2025, possibly by switching back "draft: false" and adjusting the content from previous year
-2. **all changes to the website should be mentioned in a table with "Website Updates" like on https://qcrypt.net/2023/**, for the convenience of the website visitors
+1. adjust the corresponding `.md` file in the current year directory, possibly by switching back `draft: false` and adjusting the content from the previous year
+2. **all changes to the website should be mentioned in a table with "Website Updates"**, for the convenience of website visitors
 3. The call-to-action buttons on the main site can be adjusted depending on the news.
 
 ### tutorial, invited speakers, panelists are known
-1. update the .md files in https://github.com/IAQI/qip-website/tree/main/content/2025/speakers
+1. update the `.md` files in the current year `speakers/` directory
 2. remove previous images from the images subdirectory, upload new ones, and make sure the photoURL field of the speaker is pointing there.
 3. Use sensible names for the .md files, like eleni_diamanti.md 
-4. Per speaker, create an according session in https://github.com/IAQI/qip-website/tree/main/content/2025/sessions , using the examples from previous years.
+4. Per speaker, create a matching session in the current year `sessions/` directory, using the examples from previous years.
 
 ### accepted papers and posters are known
 1. Get accepted papers as json export from hotcrp from PC chair
-2. run [this python script](https://github.com/IAQI/qip-website/blob/main/static/python-scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, pc_conflicts etc.
-3. put the resulting file as accepted-papers-2025.json into [data](https://github.com/IAQI/qip-website/tree/main/data)
+2. run [this Python script](/scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, PC conflicts, etc.
+3. put the resulting file into [data](/data) using the existing naming convention for accepted papers
 
 Proceed accordingly with the list of accepted posters.
 
 ### creating a schedule
-1. duplicate https://github.com/IAQI/qip-website/blob/main/data/schedule-2024.yml and call it schedule-2025.yml
+1. duplicate the previous year's schedule file in [/data](/data) and rename it for the new year
 2. make sure all sessions exist
 3. Adjust the id's of the contributed papers in the sessions with contributed papers
 
@@ -190,13 +186,13 @@ Copy them over from the previous year and make sure they are up to date!
 It is a requirement by the Netlify Open Source plan to link to a code of conduct, so do not remove that part!
 
 ### Main page
-The main home page per year is the `/content/YEAR/_index.html`, like [/content/2024/_index.html](/content/2024/_index.html). It has `type: home` and `layout: home` in the front matter.
+The main home page per year is the `/content/YEAR/_index.md`, like [/content/2027/_index.md](/content/2027/_index.md). It has `type: home` and `layout: home` in the front matter.
 
 It is the only page without a banner on top, as it starts with a [jumbo element](https://github.com/IAQI/qip-website/blob/main/themes/devfest-theme-hugo/README.md#jumbo-bloc) which takes as arguments the background image, label and logo. The content of it is the date, and various call to actions using button-links, which in turn take arguments like label, url, icon.
 
 The following elements are:
-* home-info: some basic information about QCrypt
-* home-keydates: the two most important tables: one with key dates, one with website updates, see [2023](https://qcrypt.net/2023/) for an example. Again, this is inspired by [the IACR pages](https://eurocrypt.iacr.org/2023/)). 
+* home-info: some basic information about QIP
+* home-keydates: the two most important tables: one with key dates, one with website updates. Again, this is inspired by [the IACR pages](https://eurocrypt.iacr.org/2023/).
 * home-location: image, address, and coordinates of the venue
 * partners: list of sponsors, or call for sponsors
 
@@ -211,16 +207,13 @@ The subdirectory is called `partners` but on the website, we commonly refer to t
 ### Speakers & Sessions
 Very similar to the administration of the [team](#Team).
 
-Make sure to create [sessions](/content/2024/sessions/) for all speakers. In front matter of the session (e.g. [this one](/content/2023/sessions/tutorial_yuen.md)), specify one or more speaker, referring to the `key` entry in the speaker front matter (e.g. `yuen` in [this one](/content/2023/speakers/tutorial/yuen.md)).
+Make sure to create sessions for all speakers. In the session front matter, specify one or more speakers by referring to the `key` entry in the speaker front matter.
 
 The front matter of sessions should specify the `year`, `format` (like `contributed`, `invited`, `industry`, `tutorial` etc.). The `type` has to be `sessions` in order to render the session properly.
 
 For sessions with contributed talks, specify the paper ids once they are known.
 
-There is an [overview of speakers](/content/2025/speakers/_index.html) (e.g. [2024](https://qcrypt.net/2024/speakers/)), and and [overview of sessions](/content/2025/sessions/_index.html) (e.g. [2024](https://qcrypt.net/2024/sessions/), both should be added to the "Technical Program" menu when ready.
+There is an overview of speakers (for example [2027](/2027/speakers/)) and an overview of sessions (for example [2027](/2027/sessions/)); both should be added to the "Technical Program" menu when ready.
 
 ### Schedule
-Once a schedule is drawn up, insert the session names and start times into [/data/schedule-2025.yml](/data/schedule-2025.yml) like in previous years. A schedule is then automatically generated and can be added to the "Technical Program" submenu by setting `draft: false` in [/content/2025/schedule/_index.html](/content/2025/schedule/_index.html)
-
-
-
+Once a schedule is drawn up, insert the session names and start times into the new year's `data/schedule-<YEAR>.yml` file like in previous years. A schedule is then automatically generated and can be added to the "Technical Program" submenu by setting `draft: false` in the corresponding `content/<YEAR>/schedule/_index.md` file.
