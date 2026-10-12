@@ -56,6 +56,7 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Atul Arora, International Institute of Information Technology, Hyderabad
 - Srinivasan Arunachalam, IBM Research
 - Remigiusz Augusiak, Center for Theoretical Physics, Polish Academy of Sciences
+- Alexander Barg, University of Maryland
 - James Bartusek, Columbia University
 - Jessica Bavaresco, CNRS and Sorbonne University (LIP6)
 - Dominic Berry, Macquarie University
@@ -68,8 +69,10 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Angela Capel, University of Cambridge
 - Joseph Carolan, University of Maryland
 - Esteban Castro Ruiz, Institute for Quantum Optics and Quantum Information Vienna, Austrian Academy of Sciences
+- Ulysse Chabaud, Inria Paris
 - Hao-Chung Cheng, National Taiwan University
 - Eric Chitambar, University of Illinois Urbana-Champaign
+- Matthias Christandl, University of Copenhagen and Microsoft Quantum
 - Fabio Costa, Nordita, Stockholm University
 - Jordan Cotler, Harvard University
 - Matthew Coudron, NVIDIA
@@ -79,14 +82,19 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Vedran Dunjko, Leiden University
 - Frédéric Dupuis, Université de Montréal
 - Arkopal Dutt, IBM Research
+- Andreas Elben, Paul Scherrer Institute
 - Tyler Ellison, Purdue University
 - Philippe Faist, Freie Universität Berlin
 - Di Fang, Duke University
 - Kun Fang, The Chinese University of Hong Kong, Shenzhen
 - Marco Fanizza, Inria and Télécom Paris
 - Máté Farkas, University of York
+- Raz Firanko, Perimeter Institute for Theoretical Physics
+- Keisuke Fujii, Osaka University
+- Ray Ganardi, Scuola Normale Superiore
 - Li Gao, Wuhan University
 - Diego Garcia-Martin, Johannes Kepler University Linz
+- Ian George, National University of Singapore
 - Sevag Gharibian, Paderborn University
 - Andru Gheorghiu, IBM Quantum
 - Soumik Ghosh, Massachusetts Institute of Technology and University of California Berkeley
@@ -97,7 +105,11 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Tom Gur, University of Cambridge
 - Yassine Hamoudi, CNRS and University of Bordeaux (LaBRI)
 - Dominik Hangleiter, ETH Zurich
+- Vojtěch Havlíček, IBM Research
+- Yaroslav Herasymenko, Perimeter Institute for Theoretical Physics
+- Bence Hetényi, IBM Research
 - Minki Hhan, Korea Advanced Institute of Science and Technology (KAIST)
+- Paul Hilaire, Télécom Paris and Inria
 - Timo Hillmann, University of Sydney
 - Christoph Hirche, Leibniz University Hannover
 - Miryam Mi-Ying Huang, Carnegie Mellon University
@@ -128,11 +140,12 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Giulio Malavolta, Bocconi University
 - Saeed Mehraban, Tufts University
 - Arthur Mehta, University of Ottawa
+- Alex Meiburg, University of Waterloo
 - Antonio Mele, Freie Universität Berlin
 - Francesco Mele, California Institute of Technology
 - Tony Metger, New York University
-- Antonio Mezzacapo, NVIDIA
 - Gregory Meyer, Massachusetts Institute of Technology
+- Antonio Mezzacapo, NVIDIA
 - Tomoyuki Morimae, Kyoto University
 - Hui Khoon Ng, National University of Singapore
 - Quynh Nguyen, Simons Institute for the Theory of Computing and University of California Berkeley
@@ -156,6 +169,7 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Roberto Rubboli, University of Copenhagen
 - Diego Ruiz, Amazon
 - Kaavya Sahay, Massachusetts Institute of Technology
+- Robert Salzmann, RWTH Aachen University
 - Valentin Savin, Quobly
 - Samuel Scalet, University of California, Davis
 - Luke Schaeffer, University of Waterloo
@@ -183,8 +197,10 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Chunhao Wang, Penn State University
 - Xin Wang, Hong Kong University of Science and Technology (Guangzhou)
 - Mirjam Weilenmann, Inria and Télécom Paris
+- Max West, Los Alamos National Laboratory
 - Nathan Wiebe, University of Toronto
 - Howard Wiseman, Griffith University
+- Paweł Wocjan, IBM Research
 - Ronald de Wolf, QuSoft, CWI and University of Amsterdam, Google Quantum AI
 - Elie Wolfe, Perimeter Institute for Theoretical Physics
 - Lewis Wooltorton, Inria and ENS de Lyon
@@ -199,7 +215,6 @@ Christian Schaffner, University of Amsterdam and QuSoft
 - Andrew Zhao, Sandia National Laboratories
 - Sisi Zhou, Perimeter Institute for Theoretical Physics
 - Alexander Zlokapa, Massachusetts Institute of Technology
-
 
 [Call for Submissions](/2027/call/)
 
