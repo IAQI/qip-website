@@ -15,7 +15,7 @@ content:
     links:
       - nameKey: footer_charter
         name: QIP Charter
-        url: charter/
+        url: https://qip.iaqi.org/qipcharter #charter/
         newTab: false
       - nameKey: footer_history
         name: QIP History
