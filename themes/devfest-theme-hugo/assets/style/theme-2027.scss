@@ -43,3 +43,19 @@
     --primary: #fdfdfd; // #fdfdfd so that the logo is viewable
     --primary-txt: #535353 ​​;
 }  
+
+// removes some padding and margin for the registration page to make it look better
+body.registration {
+  .hero h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  main > section.content {
+    margin-top: 0.5rem;
+  }
+
+  main > section.content > p:first-child {
+    margin-top: 0;
+  }
+}
