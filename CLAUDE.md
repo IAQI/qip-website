@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Hugo-powered static website for the Quantum Information Processing (QIP) conference series. The site is hosted on Netlify and uses the `devfest-theme-hugo` theme (included directly in the repo, not as a submodule).
+This is a Hugo-powered static website for the Quantum Information Processing (QIP) conference series. The site is hosted on Netlify and uses the `devfest-theme-hugo` theme (included directly in the repo, not as a submodule). The schedule, session and accepted-papers templates come from the shared Hugo module github.com/IAQI/conference-program (also used by QCrypt and TQC), vendored in `_vendor/`; its README documents the pipeline scripts (HotCRP export -> data files -> schedule -> presenters -> videos).
 
 ## Development Commands
 

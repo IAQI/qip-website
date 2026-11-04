@@ -124,17 +124,24 @@ Once the new site is ready to be "promoted" to be the current year, make the fol
 3. Use sensible names for the .md files, like eleni_diamanti.md 
 4. Per speaker, create a matching session in the current year `sessions/` directory, using the examples from previous years.
 
-### accepted papers and posters are known
-1. Get accepted papers as json export from hotcrp from PC chair
-2. run [this Python script](/scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, PC conflicts, etc.
-3. put the resulting file into [data](/data) using the existing naming convention for accepted papers
+### accepted papers, schedule, presenters and videos
+The schedule, session pages and accepted papers / posters lists come from the
+shared module [IAQI/conference-program](https://github.com/IAQI/conference-program),
+which is also used by the QCrypt and TQC websites. Its README describes the whole
+pipeline, from the HotCRP export to a schedule with linked papers, presenters
+and videos. In short (run from this folder, with `conference-program` cloned
+next to it):
 
-Proceed accordingly with the list of accepted posters.
+1. **Accepted papers and posters:** `python3 ../conference-program/scripts/sanitize_hotcrp_json.py private_data/hotcrp.json --decision accept -o data/accepted-papers-2027.json` (QIP: add `--talk-type-from-decision` for the long-plenary / plenary / talk lists, and `--search-arxiv`) (same for `posters-2027.json`)
+2. **Schedule:** fill in `program/program-2027.csv` (one row per slot; see the module README; for 2026 the schedule came from QIP's own programme export via scripts/generate_schedule_2026.py), then `python3 ../conference-program/scripts/generate_schedule.py --year 2027 --program program/program-2027.csv`
+3. **Presenters:** `python3 ../conference-program/scripts/mark_presenters.py --year 2027 --registrations private_data/<registration export>`
+4. **Videos:** `python3 ../conference-program/scripts/fetch_videos.py --year 2027 --playlist <YouTube playlist URL>` (repeat `--playlist` for every track playlist of the QIP channel)
 
-### creating a schedule
-1. duplicate the previous year's schedule file in [/data](/data) and rename it for the new year
-2. make sure all sessions exist
-3. Adjust the id's of the contributed papers in the sessions with contributed papers
+Raw HotCRP exports and registration lists contain personal data: keep them in
+`private_data/` (git-ignored), never in `data/`.
+
+The templates are vendored in `_vendor/`. To pick up a new version of the module:
+`hugo mod get -u github.com/IAQI/conference-program && hugo mod vendor`.
 
 
 ## More detailed explanations of the different content sections
@@ -211,7 +218,8 @@ Make sure to create sessions for all speakers. In the session front matter, spec
 
 The front matter of sessions should specify the `year`, `format` (like `contributed`, `invited`, `industry`, `tutorial` etc.). The `type` has to be `sessions` in order to render the session properly.
 
-For sessions with contributed talks, specify the paper ids once they are known.
+For sessions with contributed talks, specify the paper ids once they are known
+(`papers:`); `generate_schedule.py` does this for you from the program spreadsheet.
 
 There is an overview of speakers (for example [2027](/2027/speakers/)) and an overview of sessions (for example [2027](/2027/sessions/)); both should be added to the "Technical Program" menu when ready.
 
