@@ -38,6 +38,7 @@
 @use "pages/with_banner";
 @use "pages/text_page";
 @use "pages/papers";
+@use "program";
 
 :root {
     --primary: #fdfdfd; // #fdfdfd so that the logo is viewable
