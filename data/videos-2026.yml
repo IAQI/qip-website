@@ -44,6 +44,9 @@ papers:
     id: _Ozr86xd7NY
     title: 'Uma Girishs: Fourier Spectrum of Noisy Quantum Algorithms'
     presenter: Uma Girishs
+  '54':
+    id: S73uFuwEMK0
+    presenter: Pablo Páez Velasco
   '62':
     id: M8u25tEutUQ
     title: 'Benjamin Foxman: Random Unitaries in Constant (Quantum) Time'
@@ -68,10 +71,21 @@ papers:
     id: AZeSg3U_U0Y
     title: 'Guang Hao Low: Optimal quantum simulation of linear non-unitary dynamics'
     presenter: Guang Hao Low
+  '108':
+    id: YkNCM-ew-i8
+    presenter: Alexandru Cojocaru
+    title: 'Saliha Tokat: The Sponge is Quantum Indifferentiable | Alexandru Cojocaru: Quantum Lifting for Invertible Permutations'
+  '119':
+    id: AxcQ6eNOkuI
+    presenter: Xiangling Xu
+    title: 'Xiangling Xu: Quantitative Quantum Soundness for Bipartite Compiled Bell Games'
   '123':
     id: JJBD_St8olY
     title: 'Harumichi Nishimura: Group Order is in QCMA'
     presenter: Harumichi Nishimura
+  '124':
+    id: 3RZa49VG-KU
+    presenter: Julio Magdalena de la Fuente
   '133':
     id: rw5wzU6XLkA
     title: 'Jan Kochanowski: Merge: Complexity of mixed Schatten norms of quantum maps'
@@ -92,6 +106,10 @@ papers:
     id: Io4h7ki0aN4
     title: 'Laura Mančinska: Gap-preserving reductions and RE-completeness of independent set games'
     presenter: Laura Mančinska
+  '206':
+    id: AmIgdx3-ylU
+    presenter: Lorenzo Leone
+    title: 'Thomas A. Hahn | Lorenzo Leone: From Computational Quantum Entropy Measures to Entanglement Theory'
   '214':
     id: DI1QBLFT-Ao
     title: 'Junqiao Lin: MIPco=coRE'
@@ -124,6 +142,10 @@ papers:
     id: jgYriuaQfGY
     title: 'Paolo Abiuso: Tight and self-testing multipartite quantum Bell inequalities from the renormalizat...'
     presenter: Paolo Abiuso
+  '267':
+    id: AmIgdx3-ylU
+    presenter: Thomas A. Hahn
+    title: 'Thomas A. Hahn | Lorenzo Leone: From Computational Quantum Entropy Measures to Entanglement Theory'
   '274':
     id: 4fLh6bg1S4E
     title: 'Yuhan Liu: Parent Lindbladians for Matrix Product Density Operators'
@@ -140,6 +162,9 @@ papers:
     id: ERrPy1jLcl0
     title: 'Marcel Hinsche: The abelian state hidden subgroup problem: Learning stabilizer groups and beyond'
     presenter: Marcel Hinsche
+  '287':
+    id: bn79BDM7dfs
+    presenter: Seyoon Ragavan, Katherine Van Kirk
   '305':
     id: uLA_JZJm0gw
     title: 'Tim Möbus: Heisenberg-limited Hamiltonian learning continuous variable systems via engineered...'
@@ -176,6 +201,10 @@ papers:
     id: 5ZS9gSlmw3Q
     title: 'Georgios Styliaris: Quantum Circuit Complexity of Matrix-Product Unitaries'
     presenter: Georgios Styliaris
+  '377':
+    id: YkNCM-ew-i8
+    presenter: Saliha Tokat
+    title: 'Saliha Tokat: The Sponge is Quantum Indifferentiable | Alexandru Cojocaru: Quantum Lifting for Invertible Permutations'
   '384':
     id: FpT0uU0rU-M
     title: 'Domonik Leichte, Xiangling Xu: Bounding the asymptotic quantum value of all multipartite compiled...'
@@ -196,6 +225,9 @@ papers:
     id: xg8Y5DeI8sk
     title: 'Thuy-Duong Vuong: On quantum to classical comparison for Davies generators'
     presenter: Thuy-Duong Vuong
+  '409':
+    id: j0HJKjCthMM
+    presenter: Dmitry Grinko
   '440':
     id: CsL1lrzQ0vU
     title: 'Zhiyang (Sunny) He: Extractors: QLDPC Architectures for Efficient Pauli-Based Computation'
@@ -236,6 +268,10 @@ papers:
     id: sROMuuCR2Vs
     title: 'Felix Leditzky: Improving quantum communication rates with permutation-invariant codes'
     presenter: Felix Leditzky
+  '517':
+    id: AxcQ6eNOkuI
+    presenter: David Cui
+    title: 'Xiangling Xu: Quantitative Quantum Soundness for Bipartite Compiled Bell Games'
   '518':
     id: ZP6tsPy6rG8
     title: 'Sami Boulebnane: Evidence that the Quantum Approximate Optimization Algorithm Optimizes the...'
@@ -384,6 +420,9 @@ papers:
     id: mn9T8fI0dCg
     title: 'Jan Nöller: An infinite hierarchy of multi-copy quantum learning tasks'
     presenter: Jan Nöller
+  '699':
+    id: 2HIPsoTfmU0
+    presenter: Gregory D. Kahanamoku-Meyer
   '710':
     id: dqXwlKHN04o
     title: 'Yichen Xu: Fault-tolerant protocols through spacetime concatenation'
@@ -412,6 +451,9 @@ papers:
     id: XOjE2H7khsk
     title: 'Gereon Kossmann: On the optimization of quantum divergences'
     presenter: Gereon Kossmann
+  '767':
+    id: VhkMAe0BC3c
+    presenter: Hiroyasu Tajima
   '769':
     id: UqDQP54aGwU
     title: 'Aditya Gulati: Gluing Random Unitaries with Inverses'
@@ -438,3 +480,6 @@ sessions:
   tutorial_lami:
     id: xiIjivmjzec
     title: 'QIP 2026 Tutorials: Ludovico Lami'
+  tutorial_schuster:
+    id: hr26E4TZ-RM
+    title: 'QIP 2026 Tutorials: Thomas Schuster'
