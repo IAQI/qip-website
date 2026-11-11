@@ -21,3 +21,5 @@ We expect all participants in QIP 2027 activities to:
 - Alert community leaders and get involved (if safe and possible) when you notice violations of this policy, even if they seem inconsequential. Participants asked to stop any harassing behavior are expected to comply immediately. 
 
 If a participant engages in unacceptable behavior, the event organizers retain the right to take any actions to keep the conference a welcoming environment for all participants. This includes warning the offender or expulsion from the conference.
+
+The CQT Wellbeing Committee is a permanent institution at CQT and not directly related to QIP. They can be reached under CQT-wellbeing@nus.edu.sg and serve as a first point of contact should there be any issues arising during the conference. The Wellbeing Committee is in touch with the conference organisers and can preserve your anonymity if required. For urgent issues, contact the organisers under info@qip2027.org.
