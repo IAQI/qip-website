@@ -15,7 +15,16 @@ Registration will open soon.
 
 ## Request for Financial Support
 
-Students/postdocs seeking financial support to attend QIP 2027 are invited to complete the <a href="https://ddec1-0-en-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2fdocs.google.com%2fforms%2fd%2fe%2f1FAIpQLSdov6TT6ly0x75pTDf5ZBbw9BHoG34QR%2dZUfnazV3WKfm3TgQ%2fviewform&umid=0c3e8f1a-ac08-4e61-9ba3-aeebefff33dc&rct=1792997478&auth=8d3ccd473d52f326e51c0f75cb32c9541898e5d5-05d257ca3bd5198953f3ab6a8c2d9f12029be57f">travel support application form</a> . Support consists of a registration fee waiver and accommodation for up to seven days (19–26 February, unless otherwise specified). In the form, applicants are required to briefly explain how attending QIP will benefit their academic and professional goals and upload a signed letter from their supervisor explaining their need for financial aid.
+|Date |Event|
+|:----|:----|
+| 30 Nov 2026 | Decision notification for talks |
+| 8 Dec 2026 | Financial support application deadline |
+| 15 Dec 2026 |  Financial support decisions announced |
+| 20 Dec 2026 | Early Bird Registration Closes |
+
+Students/postdocs seeking financial support to attend QIP 2027 are invited to complete the <a href="https://ddec1-0-en-ctp.trendmicro.com/wis/clicktime/v1/query?url=https%3a%2f%2fdocs.google.com%2fforms%2fd%2fe%2f1FAIpQLSdov6TT6ly0x75pTDf5ZBbw9BHoG34QR%2dZUfnazV3WKfm3TgQ%2fviewform&umid=0c3e8f1a-ac08-4e61-9ba3-aeebefff33dc&rct=1792997478&auth=8d3ccd473d52f326e51c0f75cb32c9541898e5d5-05d257ca3bd5198953f3ab6a8c2d9f12029be57f">travel support application form</a> . Support consists of a registration fee waiver and accommodation for up to seven days (19–26 February, unless otherwise specified). In the form, applicants are required to briefly explain how attending QIP will benefit their academic and professional goals and upload a signed letter from their supervisor explaining their need for financial aid. 
+
+One may apply for financial support until one week after talk decisions have been announced. Financial support decisions will be announced within a week after said deadline. Early bird registration remains open for a few days after financial support decisions.
 
 <!--
 ## TODO
