@@ -8,6 +8,6 @@ speakers:
 videoId: null
 videoTime: null
 presentation: null
-draft: false
+draft: true # template from another conference; publish once it is part of the QIP 2027 programme
 ---
 Goodbye, folks! See you next year!
