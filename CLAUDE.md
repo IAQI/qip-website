@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Hugo-powered static website for the Quantum Information Processing (QIP) conference series. The site is hosted on Netlify and uses the `devfest-theme-hugo` theme (included directly in the repo, not as a submodule). The schedule, session and accepted-papers templates come from the shared Hugo module github.com/IAQI/conference-program (also used by QCrypt and TQC), pinned in go.mod / go.sum and downloaded at build time (needs Go); its README documents the pipeline scripts (HotCRP export -> data files -> schedule -> presenters -> videos).
+This is a Hugo-powered static website for the Quantum Information Processing (QIP) conference series. The site is hosted on Netlify. Its theme (layouts, styles, schedule and accepted-papers templates, pipeline scripts) is the shared Hugo module github.com/IAQI/conference-theme, also used by QCrypt and TQC, pinned in go.mod / go.sum and downloaded at build time (needs Go). Its README documents the pipeline scripts (HotCRP export -> data files -> schedule -> presenters -> videos) and its docs/website-guide.md the site structure. Files in this repository's layouts/, assets/ and i18n/ override the module's.
 
 ## Development Commands
 
@@ -19,7 +19,7 @@ hugo build
 npm clean-install
 
 # Test SASS compilation independently
-sass themes/devfest-theme-hugo/assets/style/theme-2027.scss themes/devfest-theme-hugo/assets/style/theme-2027.css
+# (styles are compiled by Hugo from assets/style/theme-2027.scss, which starts with @use "theme")
 ```
 
 Required tools: Hugo, Dart Sass, Node.js (for theme development)
@@ -28,7 +28,7 @@ Required tools: Hugo, Dart Sass, Node.js (for theme development)
 
 ### Multi-Year Structure
 
-The site deviates from standard Hugo organization - top-level directories in `content/` are years (2024, 2027), not topics. The `.Section` variable often equals `$currentYear`.
+The site deviates from standard Hugo organization - top-level directories in `content/` are years (2027; earlier years are archived on qip.iaqi.org), not topics. The `.Section` variable often equals `$currentYear`.
 
 Key configuration in `hugo.toml`:
 - `params.currentYear` - determines which year is "active"
@@ -60,16 +60,16 @@ content/YEAR/
 
 ### Theme Assets
 
+The theme lives in the conference-theme module. This site keeps only:
+
 ```
-themes/devfest-theme-hugo/
-├── layouts/             # Hugo templates
-│   ├── _default/baseof.html  # Base template
-│   ├── partials/        # Reusable components (header, footer, css, js)
-│   └── shortcodes/      # Custom shortcodes (jumbo, button-link, home-info, etc.)
-└── assets/
-    ├── style/           # SCSS files (theme-YEAR.scss per year)
-    └── icons/           # SVG icons (add new icons here)
+assets/style/theme-YEAR.scss   # @use "theme"; then the year's colours (--primary, --header-txt, --button-bg, --box-bg, ...)
+assets/style/...               # the few theme styles QIP overrides (see README)
+layouts/partners/list.html     # QIP's sponsors page
+i18n/en.toml                   # "QIP Charter", "QIP History"
 ```
+
+To work on the module itself locally: HUGO_MODULE_REPLACEMENTS="github.com/IAQI/conference-theme -> ../conference-theme" hugo server
 
 ### Front Matter Conventions
 
@@ -82,14 +82,10 @@ Sessions require `type: sessions` to render properly. Speakers use `key` field f
 
 ## Adding a New Conference Year
 
-1. Copy entire `content/YEAR/` from previous year
-2. Create `[params.YEAR]` section in `hugo.toml` with city, themeColor, logos
-3. Create `[[menu.YEAR]]` entries in `hugo.toml`
-4. Create `theme-YEAR.scss` in `themes/devfest-theme-hugo/assets/style/` (set `--primary` color)
-5. Update `params.currentYear` and redirects when ready to "go live"
+Run `python3 ../conference-theme/scripts/new_year.py --year YEAR` (copies the previous year's general pages as drafts, the hugo.toml blocks and the year's stylesheet), then follow its checklist; see the module's docs/website-guide.md.
 
 ## Build & Deploy
 
 - Deploys automatically to Netlify on push to main branch
 - Hugo version controlled in `netlify.toml` (currently 0.140.0)
-- Build command installs Dart Sass and runs `hugo --gc --minify`
+- Build command installs Dart Sass and runs `hugo --gc --minify`; `GO_VERSION` in `netlify.toml` lets Hugo download the theme module
