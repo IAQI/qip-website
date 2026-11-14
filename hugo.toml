@@ -4,22 +4,24 @@ baseURL = "https://qipconference.org/"
 languageCode = "en"
 title = "QIP Conference Website"
 
-# Theme
-theme = "devfest-theme-hugo"
+# Theme: github.com/IAQI/conference-theme, shared by the QCrypt, TQC and QIP
+# websites (layouts, styles, schedule and accepted-papers templates, scripts).
+# The version is pinned in go.mod / go.sum and downloaded at build time
+# (Netlify needs Go for this: GO_VERSION in netlify.toml). Update it with
+# `hugo mod get -u github.com/IAQI/conference-theme`.
+# This site's own files in layouts/, assets/, i18n/ override the module's;
+# this year's colours are in assets/style/theme-YEAR.scss.
+[module]
+  [[module.imports]]
+    path = "github.com/IAQI/conference-theme"
 
 # Params
 enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
-# Google Analytics are currently disabled, 
-# using it would officially require a cookie banner at least in the EU, and we don't have one...
-# it's probably better not to track people anyways.
-# GoogleAnalytics = "G-221GMGECQ6"
-
-[services]
-  [services.googleAnalytics]
-    id = "G-221GMGECQ6"
+# No Google Analytics: the ID that was here (G-221GMGECQ6) belongs to the QCrypt
+# website. To track QIP visits, add QIP's own ID under [services.googleAnalytics].
 
 [params]
     title = "QIP Conference Website"
@@ -39,28 +41,10 @@ enableMissingTranslationPlaceholders = true
     manifest = "/site.webmanifest"
     # safariPinnedTab = "/safari-pinned-tab.svg"
 
-[params.2024]
-  city = "Taipei, Taiwan"
-  timeanddate_cityid = 241
-  themeColor = "#d71d1f"
-  [params.2024.logos]
-    jumbo = "/images/2024/qip2024-biglogo.png"
-    header = "/images/2024/qip2024-logo.png"
-    banner = "/images/2024/banner-2024.png"
-
-[params.2026]
-  city = "Riga, Latvia"
-  timeanddate_cityid = 602
-  themeColor = "#004a87"
-  [params.2026.logos]
-    jumbo = "/images/2026/qip2026-banner.jpg"
-    header = "/images/2026/qip2026-logo.svg"
-    banner = "/images/2026/qip2026-banner.jpg"
-
 [params.2027]
   city = "Singapore"
   timeanddate_cityid = 236
-  themeColor = "#0bb3db"
+  themeColor = "#fdfdfd" # same as --primary (the white top bar) in assets/style/theme-2027.scss
   [params.2027.logos]
     jumbo = "/images/2027/qip2027-home-banner.jpg"
     header = "/images/2027/qip2027-logo.png"
@@ -76,61 +60,6 @@ enableMissingTranslationPlaceholders = true
       to = "/2027/"
       status = 302
       force = true 
-
-  [[menu.2024]]
-    name = "Home"
-    weight = 10
-    identifier = "home"
-    pageRef = '/2024'
-  [[menu.2024]]
-    name = "Technical Program"
-    weight = 20
-    identifier = "technical-program"
-  [[menu.2024]]
-    name = "Attend"
-    weight = 30
-    identifier = "attend"
-  [[menu.2024]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2024/partners"
-  [[menu.2024]]
-    name = "Committees"
-    weight = 50
-    identifier = "committees"
-    pageRef = "/2024/team"
-
-  [[menu.2026]]
-    name = "Home"
-    weight = 10
-    identifier = "home"
-    pageRef = '/2026'
-
-  [[menu.2026]]
-    name = "Technical Program"
-    weight = 20
-    identifier = "technical-program"
-  [[menu.2026]]
-    name = "Schedule"
-    parent = "technical-program"
-    weight = 23
-    pageRef = "/2026/schedule"
-
-  [[menu.2026]]
-    name = "Attend"
-    weight = 30
-    identifier = "attend"
-  [[menu.2026]]
-    name = "Sponsors"
-    weight = 40
-    identifier = "sponsors"
-    pageRef = "/2026/partners"
-  [[menu.2026]]
-    name = "Committees"
-    weight = 50
-    identifier = "committees"
-    pageRef = "/2026/team"
 
   [[menu.2027]]
     name = "Home"
@@ -165,9 +94,6 @@ enableMissingTranslationPlaceholders = true
     weight = 40
     identifier = "committees"
     pageRef = "/2027/team"
-
-
-
 
 [languages]
 [languages.en]
