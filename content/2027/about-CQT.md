@@ -1,14 +1,13 @@
 ---
 title: About CQT
 year: 2027
-menu:
-    2027:
-        weight: 20
-        identifier: about-cqt
-        parent: about
-
 draft: false
 type: no_toc
+menu:
+    2027:
+        parent: about
+        weight: 40
+        identifier: about-cqt
 ---
 
 The Centre for Quantum Technologies (CQT), established in 2007, is Singapore’s flagship national research centre in quantum technologies. Supported under Singapore’s National Quantum Strategy, the centre has nodes at partner institutions and coordinates research talent across the country. 

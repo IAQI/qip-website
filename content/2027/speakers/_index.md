@@ -6,10 +6,9 @@ type: speakers
 layout: list_with_header
 menu:
     2027:
-        weight: 40
+        parent: program
+        weight: 20
         identifier: speakers
-        parent: technical-program
-
 ---
 
 

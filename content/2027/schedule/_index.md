@@ -6,10 +6,8 @@ draft: true
 horizontal: false
 menu:
     2027:
-        weight: 10
+        weight: 25
         identifier: schedule
-        parent: technical-program
-
 ---
 
 <!-- <center>

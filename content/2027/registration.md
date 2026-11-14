@@ -7,8 +7,7 @@ type: no_toc
 menu:
     2027:
         weight: 30
-        parent: #attend
-
+        identifier: registration
 ---
 
 Registration will open soon.

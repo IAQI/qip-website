@@ -61,22 +61,21 @@ enableMissingTranslationPlaceholders = true
       status = 302
       force = true 
 
+  # The shared menu structure (conference-theme docs/website-guide.md, "Menus"):
+  # Home | Program | Schedule | Attend | Sponsors | Committees | About
+  # Until the program is out, Call for Submissions and Registration are
+  # top-level items (set in call.md and registration.md). Then uncomment
+  # Program and Attend and move those pages under them.
   [[menu.2027]]
     name = "Home"
-    weight = 1
+    weight = 10
     identifier = "home"
     pageRef = '/2027'
 
-  [[menu.2027]]
-    name = "About"
-    weight = 50
-    identifier = "about"
-    pageRef = '/2027' 
-
 #  [[menu.2027]]
-#    name = "Technical Program"
+#    name = "Program"
 #    weight = 20
-#    identifier = "technical-program"
+#    identifier = "program"
 
 #  [[menu.2027]]
 #    name = "Attend"
@@ -85,15 +84,20 @@ enableMissingTranslationPlaceholders = true
 
   [[menu.2027]]
     name = "Sponsors"
-    weight = 30
+    weight = 40
     identifier = "sponsors"
     pageRef = "/2027/partners"
-    
+
   [[menu.2027]]
     name = "Committees"
-    weight = 40
+    weight = 50
     identifier = "committees"
     pageRef = "/2027/team"
+
+  [[menu.2027]]
+    name = "About"
+    weight = 60
+    identifier = "about"
 
 [languages]
 [languages.en]
