@@ -5,11 +5,9 @@ type: text_page
 draft: true
 menu:
     2027:
-        weight: 20
+        parent: program
+        weight: 10
         identifier: accepted-papers
-        parent: technical-program
-
-
 ---
 
 

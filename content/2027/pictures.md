@@ -5,9 +5,8 @@ draft: true
 type: no_toc
 menu:
     2027:
-        weight: 50
         parent: attend
-
+        weight: 60
 ---
 
 to come...

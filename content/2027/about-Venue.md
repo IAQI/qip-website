@@ -1,14 +1,13 @@
 ---
 title: About Venue
 year: 2027
-menu:
-    2027:
-        weight: 40
-        identifier: about-venue
-        parent: about
-
 draft: false
 type: no_toc
+menu:
+    2027:
+        parent: about
+        weight: 50
+        identifier: about-venue
 ---
 
 <div class="venue-images">

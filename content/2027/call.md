@@ -7,7 +7,6 @@ menu:
     2027:
         weight: 20
         identifier: call
-        parent: #technical-program
 ---
 
 <style>

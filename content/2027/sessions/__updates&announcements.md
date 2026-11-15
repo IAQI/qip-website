@@ -6,6 +6,6 @@ tags:
   - other
 videoId: null
 presentation: null
-draft: false
+draft: true # template from another conference; publish once it is part of the QIP 2027 programme
 ---
 <!-- Breakfast, Lunch and Coffee is served over in our {{< button-link label="virtual Meet & Greet Room" icon="link" url="/online-conference/#the-meet--greet-room" >}}. You are welcome to have a chat and network before the official program starts. -->

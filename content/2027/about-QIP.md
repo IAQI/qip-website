@@ -1,14 +1,13 @@
 ---
 title: About QIP
 year: 2027
-menu:
-    2027:
-        weight: 10
-        identifier: about-qip
-        parent: about
-
 draft: false
 type: no_toc
+menu:
+    2027:
+        parent: about
+        weight: 10
+        identifier: about-qip
 ---
 
 Quantum Information Processing Conference (QIP) is the largest quantum information processing technology conference, which annually gathers the world's brightest researchers and industry leaders for a week long program to present and discuss the latest achievements in quantum computing, cryptography, information theory, mathematics and physics. 

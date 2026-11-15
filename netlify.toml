@@ -1,4 +1,5 @@
 [build.environment]
+GO_VERSION = "1.23.4" # Hugo downloads the conference-program module with Go
 HUGO_VERSION = "0.140.0"
 DART_SASS_VERSION = "1.83.0"
 TZ = "Europe/Amsterdam"
@@ -159,6 +160,18 @@ TZ = "Europe/Amsterdam"
 [[redirects]]
     from = "/2026"
     to = "https://qip.iaqi.org/2026"
+    status = 301
+    force = true
+# Pages of earlier years: the archive has its own page structure, so they go
+# to that year's archive page.
+[[redirects]]
+    from = "/2024/*"
+    to = "https://qip.iaqi.org/2024/"
+    status = 301
+    force = true
+[[redirects]]
+    from = "/2026/*"
+    to = "https://qip.iaqi.org/2026/"
     status = 301
     force = true
 

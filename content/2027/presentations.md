@@ -5,9 +5,8 @@ type: text_page
 draft: true
 menu:
     2027:
-        weight: 10
-        parent: technical-program
-
+        parent: program
+        weight: 40
 ---
  
 ## Presentation Instructions

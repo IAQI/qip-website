@@ -1,14 +1,13 @@
 ---
 title: About Singapore
 year: 2027
-menu:
-    2027:
-        weight: 30
-        identifier: about-singapore
-        parent: about
-
 draft: false
 type: no_toc
+menu:
+    2027:
+        parent: about
+        weight: 45
+        identifier: about-singapore
 ---
 
 ## About Singapore

@@ -7,8 +7,7 @@ type: no_toc
 menu:
     2027:
         weight: 30
-        parent: #attend
-
+        identifier: registration
 ---
 
 Registration will open soon.
@@ -58,7 +57,7 @@ The registration fees include:
 
 
 ### Code of Conduct
-People who register agree to abide by the <a href="/code-of-conduct">conference code of conduct</a>.
+People who register agree to abide by the <a href="/2027/code-of-conduct/">conference code of conduct</a>.
 
 ### VISA
 A visa letter can be requested during the registration process. Completion of the registration is required to issue a VISA letter. Visa letter requests can be made directly at the email address {{< button-link label="qcrypt2024@vqcc.uvigo.es" url="mailto:qcrypt2024@vqcc.uvigo.es" icon="email" >}}

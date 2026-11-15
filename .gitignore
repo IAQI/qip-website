@@ -12,3 +12,6 @@ letter.log
 letter.synctex.gz
 node_modules
 _gen
+
+# raw HotCRP exports and registration lists (personal data)
+private_data/
