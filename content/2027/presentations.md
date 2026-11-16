@@ -28,12 +28,12 @@ menu:
 There are two main options to load slides prior to the presentation:
 <ol>	
 <li>Preload slides onto the main auditorium computer. This is the preferred option.
-<ol type="A"><li>Email slides to {{< button-link label="2024@QCRYPT.NET" url="mailto:2024@QCRYPT.NET" icon="email" >}} no less than two hours before the session, labeled in the following format: <strong>lastname_day_title.ppt.</strong> If you do not receive a confirmation, please contact the local organizers.</li>
+<ol type="A"><li>Email slides to {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org" icon="email" >}} no less than two hours before the session, labeled in the following format: <strong>lastname_day_title.ppt.</strong> If you do not receive a confirmation, please contact the local organizers.</li>
 <li>Bring slides on a USB stick and provide it to the local organizers no less than two hours before the session begins. Please note that you cannot run the presentation from a USB drive, it must be loaded onto the main computer.</ol>
 <li>Connect your own laptop. We can accept standard connections from Windows and Apple laptops.</li>
 </ol>
  
-If you have other requirements, please contact the local organizers in advance {{< button-link label="2024@QCRYPT.NET" url="mailto:2024@QCRYPT.NET" icon="email" >}}
+If you have other requirements, please contact the local organizers in advance {{< button-link label="info@qip2027.org" url="mailto:info@qip2027.org" icon="email" >}}
 
 ## Poster Presentations
  
