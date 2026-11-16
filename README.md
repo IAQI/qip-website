@@ -14,7 +14,7 @@ adapted from the fork by the cloudnative-amsterdam people: https://github.com/cl
 
 Since 2026, the theme is shared with the QCrypt and TQC websites as the Hugo module [IAQI/conference-theme](https://github.com/IAQI/conference-theme).
 
-This site starts with QIP 2027. Earlier editions are archived on https://qip.iaqi.org; `/2015` to `/2026` on this site redirect there.
+This site starts with QIP 2027. Earlier editions are archived on https://qip.iaqi.org; `/1998` to `/2026` on this site redirect there (see `netlify.toml`).
 
 ## Working on the site
 
@@ -23,7 +23,7 @@ This site starts with QIP 2027. Earlier editions are archived on https://qip.iaq
 ```bash
 git clone https://github.com/IAQI/qip-website.git
 cd qip-website
-npm clean-install  # PostCSS
+npm clean-install  # PostCSS, needed for production builds
 hugo server        # needs Hugo (extended), Dart Sass and Go; see the guide
 ```
 
@@ -60,4 +60,4 @@ The shared theme's [README](https://github.com/IAQI/conference-theme#from-accept
 Raw HotCRP exports and registration lists contain personal data: keep them in `private_data/` (git-ignored), never in `data/`.
 
 ## What this site does differently
-QIP keeps its own versions of a few theme files: the colours of the schedule categories (`assets/style/_root.scss`, `partials/_tags.scss`), talk durations (`partials/_type.scss`), the schedule styling (`pages/_schedule.scss`), wider dropdown menus (`partials/_header.scss`), the venue images and spacing (`partials/_base.scss`, `_jumbo.scss`), and the sponsors page without table of contents (`layouts/partners/list.html`). Fixes to these parts of the shared theme do not reach QIP automatically.
+QIP keeps its own versions of a few theme files: the colours of the schedule categories (`assets/style/_root.scss`), talk durations (`partials/_type.scss`), the venue images and spacing (`partials/_base.scss`, `_jumbo.scss`), and the sponsors page without table of contents (`layouts/partners/list.html`). Fixes to these parts of the shared theme do not reach QIP automatically.
