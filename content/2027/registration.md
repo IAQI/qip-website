@@ -10,7 +10,7 @@ menu:
         identifier: registration
 ---
 
-Registration will open soon.
+Registration will open soon. In general, visa support letters are contingent on being registered.
 
 ## Request for Financial Support
 
