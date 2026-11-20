@@ -9,8 +9,8 @@ draft: false
 <style>
 .partners-group .fancy { display: none; }
 .partners-group.partner-anchor ul li {
-  height: calc(var(--partner-platinum-height) * 1.25);
-  flex-basis: 420px;
+  height: calc(var(--partner-platinum-height) * 1.05);
+  flex-basis: 460px;
 }
 .partners-group.partner-platinum ul li {
   height: 200px;
