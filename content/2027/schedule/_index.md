@@ -2,13 +2,44 @@
 title: Schedule
 year: 2027
 type: schedule
-draft: true
+draft: false
 horizontal: false
 menu:
     2027:
+        parent: program
         weight: 25
         identifier: schedule
 ---
+
+
+<style>
+.programme-image {
+  display: block;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.programme-image-title {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+  margin-left:3rem;
+}
+
+.programme-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+</style>
+
+<div class="programme-image">
+  <p class="programme-image-title">Program overview</p>
+
+![Draft programme](/2027/schedule/Schedule_draft.png)
+
+</div>
 
 <!-- <center>
 

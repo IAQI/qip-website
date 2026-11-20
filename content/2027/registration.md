@@ -10,16 +10,35 @@ menu:
         identifier: registration
 ---
 
-Registration will open soon. In general, visa support letters are contingent on being registered.
-
-## Request for Financial Support
-
 |Date |Event|
 |:----|:----|
 | 30 Nov 2026 | Decision notification for talks |
 | 8 Dec 2026 | Financial support application deadline |
 | 15 Dec 2026 |  Financial support decisions announced |
 | 20 Dec 2026 | Early Bird Registration Closes |
+| 20 Jan 2027 | Registration Closes|
+
+<br>
+
+## Registration is now open
+<div class="register-btn" style="margin-bottom: 20px;">
+  {{< button-link label="Register here"
+                  url="https://www.gevme.com/QIP2027"
+                  icon="direction">}}
+</div>
+
+<style>
+  .register-btn a,
+  .register-btn button {
+    font-size: 1.15rem !important;
+    padding: 10px 24px !important;
+  }
+</style>
+
+In general, visa support letters are contingent on being registered.
+<br>
+
+## Request for Financial Support
 
 Students/postdocs seeking financial support to attend QIP 2027 are invited to complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdov6TT6ly0x75pTDf5ZBbw9BHoG34QR-ZUfnazV3WKfm3TgQ/viewform">travel support application form</a> . Support consists of a registration fee waiver and accommodation for up to seven days (19–26 February, unless otherwise specified). In the form, applicants are required to briefly explain how attending QIP will benefit their academic and professional goals and upload a signed letter from their supervisor explaining their need for financial aid. 
 

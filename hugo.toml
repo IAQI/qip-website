@@ -111,10 +111,10 @@ enableMissingTranslationPlaceholders = true
     identifier = "home"
     pageRef = '/2027'
 
-#  [[menu.2027]]
-#    name = "Program"
-#    weight = 20
-#    identifier = "program"
+  [[menu.2027]]
+    name = "Program"
+    weight = 20
+    identifier = "program"
 
 #  [[menu.2027]]
 #    name = "Attend"
