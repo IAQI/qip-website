@@ -35,14 +35,14 @@ menu:
   }
 </style>
 
-In general, visa support letters are contingent on being registered.
+<b>Registration for the Tutorials & AI day is a separate option from registration for the main conference.</b> In general, visa support letters are contingent on being registered.
 <br>
 
 ## Request for Financial Support
 
 Students/postdocs seeking financial support to attend QIP 2027 are invited to complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdov6TT6ly0x75pTDf5ZBbw9BHoG34QR-ZUfnazV3WKfm3TgQ/viewform">travel support application form</a> . Support consists of a registration fee waiver and accommodation for up to seven days (19–26 February, unless otherwise specified). In the form, applicants are required to briefly explain how attending QIP will benefit their academic and professional goals and upload a signed letter from their supervisor explaining their need for financial aid. 
 
-One may apply for financial support until one week after talk decisions have been announced. Financial support decisions will be announced within a week after said deadline. Early bird registration remains open for a few days after financial support decisions.
+One may apply for financial support until one week after talk decisions have been announced. Financial support decisions will be announced within a week after said deadline. Early bird registration remains open for a few days after financial support decisions. <b>If you will rely upon the financial support, please do not register until after you have received the fee waiver.</b>
 
 <!--
 ## TODO
